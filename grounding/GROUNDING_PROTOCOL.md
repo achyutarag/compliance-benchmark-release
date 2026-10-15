@@ -46,3 +46,9 @@ Inputs identical to the other checkers: premise = policy text (retrieved chunks;
 Decision rule fixed now: violation if the model's own two-class output assigns P(consistent) < 0.5 (its native decision; threshold-free AUROC on 1 - P(consistent) also reported).
 float32 (small model), batch size 8. Whatever the result, it is reported with the other checkers; it was added after the other checkers' results were known, in response to a reviewer-style objection that the earlier exclusion was arbitrary.
 AlignScore remains excluded (separate codebase and checkpoint; not run).
+
+## Amendment 4 (2026-10-15, before running): question-plus-answer hypothesis
+Reviewer-style objection: the grounding checks scored the answer alone, but many answers ("Yes, as long as ...") are not standalone claims, so this is not an equal-input comparison with the question-aware judges.
+Added condition for MiniCheck, HHEM-2.1-open and DeBERTa-v3-large NLI (same models, revisions, premises, bf16/float32 settings and decision rules as before):
+hypothesis = "Question: <question> Answer: <answer>" (the question verbatim from the benchmark, then the whole answer); premise = retrieved chunks (416 answers) or oracle chunks (376 answers).
+No threshold, rule or model is changed; AUROC and the same decision rules are reported next to the answer-only rows. Whatever the result, it is reported. RoBERTa-large-MNLI and the modular auditors are not rerun (the NLI model for the contradiction/not-entailed rules is represented by DeBERTa-large).

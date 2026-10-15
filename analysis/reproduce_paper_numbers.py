@@ -2,6 +2,7 @@
 Prints one line per number (computed vs paper) and exits non-zero if any differs. No API calls.   python analysis/reproduce_paper_numbers.py"""
 import contextlib, csv, io, json, os, re, sys
 import numpy as np
+from sklearn.metrics import roc_auc_score
 from collections import Counter, defaultdict
 HERE = os.path.dirname(os.path.abspath(__file__)); H = os.path.dirname(HERE)
 src = open(os.path.join(HERE, "audit_tables.py"), encoding="utf-8").read(); src = src[:src.index("for cond, keys in")]
@@ -103,6 +104,25 @@ for nm in ("GPT-5.5", "Sonnet 5.5"):
         ks = [k for k in (sorted(Y) if cond == "retrieved" else oracle_keys) if k[1] in ms]; y = np.array([Y[k] for k in ks]); p = np.array([pred(pn, cond, k) for k in ks])
         return round((p & y).sum() / y.sum() - (p & (1 - y)).sum() / (1 - y).sum(), 2)
     check(f"{nm} informedness, stronger / small models, retrieved", (_j("retrieved", STRONG), _j("retrieved", SMALL)), {"GPT-5.5": (0.22, 0.31), "Sonnet 5.5": (0.10, 0.37)}[nm])
+# --- two-judge combinations
+for cond, exp in (("retrieved", {"AND": (0.37, 58, 0.68), "OR": (0.28, 72, 0.68)}), ("oracle", {"AND": (0.34, 91, 0.76), "OR": (0.27, 93, 0.76)})):
+    ks = [k for k in (sorted(Y) if cond == "retrieved" else oracle_keys)]; y = np.array([Y[k] for k in ks])
+    gg = np.array([int(A[k][f"gpt55_{cond}"]) for k in ks]); ss = np.array([int(A[k][f"sonnet55_{cond}"]) for k in ks])
+    for nm, pp in (("AND", gg & ss), ("OR", gg | ss)):
+        check(f"two judges {nm}, {cond}: precision, recall %", (round((pp & y).sum() / pp.sum(), 2), round(100 * (pp & y).sum() / y.sum())), exp[nm][:2])
+    check(f"two-judge vote count AUROC, {cond}", round(roc_auc_score(y, gg + ss), 2), exp["AND"][2])
+# --- question-plus-answer hypothesis control (grounding/GROUNDING_PROTOCOL.md, Amendment 4)
+_ld = lambda f: {tuple(json.loads(l)["id"].split("|")): json.loads(l) for l in open(os.path.join(H, "grounding", f), encoding="utf-8")}
+QA = {"MiniCheck": _ld("scores_minicheck_qa.jsonl"), "HHEM": _ld("scores_hhem_qa.jsonl"), "DeBERTa": _ld("scores_nli_large_qa.jsonl")}
+def _qa(nm, cond, rule):
+    ks = sorted(Y) if cond == "retrieved" else oracle_keys; y = [Y[k] for k in ks]; D = QA[nm]
+    if nm == "DeBERTa": sc_ = [D[(k[0], k[1], cond)]["C"] if rule == "C" else -D[(k[0], k[1], cond)]["E"] for k in ks]
+    else: sc_ = [-D[(k[0], k[1], cond)]["support"] for k in ks]
+    return round(_auc(y, sc_), 2)
+check("question+answer AUROC, retrieved: MiniCheck, HHEM, DeBERTa contradiction, DeBERTa not entailed", (_qa("MiniCheck", "retrieved", 0), _qa("HHEM", "retrieved", 0), _qa("DeBERTa", "retrieved", "C"), _qa("DeBERTa", "retrieved", "E")), (0.48, 0.46, 0.55, 0.52))
+check("question+answer AUROC, oracle: MiniCheck, HHEM, DeBERTa contradiction, DeBERTa not entailed", (_qa("MiniCheck", "oracle", 0), _qa("HHEM", "oracle", 0), _qa("DeBERTa", "oracle", "C"), _qa("DeBERTa", "oracle", "E")), (0.52, 0.63, 0.55, 0.64))
+_fpr = lambda nm, cond: round(100 * np.mean([int(QA[nm][(k[0], k[1], cond)]["support"] < 0.5) for k in (sorted(Y) if cond == "retrieved" else oracle_keys) if not Y[k]]))
+check("question+answer FPR %, MiniCheck retrieved / oracle; HHEM retrieved / oracle", (_fpr("MiniCheck", "retrieved"), _fpr("MiniCheck", "oracle"), _fpr("HHEM", "retrieved"), _fpr("HHEM", "oracle")), (98, 99, 47, 60))
 et = Counter(L[k]["error_type"] for k in viol)
 check("error types of the 79 violations (wrong verdict, failed refusal, invented rule)", (et["WRONG_VERDICT"], et["FAILED_REFUSAL"], et["INVENTED_RULE"]), (74, 3, 2))
 # --- agreement statistics recorded in the manifests
@@ -124,7 +144,7 @@ if len(sys.argv) > 1 and os.path.exists(sys.argv[1]):
         if nm == "HHEM":
             p = np.array([int(HH[(k[0], k[1], cond)] < 0.5) for k in ks]); au = roc_auc_score(y, [1 - HH[(k[0], k[1], cond)] for k in ks])
         else:
-            pnm, sn = pn[nm]; p = np.array([pred(pnm, cond, k) for k in ks]); au = roc_auc_score(y, [score(sn, cond, k) for k in ks]) if sn else None
+            pnm, sn = pn[nm]; p = np.array([pred(pnm, cond, k) for k in ks]); au = roc_auc_score(y, [score(sn, cond, k) for k in ks]) if sn else roc_auc_score(y, p)   # judges: AUROC of the binary verdict
         return int((p & y).sum()), int(y.sum()), round(100 * (p & (1 - y)).sum() / (1 - y).sum()), (None if au is None else round(au, 2))
     seen = 0
     for line in tb.split("\n"):

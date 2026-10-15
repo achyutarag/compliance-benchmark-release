@@ -11,7 +11,7 @@ Benchmark, labels, model outputs and analysis code for the paper (anonymized). A
 
 ## Quick check (no API keys, no GPU)
     python analysis/reproduce_paper_numbers.py
-Regenerates 45 counts and statistics behind the text (clause table, reasoning structures, judge family, error types, agreement statistics) and compares each with the value written in the paper; it exits non-zero on any difference. With the paper's `.tex` path as an argument it also checks every cell of the main results table.
+Regenerates 54 counts and statistics behind the text (clause table, reasoning structures, judge family, error types, agreement statistics) and compares each with the value written in the paper; it exits non-zero on any difference. With the paper's `.tex` path as an argument it also checks every cell of the main results table.
 
     python analysis/audit_tables.py
 Recomputes the main detection table (recall, false-positive rate, informedness, AUROC; retrieved and oracle context) and the
@@ -29,6 +29,7 @@ quoting / MiniCheck-support statistics from the raw per-item files. Its output s
 | Grounding checkers (MiniCheck, DeBERTa-L NLI, RoBERTa-MNLI) | `grounding/` (protocol, revisions, raw scores) |
 | Full-policy + question judge baseline (396 named-institution answers) | `judges/FULL_POLICY_PREREGISTRATION.md` (incl. deviation log), `judges_full.py`, `judges_full_openai_runner.py`, `judges/JUDGE_CONFIG_FULL.json`, `judges/full_predictions.csv` and raw batch inputs/outputs, `analysis/full_policy_analysis.py` -> `results/full_policy_analysis.txt` |
 | HHEM-2.1-open (Amendment 3 of the grounding protocol) | `grounding/run_hhem.py` (needs a local copy of the pinned model repo, see `grounding/CHECKER_REVISIONS.json`; weights not redistributed), `grounding/hhem_code/` (the two reviewed code files), `grounding/scores_hhem_whole.jsonl`, `analysis/hhem_results.py` -> `results/hhem_results.txt` |
+| Question-plus-answer hypothesis control for MiniCheck, HHEM, DeBERTa-large (Amendment 4) | `grounding/run_checkers_qa.py` (HHEM needs the local model repo, see above), `grounding/scores_*_qa.jsonl`, `analysis/qa_hypothesis_results.py` -> `results/qa_hypothesis_results.txt` |
 | LLM judges and controls (compliance, faithfulness, question-aware) | `judges/` (configs, frozen prompts, predictions), `results/faith_analysis.txt`, `results/q_analysis.txt` |
 | MSCG and DNA auditors | `run_mscg*.py`, `dna/`, `results/mscg_*.csv`, `results/ext_local_auditors.csv` |
 | Failure analysis (38 failures, LLM + blind human codes) | `analysis/oracle_failures_coded.csv`, `analysis/failure_codes_llm_vs_human.csv`, `analysis/failure_code_agreement.py` |

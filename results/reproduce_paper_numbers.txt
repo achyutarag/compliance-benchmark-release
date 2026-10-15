@@ -39,9 +39,18 @@ ok   AUROC range of the eight scored checkers, stronger models only, retrieved  
 ok   AUROC range of the eight scored checkers, stronger models only, oracle         computed (0.43, 0.66)             paper (0.43, 0.66)
 ok   GPT-5.5 informedness, stronger / small models, retrieved                       computed (0.22, 0.31)             paper (0.22, 0.31)
 ok   Sonnet 5.5 informedness, stronger / small models, retrieved                    computed (0.1, 0.37)              paper (0.1, 0.37)
+ok   two judges AND, retrieved: precision, recall %                                 computed (0.37, 58)               paper (0.37, 58)
+ok   two judges OR, retrieved: precision, recall %                                  computed (0.28, 72)               paper (0.28, 72)
+ok   two-judge vote count AUROC, retrieved                                          computed 0.68                     paper 0.68
+ok   two judges AND, oracle: precision, recall %                                    computed (0.34, 91)               paper (0.34, 91)
+ok   two judges OR, oracle: precision, recall %                                     computed (0.27, 93)               paper (0.27, 93)
+ok   two-judge vote count AUROC, oracle                                             computed 0.76                     paper 0.76
+ok   question+answer AUROC, retrieved: MiniCheck, HHEM, DeBERTa contradiction, DeBERTa not entailed computed (0.48, 0.46, 0.55, 0.52) paper (0.48, 0.46, 0.55, 0.52)
+ok   question+answer AUROC, oracle: MiniCheck, HHEM, DeBERTa contradiction, DeBERTa not entailed computed (0.52, 0.63, 0.55, 0.64) paper (0.52, 0.63, 0.55, 0.64)
+ok   question+answer FPR %, MiniCheck retrieved / oracle; HHEM retrieved / oracle   computed (98, 99, 47, 60)         paper (98, 99, 47, 60)
 ok   error types of the 79 violations (wrong verdict, failed refusal, invented rule) computed (74, 3, 2)               paper (74, 3, 2)
 ok   answer key kappa (94 in-scope)                                                 computed 0.82                     paper 0.82
 ok   round 2 compliance raw / kappa / PABAK                                         computed (0.812, 0.44, 0.62)      paper (0.812, 0.44, 0.62)
 ok   clause labels kappa three-way / yes-vs-not                                     computed (0.57, 0.69)             paper (0.57, 0.69)
 
-45/45 numbers reproduce
+54/54 numbers reproduce
