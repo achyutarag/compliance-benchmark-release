@@ -81,6 +81,13 @@ if fc:
     check("38 failures by LLM code (prohibition, condition, boundary, role)", (cc["OVERRIDDEN_PROHIBITION"], cc["MISAPPLIED_CONDITION"], cc["EXACT_BOUNDARY"], cc["ROLE_SPECIFIC"]), (16, 15, 5, 2))
     mg = lambda c: "PC" if c in ("OVERRIDDEN_PROHIBITION", "MISAPPLIED_CONDITION") else c
     check("human agreement on the 38 (exact, merged prohibition+condition)", (sum(r["llm_code"] == r["annotatorA_code_blind"] for r in fc), sum(mg(r["llm_code"]) == mg(r["annotatorA_code_blind"]) for r in fc)), (34, 37))
+HHs = {tuple(json.loads(l)["id"].split("|")): json.loads(l)["support"] for l in open(os.path.join(H, "grounding", "scores_hhem_whole.jsonl"), encoding="utf-8")}
+NLs = {tuple(json.loads(l)["id"].split("|")): json.loads(l) for l in open(os.path.join(H, "grounding", "scores_nli_large_whole.jsonl"), encoding="utf-8")}
+sup3 = [r for r in fc if MC[(r["qid"], r["answer_model"], "oracle")] >= 0.5 and HHs[(r["qid"], r["answer_model"], "oracle")] >= 0.5 and NLs[(r["qid"], r["answer_model"], "oracle")]["E"] >= 0.5]
+check("coded failures scored supported by MiniCheck, HHEM and DeBERTa-large together (oracle)", len(sup3), 4)
+d09 = (MC[("D09", "gemma-2-2b-it", "oracle")], HHs[("D09", "gemma-2-2b-it", "oracle")], NLs[("D09", "gemma-2-2b-it", "oracle")]["E"], NLs[("D09", "gemma-2-2b-it", "oracle")]["C"])
+check("Figure 1 item D09/gemma: MiniCheck, HHEM, DeBERTa entailment, contradiction", tuple(round(x, 2) for x in d09), (0.69, 0.87, 0.82, 0.0))
+check("Figure 1 item D09/gemma: MSCG, naive NLI, GPT-5.5, Sonnet 5.5 (oracle)", (int(A[("D09", "gemma-2-2b-it")]["mscg_oracle"]), int(A[("D09", "gemma-2-2b-it")]["naive"]), int(A[("D09", "gemma-2-2b-it")]["gpt55_oracle"]), int(A[("D09", "gemma-2-2b-it")]["sonnet55_oracle"])), (0, 0, 1, 1))
 et = Counter(L[k]["error_type"] for k in viol)
 check("error types of the 79 violations (wrong verdict, failed refusal, invented rule)", (et["WRONG_VERDICT"], et["FAILED_REFUSAL"], et["INVENTED_RULE"]), (74, 3, 2))
 # --- agreement statistics recorded in the manifests

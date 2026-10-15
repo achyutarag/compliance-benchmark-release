@@ -32,9 +32,12 @@ ok   quoting rate, violating vs compliant (%)                                   
 ok   MiniCheck median support, violating vs compliant                               computed (0.075, 0.051)           paper (0.075, 0.051)
 ok   38 failures by LLM code (prohibition, condition, boundary, role)               computed (16, 15, 5, 2)           paper (16, 15, 5, 2)
 ok   human agreement on the 38 (exact, merged prohibition+condition)                computed (34, 37)                 paper (34, 37)
+ok   coded failures scored supported by MiniCheck, HHEM and DeBERTa-large together (oracle) computed 4                        paper 4
+ok   Figure 1 item D09/gemma: MiniCheck, HHEM, DeBERTa entailment, contradiction    computed (0.69, 0.87, 0.82, 0.0)  paper (0.69, 0.87, 0.82, 0.0)
+ok   Figure 1 item D09/gemma: MSCG, naive NLI, GPT-5.5, Sonnet 5.5 (oracle)         computed (0, 0, 1, 1)             paper (0, 0, 1, 1)
 ok   error types of the 79 violations (wrong verdict, failed refusal, invented rule) computed (74, 3, 2)               paper (74, 3, 2)
 ok   answer key kappa (94 in-scope)                                                 computed 0.82                     paper 0.82
 ok   round 2 compliance raw / kappa / PABAK                                         computed (0.812, 0.44, 0.62)      paper (0.812, 0.44, 0.62)
 ok   clause labels kappa three-way / yes-vs-not                                     computed (0.57, 0.69)             paper (0.57, 0.69)
 
-38/38 numbers reproduce
+41/41 numbers reproduce
