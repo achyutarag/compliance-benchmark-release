@@ -3,7 +3,7 @@ import csv, os, shutil
 from collections import Counter
 from openpyxl import load_workbook
 
-HERE = os.path.dirname(os.path.abspath(__file__)); L = os.path.join(HERE, "labelling"); C = os.path.join(L, "completed")
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # repo root; L = os.path.join(HERE, "labelling"); C = os.path.join(L, "completed")
 os.makedirs(C, exist_ok=True)
 SRC = {"A": r"<downloads>\labelling_annotator_A_completed.xlsx",
        "B": r"<downloads>\Labelling-Annotator-B-Completed.xlsx"}

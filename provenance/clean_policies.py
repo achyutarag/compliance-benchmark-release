@@ -10,7 +10,7 @@ from the extracted policy texts. Policy wording is never changed.
 import glob, hashlib, json, os, re, shutil
 from bs4 import BeautifulSoup
 
-HERE = os.path.dirname(os.path.abspath(__file__)); P = os.path.join(HERE, "policies")
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # repo root; P = os.path.join(HERE, "policies")
 RAW = os.path.join(P, "raw_extracted"); os.makedirs(RAW, exist_ok=True)
 SEP = "=" * 70 + "\n"
 PRINT_HEADER = re.compile(r"^\d{1,2}/\d{1,2}/\d{2}, \d{1,2}:\d{2} [AP]M .*$")      # browser print header

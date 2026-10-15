@@ -13,7 +13,7 @@ import datetime, hashlib, io, json, os, re, sys
 import requests
 from bs4 import BeautifulSoup
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # repo root
 OUT = os.path.join(HERE, "policies"); ARCH = os.path.join(OUT, "archive")
 os.makedirs(ARCH, exist_ok=True)
 TODAY = datetime.date.today().isoformat()

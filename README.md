@@ -2,6 +2,13 @@
 
 Benchmark, labels, model outputs and analysis code for the paper (anonymized). Annotators appear only as A, B and 3.
 
+## Folder layout
+- Top level: frozen answer key and labels (+ manifests), the pipeline scripts (`generate_answers*.py`, `judges*.py`, `run_*.py`, `build_index.py`, `rag_retrieval.py`, `analyze_*.py`) and protocol files.
+- `analysis/`: audit, statistics and revision scripts (start with `analysis/audit_tables.py`). `results/`: their outputs.
+- `provenance/`: scripts that built the annotation workbooks, reconciled and froze labels, and cleaned the policy texts (run from the repo root as `python provenance/<script>.py`); they document the process and are not needed to reproduce the results.
+- `docs/`: annotator instructions for the answer key and the policy source list. Annotator instructions for later rounds are in `labelling*/`.
+- `synthetic/`: the synthetic benchmark data and frozen-guard notebook used for Section 6.
+
 ## Quick check (no API keys, no GPU)
     python analysis/audit_tables.py
 Recomputes the main detection table (recall, false-positive rate, informedness, AUROC; retrieved and oracle context) and the
@@ -12,7 +19,7 @@ quoting / MiniCheck-support statistics from the raw per-item files. Its output s
 | Paper content | Files |
 |---|---|
 | Benchmark: 104 questions, answer key (kappa 0.82) | `answer_key_FROZEN_2026-09-30.csv` (+ MANIFEST), `annotations/`, `answer_key_review_annotator_*.csv` |
-| 416 answers (4 answer models) | `answers/answers_*.jsonl`, `index/`, `policies/` (+ `POLICY_SOURCES.md`) |
+| 416 answers (4 answer models) | `answers/answers_*.jsonl`, `index/`, `policies/` (+ `docs/POLICY_SOURCES.md`) |
 | Compliance labels (79 violations) | `labels_FROZEN_2026-09-30.csv`, `labels_ext_FROZEN_2026-10-01.csv` (+ MANIFESTs), `labelling*/` |
 | Clause-presence labels (v2) | `clause_labels_v2_FROZEN_2026-10-11.csv`, `labelling/clause_recheck2/`, `analysis/retrieval_misses.py`, `results/clause_v2_tables.txt` |
 | Main detection table, paired tests | `results/audit_tables.txt`, `results/analysis_416.txt`, `results/all416_per_answer.csv`, `grounding/` |
@@ -37,7 +44,7 @@ quoting / MiniCheck-support statistics from the raw per-item files. Its output s
 - **AI use.** An LLM assistant drafted the questions and initial key, wrote the code, drafted proposals for 17 disputed labels and
   coded the 38 failures (annotator A re-coded them blind; see paper). Annotators worked without AI assistants.
 - **Included raw outputs:** `judges/*batch_input/output*.jsonl` are the raw OpenAI/Anthropic Batch API inputs and outputs behind the judge predictions.
-- **Policy texts:** `policies/` holds the cleaned text used for retrieval (+ `CLEANING_LOG.md`); `POLICY_SOURCES.md` gives each official URL and access date. Archived PDF/HTML copies are not redistributed; fetch them from the sources.
+- **Policy texts:** `policies/` holds the cleaned text used for retrieval (+ `CLEANING_LOG.md`); `docs/POLICY_SOURCES.md` gives each official URL and access date. Archived PDF/HTML copies are not redistributed; fetch them from the sources.
 - **Not included:** API keys and the files of the independent validation sample.
 - Re-running the generation, judge or checker scripts needs API keys / model downloads (OpenAI, Anthropic, Hugging Face) and costs money;
   stored outputs are provided so the analysis does not need them.

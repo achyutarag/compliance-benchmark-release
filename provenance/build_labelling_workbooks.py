@@ -12,7 +12,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, Alignment, PatternFill, Border, Side
 from openpyxl.worksheet.datavalidation import DataValidation
 
-HERE = os.path.dirname(os.path.abspath(__file__)); OUT = os.path.join(HERE, "labelling")
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # repo root; OUT = os.path.join(HERE, "labelling")
 os.makedirs(OUT, exist_ok=True)
 SEED, N_OVERLAP = 20260930, 50
 key = {r["qid"]: r for r in csv.DictReader(open(os.path.join(HERE, "answer_key_FROZEN_2026-09-30.csv"), encoding="utf-8"))}

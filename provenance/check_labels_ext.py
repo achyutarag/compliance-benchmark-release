@@ -3,7 +3,7 @@ import csv, os
 from collections import Counter
 from openpyxl import load_workbook
 
-HERE = os.path.dirname(os.path.abspath(__file__)); L = os.path.join(HERE, "labelling_ext"); C = os.path.join(L, "completed")
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # repo root; L = os.path.join(HERE, "labelling_ext"); C = os.path.join(L, "completed")
 VALID = {"Compliance label": {"COMPLIANT", "NON_COMPLIANT"}, "Matches gold": {"YES", "PARTIAL", "NO"},
          "Error type": {"", "WRONG_VERDICT", "MISSING_CONDITION", "WRONG_INSTITUTION_RULE", "INVENTED_RULE",
                         "OVER_RESTRICTIVE", "NO_CAVEAT_UNNAMED", "FAILED_REFUSAL", "OTHER"}}

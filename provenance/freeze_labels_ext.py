@@ -10,7 +10,7 @@ import csv, datetime, hashlib, json, os
 from collections import Counter
 from openpyxl import load_workbook
 
-HERE = os.path.dirname(os.path.abspath(__file__)); L = os.path.join(HERE, "labelling_ext"); R = os.path.join(L, "reconciliation")
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # repo root; L = os.path.join(HERE, "labelling_ext"); R = os.path.join(L, "reconciliation")
 OUT = os.path.join(HERE, "labels_ext_FROZEN_2026-10-01.csv"); assert not os.path.exists(OUT), "already frozen"
 key = {r["row_id"]: r for r in csv.DictReader(open(os.path.join(L, "LABELLING_KEY_do_not_share.csv"), encoding="utf-8"))}
 gold = {r["qid"]: r for r in csv.DictReader(open(os.path.join(HERE, "answer_key_FROZEN_2026-09-30.csv"), encoding="utf-8"))}

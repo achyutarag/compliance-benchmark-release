@@ -7,7 +7,7 @@ import csv, io, json, os, contextlib
 import numpy as np
 from scipy.stats import binomtest
 
-HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
+HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.join(HERE, "synthetic")   # notebook and synthetic sets
 os.makedirs(os.path.join(HERE, "results"), exist_ok=True)
 nb = json.load(open(os.path.join(ROOT, "solutions_final_v3.ipynb"), encoding="utf-8"))
 cells = {c["metadata"].get("id"): "".join(c["source"]) for c in nb["cells"]}

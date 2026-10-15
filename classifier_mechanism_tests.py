@@ -19,7 +19,7 @@ import numpy as np
 from scipy.stats import spearmanr, mannwhitneyu
 from sklearn.linear_model import LogisticRegression
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "synthetic")   # notebook and synthetic sets
 nb = json.load(open(os.path.join(ROOT, "solutions_final_v3.ipynb"), encoding="utf-8"))
 cells = {c["metadata"].get("id"): "".join(c["source"]) for c in nb["cells"]}
 g = {"__name__": "__nb__"}; cwd = os.getcwd(); os.chdir(ROOT)

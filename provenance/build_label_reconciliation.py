@@ -12,7 +12,7 @@ from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font, Alignment, PatternFill, Border, Side
 from openpyxl.worksheet.datavalidation import DataValidation
 
-HERE = os.path.dirname(os.path.abspath(__file__)); L = os.path.join(HERE, "labelling")
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # repo root; L = os.path.join(HERE, "labelling")
 OUT = os.path.join(L, "reconciliation"); os.makedirs(OUT, exist_ok=True)
 F = lambda **k: Font(name="Arial", **k)
 thin = Side(style="thin", color="BFBFBF"); BORDER = Border(left=thin, right=thin, top=thin, bottom=thin)

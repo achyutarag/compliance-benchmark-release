@@ -1,7 +1,7 @@
 """Frozen guard_v10 loading and gate logic, shared by the MSCG diagnostics (identical to run_mscg.py)."""
 import contextlib, io, json, os
 
-HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
+HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.join(HERE, "synthetic")   # notebook and synthetic sets
 last_prec = {}
 
 

@@ -3,7 +3,7 @@ import csv, json, os, re, shutil, sys
 from collections import Counter
 from openpyxl import load_workbook
 
-HERE = os.path.dirname(os.path.abspath(__file__)); R = os.path.join(HERE, "labelling", "reconciliation")
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # repo root; R = os.path.join(HERE, "labelling", "reconciliation")
 src = sys.argv[1]
 dst = os.path.join(R, "clause_recheck_completed.xlsx"); shutil.copy2(src, dst)
 key = {r["row_id"]: r for r in csv.DictReader(open(os.path.join(R, "CLAUSE_RECHECK_KEY_do_not_share.csv"), encoding="utf-8"))}
