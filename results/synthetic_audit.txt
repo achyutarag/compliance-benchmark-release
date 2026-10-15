@@ -1,0 +1,5 @@
+Fresh held-out (gpt-4o-mini)       n=120 naive= 72.5 mscg= 83.3 | contra recall g1 17/20 (85%) g1+2 17/20 (85%) | contra FPR g1 0/68 g1+2 0/68 | precedent clf recall 2/12 (17%)
+Cross-generator (Claude)           n=119 naive= 65.5 mscg= 84.0 | contra recall g1 18/19 (95%) g1+2 18/19 (95%) | contra FPR g1 1/39 g1+2 1/39 | precedent clf recall 1/40 (2%)
+Zero-shot: data_retention          n= 99 naive= 59.6 mscg= 91.9 | contra recall g1 19/21 (90%) g1+2 19/21 (90%) | contra FPR g1 0/40 g1+2 0/40 | precedent clf recall 1/18 (6%)
+Zero-shot: coi_disclosure          n= 99 naive= 67.7 mscg= 87.9 | contra recall g1 20/20 (100%) g1+2 20/20 (100%) | contra FPR g1 2/43 g1+2 3/43 | precedent clf recall 0/16 (0%)
+Zero-shot: ai_data_use             n= 94 naive= 67.0 mscg= 92.6 | contra recall g1 20/21 (95%) g1+2 20/21 (95%) | contra FPR g1 0/40 g1+2 0/40 | precedent clf recall 3/13 (23%)

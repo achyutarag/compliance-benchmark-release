@@ -1,0 +1,39 @@
+qid,answer_model,code,reason
+C01,gpt-4o-mini,THRESHOLD,Exactly $50 is not 'less than $50' (nominal); answer treats $50 as reportable-only
+C02,Llama-3.2-3B-Instruct,PROHIBITION,Penn bars personal gifts from vendors at any time; answer applies the $100 goodwill-gift threshold instead
+C02,claude-haiku-4-5,PROHIBITION,Same: vendor-source ban overridden by the $100 significant-value clause
+C02,gemma-2-2b-it,PROHIBITION,Same: 'doesn't exceed the $100 threshold'
+C07,Llama-3.2-3B-Instruct,CONDITION,Reads the $50-or-more exemption clause as permission; exemption conditions not met
+D07,claude-haiku-4-5,PROHIBITION,Gift cards banned at any time and must be returned; answer routes it to a reporting form
+D09,Llama-3.2-3B-Instruct,CONDITION,Meals exception requires occasional and non-repetitive; monthly dinners accepted
+D09,gemma-2-2b-it,CONDITION,Same
+D11,Llama-3.2-3B-Instruct,PROHIBITION,Solicitation banned under any circumstances; answer applies $150/$300 gift limits
+D11,claude-haiku-4-5,PROHIBITION,Same
+D11,gemma-2-2b-it,PROHIBITION,Same (applies meals-exception language)
+D11,gpt-4o-mini,PROHIBITION,Same
+D12,gpt-4o-mini,CONDITION,Unknown-value gift must be returned; answer only says consult (procedure omitted)
+H06,gemma-2-2b-it,PROHIBITION,Gift cards not permitted at any value; answer: 'can likely keep it'
+H10,Llama-3.2-3B-Instruct,PROHIBITION,Same; applies nominal <$50 in-kind rule to gift cards
+M01,Llama-3.2-3B-Instruct,CONDITION,$50+ gift because of position prohibited; answer invokes the exemption clause without its conditions
+M01,gpt-4o-mini,CONDITION,Same
+M04,Llama-3.2-3B-Instruct,CONDITION,Applies personal-hospitality exemption to a $120 position-related gift
+M07,claude-haiku-4-5,ROLE,Gifts to an official superior have a separate $10 rule; answer applies the general $50 aggregation rule
+M07,gpt-4o-mini,ROLE,Same
+M12,Llama-3.2-3B-Instruct,CONDITION,Applies 'unrelated to official position' exemption to a vendor gift given because of position
+M12,gemma-2-2b-it,CONDITION,Same
+M13,claude-haiku-4-5,CONDITION,Conditions acceptance on lobbyist status; the governing rule is the $50 because-of-position ban
+P02,claude-haiku-4-5,THRESHOLD,Exactly $100 is not 'greater than $100'; answer says it becomes University property
+P02,gpt-4o-mini,THRESHOLD,Same
+T04,Llama-3.2-3B-Instruct,THRESHOLD,$51 is more than $50; answer calls it nominal and acceptable
+T05,Llama-3.2-3B-Instruct,PROHIBITION,Gift cards banned regardless of value; answer applies the $25 pens/mugs rule
+T05,claude-haiku-4-5,PROHIBITION,Same
+T05,gemma-2-2b-it,PROHIBITION,Same
+T06,Llama-3.2-3B-Instruct,PROHIBITION,Sporting-event admission banned regardless of value; answer applies the $50 limit
+U04,gemma-2-2b-it,THRESHOLD,Exactly $50 is not 'less than $50'
+U05,Llama-3.2-3B-Instruct,PROHIBITION,Cash equivalents incl. gift cards prohibited; answer applies the <$50 token rule
+U05,gemma-2-2b-it,PROHIBITION,Same
+U08,gemma-2-2b-it,CONDITION,Business meal requires vendor present (and vouchers are cash equivalents); answer applies on-site refreshment rule
+U14,Llama-3.2-3B-Instruct,CONDITION,Promotional items allowed only when offered to all participants off-site; office drop-off is discouraged
+U14,gemma-2-2b-it,CONDITION,Same
+V06,Llama-3.2-3B-Instruct,CONDITION,Supplier-paid travel needs prior dean/VP approval and reimbursement to the University; omitted
+V06,gemma-2-2b-it,CONDITION,Same

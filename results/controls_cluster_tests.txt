@@ -1,0 +1,16 @@
+GPT-5.5    retrieved faithfulness prompt vs compliance prompt                violations (n=79) net flagged diff +11  cluster p = 0.0058
+GPT-5.5    retrieved faithfulness prompt vs compliance prompt                compliant  (n=337) net flagged diff +54  cluster p = 0.0000
+GPT-5.5    retrieved question-aware vs question-free (compliance prompt)     violations (n=79) net flagged diff +6  cluster p = 0.3392
+GPT-5.5    retrieved question-aware vs question-free (compliance prompt)     compliant  (n=337) net flagged diff -21  cluster p = 0.0039
+GPT-5.5    oracle    faithfulness prompt vs compliance prompt                violations (n=69) net flagged diff -2  cluster p = 0.5023
+GPT-5.5    oracle    faithfulness prompt vs compliance prompt                compliant  (n=307) net flagged diff +43  cluster p = 0.0000
+GPT-5.5    oracle    question-aware vs question-free (compliance prompt)     violations (n=69) net flagged diff +5  cluster p = 0.1307
+GPT-5.5    oracle    question-aware vs question-free (compliance prompt)     compliant  (n=307) net flagged diff +0  cluster p = 1.0000
+Sonnet 5.5 retrieved faithfulness prompt vs compliance prompt                violations (n=79) net flagged diff +9  cluster p = 0.0045
+Sonnet 5.5 retrieved faithfulness prompt vs compliance prompt                compliant  (n=337) net flagged diff +85  cluster p = 0.0000
+Sonnet 5.5 retrieved question-aware vs question-free (compliance prompt)     violations (n=79) net flagged diff +8  cluster p = 0.0743
+Sonnet 5.5 retrieved question-aware vs question-free (compliance prompt)     compliant  (n=337) net flagged diff -27  cluster p = 0.0023
+Sonnet 5.5 oracle    faithfulness prompt vs compliance prompt                violations (n=69) net flagged diff +1  cluster p = 1.0000
+Sonnet 5.5 oracle    faithfulness prompt vs compliance prompt                compliant  (n=307) net flagged diff +61  cluster p = 0.0000
+Sonnet 5.5 oracle    question-aware vs question-free (compliance prompt)     violations (n=69) net flagged diff +4  cluster p = 0.2482
+Sonnet 5.5 oracle    question-aware vs question-free (compliance prompt)     compliant  (n=307) net flagged diff -13  cluster p = 0.1058

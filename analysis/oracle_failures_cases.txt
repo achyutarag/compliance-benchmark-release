@@ -1,0 +1,212 @@
+=== C01 gpt-4o-mini | gold NOT_PERMITTED | structures S3;S2
+Q: I'm a Hartwick employee. A vendor gave me a $50 gift basket. Can I keep it?
+RULE: any gift in kind of less than $50
+ANSWER: According to our policy, gifts worth more than $50 should be reported to your immediate supervisor and the Institutional Advancement Office. Since the gift basket you received is valued at $50, you should still inform your supervisor about it. Additionally, if the gift is intended to influence a business-related decision, you should not accept it. It's best to clarify with your supervisor on how t
+
+=== C02 Llama-3.2-3B-Instruct | gold NOT_PERMITTED | structures S3
+Q: I'm a Penn employee. A vendor gave me a $50 gift basket. Can I keep it?
+RULE: at no time should an employee solicit or accept personal gifts from current or potential vendors
+ANSWER: According to our gift-acceptance policy, gift baskets of any value can be accepted as a gesture of goodwill, especially if they're modest. Since the value of the gift basket is under $100, it falls into the category of an ordinary business courtesy. In this case, you are allowed to keep the gift basket.
+
+=== C02 claude-haiku-4-5 | gold NOT_PERMITTED | structures S3
+Q: I'm a Penn employee. A vendor gave me a $50 gift basket. Can I keep it?
+RULE: at no time should an employee solicit or accept personal gifts from current or potential vendors
+ANSWER: Based on our gift policy, a $50 gift basket falls below the $100 threshold, so it's not automatically required to become University property. However, whether you can keep it depends on the context and nature of the gift.
+
+If it's a promotional item or ordinary business courtesy that's distributed routinely (like a standard vendor gift), you can accept it. But if it's a personal gratuity or gift o
+
+=== C02 gemma-2-2b-it | gold NOT_PERMITTED | structures S3
+Q: I'm a Penn employee. A vendor gave me a $50 gift basket. Can I keep it?
+RULE: at no time should an employee solicit or accept personal gifts from current or potential vendors
+ANSWER: Yes, the gift basket is an acceptable gift. It's a typical business courtesy and doesn't exceed the $100 threshold.
+
+=== C07 Llama-3.2-3B-Instruct | gold NOT_PERMITTED | structures S3;S2
+Q: I'm a Massachusetts state employee. A vendor gave me a $50 gift basket because of my job. Can I keep it?
+RULE: gifts worth $50 or more ... because of the employee’s official position
+ANSWER: Yes, you can keep the gift basket. The gift is worth $50 or more, which is the exemption amount mentioned in the policy. The gift is also related to your official action as a Massachusetts state employee, so it falls under an exemption. As long as the gift was given because of your job and not because of anything else, and you comply with all requirements, you're allowed to keep it.
+
+=== D07 claude-haiku-4-5 | gold NOT_PERMITTED | structures S5
+Q: At DePaul, a vendor sent me a $50 Visa gift card. What should I do?
+RULE: University employees cannot accept ... cash (including gift cards and gift certificates) at any time and such gifts must be immediately returned
+ANSWER: For a $50 Visa gift card from a vendor, you'll need to report it. Here's what to do:
+
+1. **Use the Gifts and Prizes Reporting Form** - Submit this form to Accounts Payable as soon as practicable with your recipient information.
+
+2. **Review the Gift Card Guidelines** - Before reporting it, check out the Gift Card Guidelines document on the Financial Affairs website. This outlines the university's 
+
+=== D09 Llama-3.2-3B-Instruct | gold NOT_PERMITTED | structures S8
+Q: The same DePaul vendor takes me to dinner every month. Is that allowed under the meals exception?
+RULE: occasional and non-repetitive
+ANSWER: Yes, accepting a meal from the same vendor every month would be allowed under the meals exception. The fact that it's a regular, normal, and customary business practice for the university to entertain with meals, and it's to develop or maintain business relationships, fits within the conditions stated in the policy.
+
+=== D09 gemma-2-2b-it | gold NOT_PERMITTED | structures S8
+Q: The same DePaul vendor takes me to dinner every month. Is that allowed under the meals exception?
+RULE: occasional and non-repetitive
+ANSWER: Yes, as long as the dinners are normal and customary business practices and are used to build or maintain business relationships.
+
+=== D11 Llama-3.2-3B-Instruct | gold NOT_PERMITTED | structures S10
+Q: Can I ask our DePaul vendors to donate gift baskets for our staff holiday raffle?
+RULE: Employees shall not solicit gifts in connection with their employment under any circumstances + Purchasing policy on vendor solicitation
+ANSWER: Yes, you can ask your DePaul vendors to donate gift baskets for your staff holiday raffle. As long as each gift basket is valued at $150 or less, it's acceptable. However, if you receive multiple gift baskets from the same vendor in a single fiscal year, and the total value exceeds $300, you should return or refuse any additional baskets. For example, if you have 2 gift baskets valued at $100 each
+
+=== D11 claude-haiku-4-5 | gold NOT_PERMITTED | structures S10
+Q: Can I ask our DePaul vendors to donate gift baskets for our staff holiday raffle?
+RULE: Employees shall not solicit gifts in connection with their employment under any circumstances + Purchasing policy on vendor solicitation
+ANSWER: Based on our gift-acceptance policy, there are some important limits to keep in mind:
+
+Individual employees can accept non-cash gifts of nominal value ($150 or less) from external parties — so a single gift basket would be fine if it's within that threshold.
+
+However, there's an aggregate limit: **multiple gifts from the same vendor can't total more than $300 in value during a single fiscal year.*
+
+=== D11 gemma-2-2b-it | gold NOT_PERMITTED | structures S10
+Q: Can I ask our DePaul vendors to donate gift baskets for our staff holiday raffle?
+RULE: Employees shall not solicit gifts in connection with their employment under any circumstances + Purchasing policy on vendor solicitation
+ANSWER: Yes, you can likely accept the gift basket as a donation to the raffle. As long as it's a standard business practice and used to maintain business relationships, it should be okay.
+
+=== D11 gpt-4o-mini | gold NOT_PERMITTED | structures S10
+Q: Can I ask our DePaul vendors to donate gift baskets for our staff holiday raffle?
+RULE: Employees shall not solicit gifts in connection with their employment under any circumstances + Purchasing policy on vendor solicitation
+ANSWER: You can certainly ask DePaul vendors for donations, but keep in mind the gift-acceptance policy. Vendors can donate non-cash tangible gifts of nominal value ($150 or less) to employees. However, if you receive multiple gifts from the same vendor, the total value cannot exceed $300 in a single fiscal year. Just make sure any donations align with these guidelines!
+
+=== D12 gpt-4o-mini | gold NOT_PERMITTED | structures S9
+Q: At DePaul I received a gift and can't tell whether it's worth $100 or $250. What should I do?
+RULE: If a gift of unknown value cannot reasonably and in good faith be determined to fall within the parameters stated above, it should be returned to the donor
+ANSWER: If you're unsure about the value of the gift you received and it seems to exceed the de minimis threshold of $75, it's best to consult with your supervisor or the Controller's Office for guidance on how to proceed. They can help determine the appropriate next steps based on the value of the gift.
+
+=== H06 gemma-2-2b-it | gold NOT_PERMITTED | structures S5
+Q: I'm at Hartwick. A vendor gave me a $20 Amazon gift card. Can I keep it?
+RULE: Acceptance of cash, gift certificates/cards, or other cash equivalents is not permitted
+ANSWER: You can likely keep it. This policy doesn't mention a $20 gift card specifically. If it were part of a larger, more significant gift or something that could be considered influenced decision-making, it might be a different story.
+
+=== H10 Llama-3.2-3B-Instruct | gold NOT_PERMITTED | structures S12;S5
+Q: A Hartwick HR person told me gift cards under $25 are fine to accept from vendors. Is that correct?
+RULE: Acceptance of cash, gift certificates/cards, or other cash equivalents is not permitted
+ANSWER: According to our policy, casual entertainment or gifts of "nominal" value (less than $50) are acceptable. However, I should clarify that the policy doesn't specify a maximum value for gift cards. It does mention that gifts in kind of less than $50 are okay, but it doesn't mention any specific maximum value for gift cards.
+
+=== M01 Llama-3.2-3B-Instruct | gold NOT_PERMITTED | structures S2;S3
+Q: I'm a Massachusetts state employee. A company I regulate gave me a $50 book because of my job. Can I keep it?
+RULE: Public employees generally may not accept gifts worth $50 or more ... given ... because of the employee’s official position
+ANSWER: You can keep the book. According to our gift acceptance policy, as stated in 930 CMR 5.00, a public employee is not prohibited from accepting a gift worth $50 or more where the gift is related to the public employee's official action or position, as long as the gift falls within one of the exemptions. In this case, the gift is related to your job, and it's worth $50, so that exemption applies.
+
+=== M01 gpt-4o-mini | gold NOT_PERMITTED | structures S2;S3
+Q: I'm a Massachusetts state employee. A company I regulate gave me a $50 book because of my job. Can I keep it?
+RULE: Public employees generally may not accept gifts worth $50 or more ... given ... because of the employee’s official position
+ANSWER: You can accept the $50 book as long as it is related to your official action or position, and it falls within the exemptions outlined in the gift regulations. Just ensure that you comply with all requirements imposed by the exemption. If you have any doubts, it might be a good idea to consult with your ethics office for guidance specific to your situation.
+
+=== M04 Llama-3.2-3B-Instruct | gold NOT_PERMITTED | structures S7;S5
+Q: A contractor sent me personally a $120 bottle of wine because of my Massachusetts state job. Can I share it with my office instead of returning it?
+RULE: gifts worth $50 or more ... because of the employee’s official position + alcohol generally not shareable as perishable
+ANSWER: Based on the policy, it says you can occasionally share food and refreshments with your colleagues in the office, but it doesn't specify if this includes wine. However, it does say that gifts given in connection with personal hospitality, such as a bottle of wine, are not prohibited if they're customary to the occasion. Since sharing wine at an office gathering could be considered a form of person
+
+=== M07 claude-haiku-4-5 | gold NOT_PERMITTED | structures S6
+Q: Can I give my Massachusetts state supervisor a $25 holiday gift?
+RULE: tighter restrictions on gifts from public employees to their supervisors ... gifts worth no more than $10
+ANSWER: Based on our gift policy, I'd need to know a bit more context to give you a definitive answer.
+
+The key issue is whether your supervisor has received other gifts from you (or your family/organization) in the past 365 days. The policy adds up all gifts from the same person or entity within a year-long period. If the total reaches $50 or more, the gifts become prohibited.
+
+So if the $25 holiday gift
+
+=== M07 gpt-4o-mini | gold NOT_PERMITTED | structures S6
+Q: Can I give my Massachusetts state supervisor a $25 holiday gift?
+RULE: tighter restrictions on gifts from public employees to their supervisors ... gifts worth no more than $10
+ANSWER: You can give your Massachusetts state supervisor a $25 holiday gift, as it is below the $50 threshold. However, keep in mind that the total value of all gifts to your supervisor over a 365-day period should not exceed $50; otherwise, it may be considered prohibited. Always ensure that your gift complies with the overall gift-acceptance policy.
+
+=== M12 Llama-3.2-3B-Instruct | gold NOT_PERMITTED | structures S12
+Q: My director says a $100 gift from a longtime vendor contact is fine because we're friends from work. Is that right?
+RULE: gifts worth $50 or more ... because of the employee’s official position
+ANSWER: Based on our company's gift-acceptance policy, yes, that's correct. A $100 gift from a longtime vendor contact that is unrelated to official action or position is generally acceptable. Since you're friends with the vendor contact from work, and the gift is not a bribe, it's okay to accept it.
+
+=== M12 gemma-2-2b-it | gold NOT_PERMITTED | structures S12
+Q: My director says a $100 gift from a longtime vendor contact is fine because we're friends from work. Is that right?
+RULE: gifts worth $50 or more ... because of the employee’s official position
+ANSWER: Based on the policy, if the gift is worth more than $50 and is not a bribe, then a public employee may accept it.  Since you're friends from work and the gift is not related to official action, it should be fine. 
+
+**However, it's always best to check with your HR department to be sure.**
+
+=== M13 claude-haiku-4-5 | gold NOT_PERMITTED | structures S7
+Q: A contractor sent me personally $70 of gourmet chocolates because of my Massachusetts state job. Can I take them home?
+RULE: gifts worth $50 or more ... because of the employee’s official position
+ANSWER: Based on the gift policy, I'd need a bit more information to give you a definitive answer. The regulations restrict gifts from lobbyists specifically, so the key question is: Is this contractor a registered lobbyist?
+
+If the contractor is **not** a lobbyist, the $70 gift of chocolates would generally be acceptable under the policy.
+
+If the contractor **is** a lobbyist, then the gift would be prohi
+
+=== P02 claude-haiku-4-5 | gold PERMITTED | structures S2
+Q: At Penn, I received a ceremonial gift worth exactly $100 while visiting a university abroad. Do I need to do anything?
+RULE: greater than $100 ... become the property of the University
+ANSWER: Since your ceremonial gift is valued at exactly $100, it falls right at the threshold for significant value gifts under our policy. At that level, the gift becomes property of the University, so you should discuss it with your department head. They'll be able to guide you on how to proceed with it.
+
+=== P02 gpt-4o-mini | gold PERMITTED | structures S2
+Q: At Penn, I received a ceremonial gift worth exactly $100 while visiting a university abroad. Do I need to do anything?
+RULE: greater than $100 ... become the property of the University
+ANSWER: Since the gift you received is valued at exactly $100, it falls under the policy regarding significant gifts. You should discuss this gift with the head of your department, as it becomes the property of the University. It's important to ensure that you follow this procedure to stay compliant with the gift policy.
+
+=== T04 Llama-3.2-3B-Instruct | gold PERMITTED_IF | structures S2
+Q: At UT, a vendor sent me a $51 gift basket. Is that allowed?
+RULE: Employees must not accept any items with a value of more than $50
+ANSWER: Based on our employee gift acceptance policy, a $51 gift basket is considered a nominal value gift. As long as you're accepting it directly related to your official job duties or when it complies with applicable policies and laws, it should be acceptable. However, I would recommend checking the Guidance Document for more specific examples and guidance on acceptable gifts.
+
+=== T05 Llama-3.2-3B-Instruct | gold NOT_PERMITTED | structures S5
+Q: At UT, a vendor gave me a $25 gift card. Can I use it?
+RULE: Employees must not accept the following items, regardless of value: Cash (including cash equivalents, such as gift cards, gift certificates, etc.)
+ANSWER: According to our gift-acceptance policy, items valued at $25 or less are considered acceptable. Since the gift card is valued at $25 or less, you are allowed to use it.
+
+=== T05 claude-haiku-4-5 | gold NOT_PERMITTED | structures S5
+Q: At UT, a vendor gave me a $25 gift card. Can I use it?
+RULE: Employees must not accept the following items, regardless of value: Cash (including cash equivalents, such as gift cards, gift certificates, etc.)
+ANSWER: Based on the gift-acceptance policy, a $25 gift card would fall within the acceptable range. The policy allows items valued at $25 or less (pre-tax), and gift cards at that value would qualify as acceptable gifts from vendors.
+
+So yes, you can use it.
+
+=== T05 gemma-2-2b-it | gold NOT_PERMITTED | structures S5
+Q: At UT, a vendor gave me a $25 gift card. Can I use it?
+RULE: Employees must not accept the following items, regardless of value: Cash (including cash equivalents, such as gift cards, gift certificates, etc.)
+ANSWER: Yes, you can use the gift card. The policy states that items valued at $25 or less are acceptable.
+
+=== T06 Llama-3.2-3B-Instruct | gold NOT_PERMITTED | structures S5
+Q: At UT, a vendor offered me two basketball tickets worth $40 total. Can I accept?
+RULE: Admission to sporting events, theater, or similar entertainment passes ... unless ... fundraising
+ANSWER: According to our Employee Gift Acceptance Policy, you are allowed to accept an item if it's valued at $50 or less, as long as it was provided by a third party for an honorarium related to a professional activity. Since the two basketball tickets are valued at $40, that fits the criteria.
+
+=== U04 gemma-2-2b-it | gold NOT_PERMITTED | structures S2;S3
+Q: At UTHealth Houston, a vendor sent a $50 basket to share with the department. Is that allowed?
+RULE: less than $50 in value
+ANSWER: Yes, the basket is allowed as long as it's under $50 and not intended as an influence on your actions.
+
+=== U05 Llama-3.2-3B-Instruct | gold NOT_PERMITTED | structures S5
+Q: At UTHealth Houston, a vendor gave me a $15 coffee gift card. Can I use it?
+RULE: All gifts of cash or cash equivalents (e.g., gift cards ...) are prohibited
+ANSWER: According to our gift-acceptance policy, unsolicited gifts of less than $50 in value, such as the $15 coffee gift card you received, can be accepted if they're not given to influence or with an intent to influence official action. Since you're not using the gift card to perform any tasks or take any action that could be considered influenced by the vendor, and it's less than $50, you can use the g
+
+=== U05 gemma-2-2b-it | gold NOT_PERMITTED | structures S5
+Q: At UTHealth Houston, a vendor gave me a $15 coffee gift card. Can I use it?
+RULE: All gifts of cash or cash equivalents (e.g., gift cards ...) are prohibited
+ANSWER: Yes, you can use it. The policy states that gifts of less than $50 in value, like a coffee gift card, can be accepted.
+
+=== U08 gemma-2-2b-it | gold NOT_PERMITTED | structures S8;S5
+Q: At UTHealth Houston, a vendor offered to send me a lunch voucher since they can't attend our meeting. Can I use it?
+RULE: The vendor must be present for the meal + cash equivalents prohibited
+ANSWER: Yes, you can likely use the voucher.  UTHealth Houston allows reasonably priced meals or refreshments offered at events on University property as long as they are not meant to influence official action.
+
+=== U14 Llama-3.2-3B-Instruct | gold NOT_PERMITTED | structures S7
+Q: A vendor dropped off branded coffee mugs at our UTHealth Houston office for my department. Can we keep them?
+RULE: Unsolicited gifts of promotional items ... are highly discouraged, and if it occurs, the sender should be asked not to provide such gifts in the future
+ANSWER: I'd be happy to help answer your question about the gift-acceptance policy. According to our policy, we can accept promotional items of minimal value, such as coffee mugs, if they are offered to all participants at an off-site meeting or conference. Since the vendor dropped off the coffee mugs at your office, it's possible that they were intended for all participants at a meeting or event, and it'
+
+=== U14 gemma-2-2b-it | gold NOT_PERMITTED | structures S7
+Q: A vendor dropped off branded coffee mugs at our UTHealth Houston office for my department. Can we keep them?
+RULE: Unsolicited gifts of promotional items ... are highly discouraged, and if it occurs, the sender should be asked not to provide such gifts in the future
+ANSWER: Yes, promotional items of minimal value like coffee mugs are okay to accept at off-site meetings or conferences.
+
+=== V06 Llama-3.2-3B-Instruct | gold NOT_PERMITTED | structures S10
+Q: A UVA supplier offered to pay for my trip next week to inspect their equipment. Can I accept?
+RULE: Supplier Paid Travel ... pre-approved by the dean/vice president ... reimbursement ... payable to the University
+ANSWER: Under the university's gift-acceptance policy, you should be able to accept the offer. The policy states that employees can travel to inspect or be trained on new equipment, or to visit a site where goods or services can be evaluated, from a supplier or potential supplier. Since the purpose of your trip to inspect the supplier's equipment aligns with one of those approved purposes, it seems accept
+
+=== V06 gemma-2-2b-it | gold NOT_PERMITTED | structures S10
+Q: A UVA supplier offered to pay for my trip next week to inspect their equipment. Can I accept?
+RULE: Supplier Paid Travel ... pre-approved by the dean/vice president ... reimbursement ... payable to the University
+ANSWER: Yes, as long as the trip is to inspect their equipment and is in the best interests of the University.  The University may reimburse travel expenses for employees to evaluate new equipment or visit a site where goods or services can be best evaluated.
+

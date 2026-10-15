@@ -1,0 +1,23 @@
+{
+  "file": "clause_labels_v2_FROZEN_2026-10-11.csv",
+  "sha256": "d4a25ec41bb3a7cd0162fe72e93458ee762bd6982e61451d91e20fe7b79cc0bd",
+  "frozen_at": "2026-10-11T15:46:39",
+  "sources": {
+    "round 1 and annotator 3 agree": 71,
+    "adjudicated": 14,
+    "auto-adopted (verbatim check)": 9,
+    "n/a (unnamed institution or out of scope)": 10
+  },
+  "label_counts": {
+    "NO": 32,
+    "YES": 56,
+    "PARTIAL": 6
+  },
+  "agreement_before_adjudication": {
+    "three_category_raw": "71/94",
+    "three_category_kappa": 0.57,
+    "yes_vs_not_yes_raw": "79/94",
+    "yes_vs_not_yes_kappa": 0.69
+  },
+  "note": "Supersedes the clause_in_retrieved column of labels_FROZEN_2026-09-30.csv and labels_ext_FROZEN_2026-10-01.csv (compliance labels unchanged)."
+}

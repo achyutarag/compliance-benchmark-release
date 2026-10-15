@@ -1,0 +1,42 @@
+items: 396 answers, violations 72, compliant 324; unparseable/failed: 0
+
+=== Detection on the same answers (retrieved-chunk judges are restricted to these items)
+auditor                                             recall           FPR              J [95% CI]   precision
+GPT-5.5 full policy + question                  68/72  94%    104/324  32%   +0.62 [+0.53, +0.71]        0.40
+GPT-5.5 2 chunks + question                     50/72  69%     76/324  23%   +0.46 [+0.32, +0.59]        0.40
+GPT-5.5 2 chunks, no question (main)            44/72  61%     96/324  30%   +0.31 [+0.16, +0.48]        0.31
+Sonnet 5.5 full policy + question               69/72  96%    121/324  37%   +0.58 [+0.49, +0.67]        0.36
+Sonnet 5.5 2 chunks + question                  57/72  79%     92/324  28%   +0.51 [+0.37, +0.63]        0.38
+Sonnet 5.5 2 chunks, no question (main)         50/72  69%    117/324  36%   +0.33 [+0.19, +0.48]        0.30
+MiniCheck (retrieved)                           65/72  90%    291/324  90%   +0.00                        0.18
+DeBERTa-L contradiction (retrieved)              3/72   4%      9/324   3%   +0.01                        0.25
+DeBERTa-L not entailed (retrieved)              27/72  38%    105/324  32%   +0.05                        0.20
+RoBERTa contradiction (retrieved)               11/72  15%     69/324  21%   -0.06                        0.14
+RoBERTa not entailed (retrieved)                61/72  85%    269/324  83%   +0.02                        0.18
+MSCG (retrieved)                                23/72  32%     62/324  19%   +0.13                        0.27
+DNA (retrieved)                                 71/72  99%    320/324  99%   -0.00                        0.18
+best grounding check / modular auditor by informedness on these answers: MSCG
+
+=== Question-level permutation tests (full policy + question minus comparator)
+  GPT-5.5 full vs [GPT-5.5 2 chunks + question] recall: +0.25, p = 0.0002
+  GPT-5.5 full vs [GPT-5.5 2 chunks + question] fpr: +0.09, p = 0.0285
+  GPT-5.5 full vs [GPT-5.5 2 chunks + question] J: +0.16, p = 0.0513
+  GPT-5.5 full vs [GPT-5.5 2 chunks, no question (main)] recall: +0.33, p = 0.0006
+  GPT-5.5 full vs [GPT-5.5 2 chunks, no question (main)] fpr: +0.02, p = 0.5598
+  GPT-5.5 full vs [GPT-5.5 2 chunks, no question (main)] J: +0.31, p = 0.0034
+  GPT-5.5 full vs [MSCG] recall: +0.62, p = 0.0000
+  GPT-5.5 full vs [MSCG] fpr: +0.13, p = 0.0084
+  GPT-5.5 full vs [MSCG] J: +0.50, p = 0.0001
+  Sonnet 5.5 full vs [Sonnet 5.5 2 chunks + question] recall: +0.17, p = 0.0074
+  Sonnet 5.5 full vs [Sonnet 5.5 2 chunks + question] fpr: +0.09, p = 0.0227
+  Sonnet 5.5 full vs [Sonnet 5.5 2 chunks + question] J: +0.08, p = 0.3636
+  Sonnet 5.5 full vs [Sonnet 5.5 2 chunks, no question (main)] recall: +0.26, p = 0.0005
+  Sonnet 5.5 full vs [Sonnet 5.5 2 chunks, no question (main)] fpr: +0.01, p = 0.7982
+  Sonnet 5.5 full vs [Sonnet 5.5 2 chunks, no question (main)] J: +0.25, p = 0.0038
+  Sonnet 5.5 full vs [MSCG] recall: +0.64, p = 0.0000
+  Sonnet 5.5 full vs [MSCG] fpr: +0.18, p = 0.0005
+  Sonnet 5.5 full vs [MSCG] J: +0.46, p = 0.0002
+
+=== Recall / FPR by answer model (full policy + question)
+  GPT-5.5     claude: 11/11 (24/88 FP) | gpt: 10/12 (24/87 FP) | Llama: 20/21 (36/78 FP) | gemma: 27/28 (20/71 FP)
+  Sonnet 5.5  claude: 11/11 (28/88 FP) | gpt: 10/12 (25/87 FP) | Llama: 20/21 (40/78 FP) | gemma: 28/28 (28/71 FP)

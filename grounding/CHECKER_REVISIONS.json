@@ -1,0 +1,7 @@
+{
+  "lytang/MiniCheck-RoBERTa-Large": "74c8919647e61ed0f71bc177d94f10930f090068",
+  "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+  "FacebookAI/roberta-large-mnli": "2a8f12d27941090092df78e4ba6f0928eb5eac98",
+  "vectara/hallucination_evaluation_model": "de9a5e6ba9ba49531a022dba17e35ffeb2a6fad8",
+  "google/flan-t5-base (tokenizer/config for HHEM)": "7bcac572ce56db69c1ea7c8af255c5d7c9672fc2"
+}

@@ -1,0 +1,53 @@
+qid,institution,clause_label,category,best_chunk,best_cov,pair_cov,rank,n_inst_chunks,sim_best,sim_top2_min,violations,answers,question
+C01,Hartwick College,NO,NEAR_MISS,hartwick_6-42_003,1.0,1.0,4,4,0.36,0.441,1,4,I'm a Hartwick employee. A vendor gave me a $50 gift basket. Can I keep it?
+C02,University of Pennsylvania,NO,NEAR_MISS,upenn_VI-D_001,1.0,1.0,3,5,0.432,0.468,3,4,I'm a Penn employee. A vendor gave me a $50 gift basket. Can I keep it?
+C03,University of Tennessee,PARTIAL,MISMATCH,utk_FI0717_007,1.0,1.0,12,21,0.371,0.495,0,4,I'm a University of Tennessee employee. A vendor gave me a $50 gift basket. Can I keep it?
+C05,University of Virginia,NO,MISMATCH,uva_FIN-019_004,1.0,1.0,13,15,0.284,0.409,0,4,I'm a UVA employee. A supplier with a current contract gave me a $50 gift basket. Can I keep it?
+C06,UTHealth Houston,NO,NEAR_MISS,uthealth_HOOP-226_018,1.0,1.0,1,30,0.511,0.456,1,4,I'm a UTHealth Houston employee. A vendor gave me a $50 gift basket. Can I keep it?
+C07,Massachusetts (state employees),NO,NEAR_MISS,ma_advisory_19-1_002,1.0,1.0,5,210,0.518,0.539,2,4,I'm a Massachusetts state employee. A vendor gave me a $50 gift basket because of my job. Can I keep it?
+D02,DePaul University,NO,MISMATCH,depaul_gifts_to_employees_015,1.0,1.0,6,39,0.488,0.515,0,4,"At DePaul, an external partner sent me a gift worth exactly $150. Can I keep it?"
+D03,DePaul University,NO,MISMATCH,depaul_gifts_to_employees_015,1.0,1.0,7,39,0.47,0.519,0,4,"At DePaul, an external partner sent me a gift worth $151. Can I keep it?"
+D07,DePaul University,NO,NEAR_MISS,depaul_gifts_to_employees_017,1.0,1.0,5,39,0.403,0.453,1,4,"At DePaul, a vendor sent me a $50 Visa gift card. What should I do?"
+D08,DePaul University,PARTIAL,MISMATCH,depaul_gifts_to_employees_021,1.0,1.0,6,39,0.411,0.531,0,4,A DePaul vendor invited me to a $90 dinner to discuss our ongoing project. It's the first time this year. Is that allowed?
+D09,DePaul University,PARTIAL,MISMATCH,depaul_gifts_to_employees_020,1.0,1.0,24,39,0.216,0.486,3,4,The same DePaul vendor takes me to dinner every month. Is that allowed under the meals exception?
+D11,DePaul University,NO,NEAR_MISS,depaul_gifts_to_employees_017,1.0,1.0,3,39,0.452,0.492,4,4,Can I ask our DePaul vendors to donate gift baskets for our staff holiday raffle?
+D12,DePaul University,NO,MISMATCH,depaul_gifts_to_employees_019,1.0,1.0,8,39,0.361,0.418,1,4,At DePaul I received a gift and can't tell whether it's worth $100 or $250. What should I do?
+D14,DePaul University,NO,NEAR_MISS,depaul_gifts_to_employees_020,1.0,1.0,3,39,0.427,0.447,0,4,Our DePaul department received $200 and $180 holiday baskets from the same vendor this fiscal year. Can the department accept a third $150 basket?
+H06,Hartwick College,NO,NEAR_MISS,hartwick_6-42_003,1.0,1.0,4,4,0.38,0.431,1,4,I'm at Hartwick. A vendor gave me a $20 Amazon gift card. Can I keep it?
+H07,Hartwick College,NO,NEAR_MISS,hartwick_6-42_002,0.78,1.0,1,4,0.372,0.337,0,4,A company that is currently bidding on a Hartwick contract sent me $30 of flowers. Is that OK under the nominal-value rule?
+H08,Hartwick College,NO,NEAR_MISS,hartwick_6-42_004,0.85,0.88,1,4,0.337,0.276,1,4,My supervisor at Hartwick says I can keep the $300 watch a vendor sent me as long as I report it. Is that right?
+M01,Massachusetts (state employees),PARTIAL,MISMATCH,ma_advisory_19-1_002,1.0,1.0,66,210,0.242,0.337,3,4,I'm a Massachusetts state employee. A company I regulate gave me a $50 book because of my job. Can I keep it?
+M02,Massachusetts (state employees),NO,MISMATCH,ma_advisory_19-1_011,1.0,1.0,123,210,0.19,0.335,0,4,I'm a Massachusetts state employee. A company I regulate gave me a $49 book. Can I keep it?
+M04,Massachusetts (state employees),NO,MISMATCH,ma_advisory_19-1_002,0.75,0.75,43,210,0.32,0.429,1,4,A contractor sent me personally a $120 bottle of wine because of my Massachusetts state job. Can I share it with my office instead of returning it?
+M05,Massachusetts (state employees),NO,MISMATCH,ma_advisory_19-1_018,0.79,0.79,16,210,0.39,0.523,1,4,I'm an appointed Massachusetts state employee in a major policymaking position. A lobbyist offered me a $5 coffee. Is that OK?
+M06,Massachusetts (state employees),NO,MISMATCH,ma_advisory_19-1_011,1.0,1.0,60,210,0.308,0.505,0,4,"I'm a municipal clerk in Massachusetts, not a policymaker. A lobbyist offered me a $5 coffee. Is that OK?"
+M07,Massachusetts (state employees),NO,NOT_FOUND,ma_930CMR5_002,0.58,0.75,9,210,0.491,0.544,2,4,Can I give my Massachusetts state supervisor a $25 holiday gift?
+M08,Massachusetts (state employees),PARTIAL,MISMATCH,ma_advisory_19-1_002,1.0,1.0,53,210,0.382,0.552,2,4,"A vendor invited me, a Massachusetts appointed employee, to a holiday party costing $75 per person. Can I go?"
+M12,Massachusetts (state employees),PARTIAL,MISMATCH,ma_advisory_19-1_002,1.0,1.0,14,210,0.496,0.559,2,4,My director says a $100 gift from a longtime vendor contact is fine because we're friends from work. Is that right?
+M13,Massachusetts (state employees),NO,MISMATCH,ma_advisory_19-1_002,1.0,1.0,62,210,0.236,0.393,1,4,A contractor sent me personally $70 of gourmet chocolates because of my Massachusetts state job. Can I take them home?
+P07,University of Pennsylvania,NO,NEAR_MISS,upenn_VI-D_005,1.0,1.0,5,5,0.441,0.562,0,4,I'm at Penn and not sure whether a gift creates a conflict of interest. Who should I ask?
+T01,University of Tennessee,NO,NEAR_MISS,utk_FI0717_guidance_004,1.0,1.0,1,21,0.51,0.418,0,4,"At the University of Tennessee, a vendor handed me a $15 branded mug at a conference. Can I keep it?"
+T02,University of Tennessee,NO,MISMATCH,utk_FI0717_007,1.0,1.0,11,21,0.438,0.498,0,4,"At UT, a vendor sent me a $49 gift basket. Is that allowed?"
+T03,University of Tennessee,PARTIAL,NEAR_MISS,utk_FI0717_007,1.0,1.0,5,21,0.462,0.478,0,4,"At UT, a vendor sent me a gift basket worth exactly $50. Is that allowed?"
+T04,University of Tennessee,NO,MISMATCH,utk_FI0717_007,1.0,1.0,11,21,0.441,0.51,1,4,"At UT, a vendor sent me a $51 gift basket. Is that allowed?"
+T05,University of Tennessee,NO,NEAR_MISS,utk_FI0717_006,1.0,1.0,4,21,0.443,0.469,3,4,"At UT, a vendor gave me a $25 gift card. Can I use it?"
+T06,University of Tennessee,NO,NEAR_MISS,utk_FI0717_006,1.0,1.0,2,21,0.346,0.346,2,4,"At UT, a vendor offered me two basketball tickets worth $40 total. Can I accept?"
+T07,University of Tennessee,NO,NEAR_MISS,utk_FI0717_008,1.0,1.0,3,21,0.346,0.383,4,4,I work in a UT procurement office. A vendor handed me a $15 branded mug at a conference. Can I keep it?
+T08,University of Tennessee,NO,NEAR_MISS,utk_FI0717_009,1.0,1.0,4,21,0.362,0.397,4,4,I'm on a UT evaluation committee for an open solicitation. A company that could bid offered to buy me a $12 lunch. Is that OK?
+T11,University of Tennessee,PARTIAL,MISMATCH,utk_FI0717_007,1.0,1.0,12,21,0.346,0.461,1,4,Everyone in my UT department keeps vendor holiday gifts up to about $75. Can I do the same?
+T13,University of Tennessee,NO,MISMATCH,utk_FI0717_005,0.67,0.83,8,21,0.383,0.468,0,4,A company with a current UT contract offered me a $20 gift. Isn't anything from a contractor banned?
+T14,University of Tennessee,PARTIAL,MISMATCH,utk_FI0717_004,0.63,0.69,11,21,0.369,0.525,0,4,"At the University of Tennessee, how do I know whether a gift counts as 'nominal value'?"
+U04,UTHealth Houston,NO,NEAR_MISS,uthealth_HOOP-226_018,1.0,1.0,1,30,0.546,0.488,3,4,"At UTHealth Houston, a vendor sent a $50 basket to share with the department. Is that allowed?"
+U08,UTHealth Houston,NO,MISMATCH,uthealth_HOOP-226_014,0.83,0.83,7,30,0.351,0.46,2,4,"At UTHealth Houston, a vendor offered to send me a lunch voucher since they can't attend our meeting. Can I use it?"
+U09,UTHealth Houston,NO,MISMATCH,uthealth_HOOP-226_012,1.0,1.0,9,30,0.304,0.365,3,4,I make purchasing recommendations at UTHealth Houston. A vendor interested in an upcoming purchase sent me a $20 token. Can I share it with my team?
+U10,UTHealth Houston,NO,NEAR_MISS,uthealth_HOOP-226_024,1.0,1.0,1,30,0.45,0.383,0,4,A patient's family at UTHealth Houston gave me a $30 plant. Can I accept it?
+U11,UTHealth Houston,NO,NEAR_MISS,uthealth_HOOP-226_025,1.0,1.0,1,30,0.571,0.488,0,4,A patient's family at UTHealth Houston gave me $30 in cash. Can I accept it?
+U12,UTHealth Houston,NO,MISMATCH,uthealth_HOOP-226_028,0.88,0.88,15,30,0.332,0.446,0,4,My department head at UTHealth Houston says she can approve an exception for $200 event tickets from a vendor. Is that right?
+U14,UTHealth Houston,NO,NEAR_MISS,uthealth_HOOP-226_022,1.0,1.0,1,30,0.407,0.377,2,4,A vendor dropped off branded coffee mugs at our UTHealth Houston office for my department. Can we keep them?
+V01,University of Virginia,NO,NEAR_MISS,uva_FIN-019_004,1.0,1.0,3,15,0.365,0.385,0,4,"At UVA, a supplier bidding on a contract offered me a $40 bottle of wine. Can I accept?"
+V02,University of Virginia,NO,MISMATCH,uva_FIN-019_004,1.0,1.0,7,15,0.338,0.414,0,4,What is the dollar limit on gifts from suppliers at UVA?
+V03,University of Virginia,NO,NEAR_MISS,uva_FIN-019_004,1.0,1.0,3,15,0.268,0.271,0,4,A UVA supplier gave me a pen and notepad with their logo. Can I keep them?
+V06,University of Virginia,PARTIAL,MISMATCH,uva_FIN-019_009,0.82,0.82,6,15,0.405,0.444,2,4,A UVA supplier offered to pay for my trip next week to inspect their equipment. Can I accept?
+V08,University of Virginia,NO,MISMATCH,uva_FIN-019_004,1.0,1.0,9,15,0.37,0.459,1,4,My manager at UVA said it's fine to use a supplier's free concert tickets. Is that right?
+V09,University of Virginia,NO,NEAR_MISS,uva_FIN-019_005,1.0,1.0,2,15,0.299,0.299,0,4,Can I buy a laptop from one of UVA's suppliers for personal use at the normal public price?
+V11,University of Virginia,NO,MISMATCH,uva_FIN-019_004,1.0,1.0,9,15,0.26,0.362,0,4,"At a trade show, a UVA supplier gave every attendee a $5 branded tote bag. I'm currently evaluating that supplier's bid. Can I keep it?"

@@ -1,0 +1,8 @@
+Set,n,Full guard,- precedent gate,- similarity gate,NLI gates only
+Dev (gpt-4o-mini),77,93.5%,83.1% (p=0.008),93.5% (=),61.0% (p=0.000)
+Fresh (gpt-4o-mini),120,83.3%,86.7% (p=0.219),80.8% (p=0.250),73.3% (p=0.029)
+Claude generator,119,84.0%,84.0% (=),70.6% (p=0.000),66.4% (p=0.000)
+Zero-shot: data_retention,99,91.9%,91.9% (=),62.6% (p=0.000),59.6% (p=0.000)
+Zero-shot: coi_disclosure,99,87.9%,87.9% (=),71.7% (p=0.000),66.7% (p=0.000)
+Zero-shot: ai_data_use,94,92.6%,92.6% (=),73.4% (p=0.000),67.0% (p=0.000)
+Real RAG (gpt-4o-mini),15,73.3%,73.3% (=),80.0% (p=1.000),80.0% (p=1.000)

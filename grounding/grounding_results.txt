@@ -1,0 +1,16 @@
+
+retrieved context (n=416, violations=79)
+  MiniCheck (support<0.5)  recall 72/79 ( 91%)  FPR  90%  acc 25.7%  AUROC 0.46 [0.39, 0.52]
+  DeBERTa-L argmax=contra  recall  7/79 (  9%)  FPR   3%  acc 80.0%  AUROC 0.59 [0.52, 0.66]
+  DeBERTa-L E<0.5          recall 32/79 ( 41%)  FPR  33%  acc 62.3%  AUROC 0.57 [0.49, 0.64]
+  MSCG                     recall 26/79 ( 33%)  FPR  19%  acc 71.9%
+  GPT-5.5 judge            recall 49/79 ( 62%)  FPR  31%  acc 68.0%
+  Sonnet 5.5 judge         recall 54/79 ( 68%)  FPR  38%  acc 63.5%
+
+oracle context (n=376, violations=69)
+  MiniCheck (support<0.5)  recall 64/69 ( 93%)  FPR  90%  acc 25.0%  AUROC 0.61 [0.54, 0.68]
+  DeBERTa-L argmax=contra  recall  4/69 (  6%)  FPR   3%  acc 80.6%  AUROC 0.62 [0.54, 0.69]
+  DeBERTa-L E<0.5          recall 45/69 ( 65%)  FPR  46%  acc 56.4%  AUROC 0.66 [0.58, 0.74]
+  MSCG                     recall 26/69 ( 38%)  FPR  19%  acc 73.1%
+  GPT-5.5 judge            recall 63/69 ( 91%)  FPR  45%  acc 61.7%
+  Sonnet 5.5 judge         recall 64/69 ( 93%)  FPR  50%  acc 57.7%

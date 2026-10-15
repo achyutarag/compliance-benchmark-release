@@ -1,0 +1,209 @@
+row_id,qid,answer_model,clause_label,quote,notes,quote_check
+C001,M06,claude-haiku-4-5,NO,,<$50 acceptance rule not present in retrieved text.,ok
+C002,V08,gpt-4o-mini,NO,,,ok
+C003,D12,claude-haiku-4-5,NO,,,ok
+C004,O01,claude-haiku-4-5,N/A,,,ok
+C005,N02,gpt-4o-mini,N/A,,,ok
+C006,P06,claude-haiku-4-5,YES,"GIFT POLICY (Source: Division of Human Resources, Almanac, July 17, 2007) In order to avoid a conflict of interest or the appearance of a conflict of interest, at no time should an employee solicit or accept personal gifts from current or potential vendors, contractors or their agents, local businesses, University departments, or others with whom there is a potential or ongoing business or profess",,ok
+C007,V06,gpt-4o-mini,PARTIAL,"In some circumstances, arrangements may be made for suppliers or potential suppliers to reimburse the University for travel expenses incurred by University employees to inspect or be trained on new equipment; to visit a site where goods or services can best be evaluated; or for some other purpose which is in the best interests of the University.",Reimbursement-to-University present; full dean/VP pre-approval condition may be incomplete.,ok
+C008,T14,gpt-4o-mini,PARTIAL,valued at $25 or less (pre-tax).,Guidance $25 present; hard >$50 prohibition may be missing.,ok
+C009,U05,gpt-4o-mini,YES,"All gifts of cash or cash equivalents (e.g., gift cards, gift certificates, or credits) from industry/vendors, potential vendors or others who are or may become interested in a financial transaction with the University are prohibited.",,ok
+C010,T08,gpt-4o-mini,NO,,,ok
+C011,P08,gpt-4o-mini,YES,Gratuities or gifts of money to the employee cannot be accepted at any time and should be returned immediately to the donor.,,ok
+C012,T12,claude-haiku-4-5,YES,"Employees may accept gifts that are available to all state of Tennessee or all University employees, such as discounts.",,ok
+C013,P10,gpt-4o-mini,YES,"If the value of the gift is undetermined, it should be returned.",,ok
+C014,H01,claude-haiku-4-5,YES,"This policy does not prohibit casual entertainment or business entertainment consistent with the College’s usual practices, or gifts which are reasonably viewed under the circumstances in which they are given or received to be of “nominal” value, which would be any gift in kind of less than $50.",,ok
+C015,U02,claude-haiku-4-5,YES,"Tokens of appreciation from industry/vendors: Unsolicited gifts of less than $50 in value, such as small gift baskets at the holidays, that are not given to influence or with an intent to influence official action may be accepted but should be placed in a common area within the department for sharing and not kept for personal use.",,ok
+C016,M08,claude-haiku-4-5,PARTIAL,Example: The host of an event pays a set fee of $75 per person for a catered event.,Threshold examples present; explicit “because of official position” clause incomplete.,ok
+C017,N01,gpt-4o-mini,N/A,,,ok
+C018,V07,gpt-4o-mini,YES,"Discount coupons or other items of value received in connection with a procurement transaction, even if not included in that transaction, also become the property of the University.",,ok
+C019,M10,gpt-4o-mini,YES,A public school teacher may accept gifts during the school year totaling up to $150 if a gift is identified as being from the class and the names of the givers and amounts given are not identified to the teacher.,,ok
+C020,M10,claude-haiku-4-5,YES,A public school teacher may accept gifts during the school year totaling up to $150 if a gift is identified as being from the class and the names of the givers and amounts given are not identified to the teacher.,,ok
+C021,U01,claude-haiku-4-5,YES,"Tokens of appreciation from industry/vendors: Unsolicited gifts of less than $50 in value, such as small gift baskets at the holidays, that are not given to influence or with an intent to influence official action may be accepted but should be placed in a common area within the department for sharing and not kept for personal use.",,ok
+C022,T10,claude-haiku-4-5,YES,"Employee Responsibility When an Employee Receives an Unacceptable Gift Generally When a person or entity provides an employee with an unacceptable gift, the employee must refuse or return the gift.",,ok
+C023,U01,gpt-4o-mini,YES,"Tokens of appreciation from industry/vendors: Unsolicited gifts of less than $50 in value, such as small gift baskets at the holidays, that are not given to influence or with an intent to influence official action may be accepted but should be placed in a common area within the department for sharing and not kept for personal use.",,ok
+C024,U13,claude-haiku-4-5,YES,"Promotional items of minimal value: Employees may accept promotional items of minimal value (e.g., pens, coffee mugs) that are offered to all participants at an off-site meeting or conference.",,ok
+C025,D03,claude-haiku-4-5,NO,,,ok
+C026,M11,gpt-4o-mini,YES,"However, a public employee may accept a public employee discount of substantial value if the discount is available to all public employees, to all public employees of a city, town, county, or state, or to a geographically defined class of public employees.",,ok
+C027,U13,gpt-4o-mini,YES,"Promotional items of minimal value: Employees may accept promotional items of minimal value (e.g., pens, coffee mugs) that are offered to all participants at an off-site meeting or conference.",,ok
+C028,U02,gpt-4o-mini,YES,"Tokens of appreciation from industry/vendors: Unsolicited gifts of less than $50 in value, such as small gift baskets at the holidays, that are not given to influence or with an intent to influence official action may be accepted but should be placed in a common area within the department for sharing and not kept for personal use.",,ok
+C029,C03,gpt-4o-mini,PARTIAL,valued at $25 or less (pre-tax).,Guidance $25 present; hard >$50 prohibition may be missing.,ok
+C030,H08,claude-haiku-4-5,NO,,,ok
+C031,V02,claude-haiku-4-5,NO,,,ok
+C032,H09,gpt-4o-mini,YES,"This policy does not prohibit casual entertainment or business entertainment consistent with the College’s usual practices, or gifts which are reasonably viewed under the circumstances in which they are given or received to be of “nominal” value, which would be any gift in kind of less than $50.",,ok
+C033,O04,gpt-4o-mini,N/A,,,ok
+C034,T10,gpt-4o-mini,YES,"Employee Responsibility When an Employee Receives an Unacceptable Gift Generally When a person or entity provides an employee with an unacceptable gift, the employee must refuse or return the gift.",,ok
+C035,M12,claude-haiku-4-5,PARTIAL,"If a gift is worth more than $50 and is not a bribe, it may be accepted under certain circumstances, including the following: Gifts unrelated to official action or position.",Threshold examples present; explicit “because of official position” clause incomplete.,ok
+C036,M09,gpt-4o-mini,YES,A teacher receiving a class gift may not knowingly accept additional gifts from the parents or students who participated in the class gift.,,ok
+C037,H07,gpt-4o-mini,NO,,,ok
+C038,T03,gpt-4o-mini,PARTIAL,valued at $25 or less (pre-tax).,Guidance $25 present; hard >$50 prohibition may be missing.,ok
+C039,D01,claude-haiku-4-5,YES,"Non-cash Gifts from External Parties to Employees University employees are permitted to accept non-cash tangible gifts of a nominal value ($150 or less), for example gift baskets or promotional items, offered by external parties.",,ok
+C040,V03,gpt-4o-mini,NO,,Personal-use ban present; nominal-advertising exception missing.,ok
+C041,P03,claude-haiku-4-5,YES,"greater than $100, consistent with IRS policy), they become the property of the University and should be discussed with the head of the department.",,ok
+C042,T07,gpt-4o-mini,NO,,,ok
+C043,T14,claude-haiku-4-5,PARTIAL,valued at $25 or less (pre-tax).,Guidance $25 present; hard >$50 prohibition may be missing.,ok
+C044,N03,gpt-4o-mini,N/A,,,ok
+C045,T11,claude-haiku-4-5,PARTIAL,valued at $25 or less (pre-tax).,Guidance $25 present; hard >$50 prohibition may be missing.,ok
+C046,P03,gpt-4o-mini,YES,"greater than $100, consistent with IRS policy), they become the property of the University and should be discussed with the head of the department.",,ok
+C047,O04,claude-haiku-4-5,N/A,,,ok
+C048,N05,claude-haiku-4-5,N/A,,,ok
+C049,V09,claude-haiku-4-5,NO,,,ok
+C050,H06,gpt-4o-mini,NO,,,ok
+C051,U10,claude-haiku-4-5,NO,,,ok
+C052,H01,gpt-4o-mini,YES,"This policy does not prohibit casual entertainment or business entertainment consistent with the College’s usual practices, or gifts which are reasonably viewed under the circumstances in which they are given or received to be of “nominal” value, which would be any gift in kind of less than $50.",,ok
+C053,M14,claude-haiku-4-5,YES,"In determining substantial value, the Commission may add together the value of all gifts by a person or entity to a public employee within any 365-day period.",,ok
+C054,D04,claude-haiku-4-5,YES,"However, multiple gifts from the same source totaling more than $300 in value during a single fiscal year cannot be accepted.",,ok
+C055,N03,claude-haiku-4-5,N/A,,,ok
+C056,U14,gpt-4o-mini,NO,,,ok
+C057,C05,gpt-4o-mini,NO,,,ok
+C058,D10,gpt-4o-mini,NO,,,ok
+C059,U11,gpt-4o-mini,NO,,,ok
+C060,V07,claude-haiku-4-5,YES,"Discount coupons or other items of value received in connection with a procurement transaction, even if not included in that transaction, also become the property of the University.",,ok
+C061,C06,gpt-4o-mini,NO,,,ok
+C062,P05,gpt-4o-mini,YES,"greater than $100, consistent with IRS policy), they become the property of the University and should be discussed with the head of the department.",,ok
+C063,U14,claude-haiku-4-5,NO,,,ok
+C064,N05,gpt-4o-mini,N/A,,,ok
+C065,M12,gpt-4o-mini,PARTIAL,"If a gift is worth more than $50 and is not a bribe, it may be accepted under certain circumstances, including the following: Gifts unrelated to official action or position.",Threshold examples present; explicit “because of official position” clause incomplete.,ok
+C066,T02,gpt-4o-mini,NO,,,ok
+C067,C06,claude-haiku-4-5,NO,,,ok
+C068,D01,gpt-4o-mini,YES,"Non-cash Gifts from External Parties to Employees University employees are permitted to accept non-cash tangible gifts of a nominal value ($150 or less), for example gift baskets or promotional items, offered by external parties.",,ok
+C069,T01,gpt-4o-mini,NO,,,ok
+C070,D09,gpt-4o-mini,PARTIAL,"As an exception to the limits stated above, university employees are permitted to accept gifts of meals and entertainment offered by external parties under the following circumstances: • They are a normal and customary business practice.",Meals exception present; occasional/non-repetitive qualifier missing (worked example).,ok
+C071,H07,claude-haiku-4-5,NO,,,ok
+C072,D05,gpt-4o-mini,YES,"Non-cash Gifts from External Parties to Employees University employees are permitted to accept non-cash tangible gifts of a nominal value ($150 or less), for example gift baskets or promotional items, offered by external parties.",,ok
+C073,H03,claude-haiku-4-5,YES,"This policy does not prohibit casual entertainment or business entertainment consistent with the College’s usual practices, or gifts which are reasonably viewed under the circumstances in which they are given or received to be of “nominal” value, which would be any gift in kind of less than $50.",,ok
+C074,O01,gpt-4o-mini,N/A,,,ok
+C075,M09,claude-haiku-4-5,YES,A teacher receiving a class gift may not knowingly accept additional gifts from the parents or students who participated in the class gift.,,ok
+C076,D14,gpt-4o-mini,NO,,,ok
+C077,V08,claude-haiku-4-5,NO,,,ok
+C078,V10,claude-haiku-4-5,YES,"Items of nominal value bearing advertising, (e.g., pens, calendars, or note pads) may be accepted in circumstances that will not affect the integrity of the University Procurement process.",,ok
+C079,H02,gpt-4o-mini,YES,"Gifts to an employee or any College program worth more than $50 should be reported to your immediate supervisor and the Institutional Advancement Office, which is designated to acknowledge and record such gifts to the College.",,ok
+C080,T13,gpt-4o-mini,NO,,,ok
+C081,T04,gpt-4o-mini,NO,,,ok
+C082,D08,claude-haiku-4-5,PARTIAL,"As an exception to the limits stated above, university employees are permitted to accept gifts of meals and entertainment offered by external parties under the following circumstances: • They are a normal and customary business practice.",Meals exception present; occasional/non-repetitive qualifier missing (worked example).,ok
+C083,U12,claude-haiku-4-5,NO,,,ok
+C084,U05,claude-haiku-4-5,YES,"All gifts of cash or cash equivalents (e.g., gift cards, gift certificates, or credits) from industry/vendors, potential vendors or others who are or may become interested in a financial transaction with the University are prohibited.",,ok
+C085,U09,gpt-4o-mini,NO,,,ok
+C086,H05,gpt-4o-mini,YES,"This policy does not prohibit casual entertainment or business entertainment consistent with the College’s usual practices, or gifts which are reasonably viewed under the circumstances in which they are given or received to be of “nominal” value, which would be any gift in kind of less than $50.",,ok
+C087,D13,claude-haiku-4-5,YES,"However, multiple gifts from the same source totaling more than $300 in value during a single fiscal year cannot be accepted.",,ok
+C088,N04,gpt-4o-mini,N/A,,,ok
+C089,P05,claude-haiku-4-5,YES,"greater than $100, consistent with IRS policy), they become the property of the University and should be discussed with the head of the department.",,ok
+C090,D13,gpt-4o-mini,YES,"However, multiple gifts from the same source totaling more than $300 in value during a single fiscal year cannot be accepted.",,ok
+C091,D04,gpt-4o-mini,YES,"However, multiple gifts from the same source totaling more than $300 in value during a single fiscal year cannot be accepted.",,ok
+C092,D10,claude-haiku-4-5,NO,,,ok
+C093,P09,claude-haiku-4-5,YES,"Employees may accept ordinary business courtesies, such as payment for a modest meal or event, or gifts which are promotional items without significant value and which are distributed routinely.",,ok
+C094,P09,gpt-4o-mini,YES,"Employees may accept ordinary business courtesies, such as payment for a modest meal or event, or gifts which are promotional items without significant value and which are distributed routinely.",,ok
+C095,O02,gpt-4o-mini,N/A,,,ok
+C096,H08,gpt-4o-mini,NO,,,ok
+C097,T01,claude-haiku-4-5,NO,,,ok
+C098,V04,claude-haiku-4-5,YES,"This does not prohibit employees from buying goods or services, or obtaining loans, for their personal use where they pay consideration equal to that of the general public for the goods, services or loans; nor does it prohibit employees from accepting meals or beverages from suppliers when offered to a large group of people at a professional event or meeting (e.g., training, trade sh",,ok
+C099,U11,claude-haiku-4-5,NO,,,ok
+C100,P04,gpt-4o-mini,YES,"greater than $100, consistent with IRS policy), they become the property of the University and should be discussed with the head of the department.",,ok
+C101,P01,claude-haiku-4-5,YES,"greater than $100, consistent with IRS policy), they become the property of the University and should be discussed with the head of the department.",,ok
+C102,O02,claude-haiku-4-5,N/A,,,ok
+C103,U08,gpt-4o-mini,NO,,,ok
+C104,T03,claude-haiku-4-5,PARTIAL,valued at $25 or less (pre-tax).,Guidance $25 present; hard >$50 prohibition may be missing.,ok
+C105,T15,gpt-4o-mini,YES,"If the University does not pay for the employee’s travel costs, FI0705 does not apply and the employee may retain the honorarium.",,ok
+C106,M07,claude-haiku-4-5,NO,,,ok
+C107,U07,claude-haiku-4-5,YES,"Business meals: Business meals that serve a legitimate educational or business purpose are permitted with reasonable frequency and supervisor approval, so long as such meals are not provided to influence or with an intent to influence official action.",,ok
+C108,H10,gpt-4o-mini,YES,"Acceptance of cash, gift certificates/cards, or other cash equivalents is not permitted.",,ok
+C109,U08,claude-haiku-4-5,NO,,,ok
+C110,H02,claude-haiku-4-5,YES,"Gifts to an employee or any College program worth more than $50 should be reported to your immediate supervisor and the Institutional Advancement Office, which is designated to acknowledge and record such gifts to the College.",,ok
+C111,T04,claude-haiku-4-5,NO,,,ok
+C112,H06,claude-haiku-4-5,NO,,,ok
+C113,D06,claude-haiku-4-5,YES,"However, multiple gifts from the same source totaling more than $300 in value during a single fiscal year cannot be accepted.",,ok
+C114,U10,gpt-4o-mini,NO,,,ok
+C115,V10,gpt-4o-mini,YES,"Items of nominal value bearing advertising, (e.g., pens, calendars, or note pads) may be accepted in circumstances that will not affect the integrity of the University Procurement process.",,ok
+C116,T07,claude-haiku-4-5,NO,,,ok
+C117,P04,claude-haiku-4-5,YES,"greater than $100, consistent with IRS policy), they become the property of the University and should be discussed with the head of the department.",,ok
+C118,T13,claude-haiku-4-5,NO,,,ok
+C119,N04,claude-haiku-4-5,N/A,,,ok
+C120,M05,claude-haiku-4-5,NO,,,ok
+C121,U12,gpt-4o-mini,NO,,,ok
+C122,M01,claude-haiku-4-5,PARTIAL,"Exemptions (1) A public employee is not prohibited from accepting a gift worth $50 or more where the gift is related to the public employee's official action or position, without violating M.G.L.",Threshold examples present; explicit “because of official position” clause incomplete.,ok
+C123,N01,claude-haiku-4-5,N/A,,,ok
+C124,N02,claude-haiku-4-5,N/A,,,ok
+C125,M03,claude-haiku-4-5,YES,"Unsolicited perishables such as a fruit basket may be accepted on behalf of a public employee’s agency if shared with all agency employees and/or the public, to the extent possible, thereby making them available for public rather than private use.",,ok
+C126,T11,gpt-4o-mini,PARTIAL,valued at $25 or less (pre-tax).,Guidance $25 present; hard >$50 prohibition may be missing.,ok
+C127,V06,claude-haiku-4-5,PARTIAL,"In some circumstances, arrangements may be made for suppliers or potential suppliers to reimburse the University for travel expenses incurred by University employees to inspect or be trained on new equipment; to visit a site where goods or services can best be evaluated; or for some other purpose which is in the best interests of the University.",Reimbursement-to-University present; full dean/VP pre-approval condition may be incomplete.,ok
+C128,U07,gpt-4o-mini,YES,"Business meals: Business meals that serve a legitimate educational or business purpose are permitted with reasonable frequency and supervisor approval, so long as such meals are not provided to influence or with an intent to influence official action.",,ok
+C129,T05,gpt-4o-mini,NO,,,ok
+C130,P06,gpt-4o-mini,YES,"GIFT POLICY (Source: Division of Human Resources, Almanac, July 17, 2007) In order to avoid a conflict of interest or the appearance of a conflict of interest, at no time should an employee solicit or accept personal gifts from current or potential vendors, contractors or their agents, local businesses, University departments, or others with whom there is a potential or ongoing business or profess",,ok
+C131,D02,gpt-4o-mini,NO,,,ok
+C132,M14,gpt-4o-mini,YES,"In determining substantial value, the Commission may add together the value of all gifts by a person or entity to a public employee within any 365-day period.",,ok
+C133,D05,claude-haiku-4-5,YES,"Non-cash Gifts from External Parties to Employees University employees are permitted to accept non-cash tangible gifts of a nominal value ($150 or less), for example gift baskets or promotional items, offered by external parties.",,ok
+C134,P07,claude-haiku-4-5,NO,,Division of Human Resources appears only in source line; confer-with-supervisors sentence missing.,ok
+C135,C01,gpt-4o-mini,NO,,,ok
+C136,D09,claude-haiku-4-5,PARTIAL,"As an exception to the limits stated above, university employees are permitted to accept gifts of meals and entertainment offered by external parties under the following circumstances: • They are a normal and customary business practice.",Meals exception present; occasional/non-repetitive qualifier missing (worked example).,ok
+C137,V03,claude-haiku-4-5,NO,,Personal-use ban present; nominal-advertising exception missing.,ok
+C138,V09,gpt-4o-mini,NO,,,ok
+C139,M05,gpt-4o-mini,NO,,,ok
+C140,V01,claude-haiku-4-5,NO,,,ok
+C141,C05,claude-haiku-4-5,NO,,,ok
+C142,V05,gpt-4o-mini,YES,"This does not prohibit employees from buying goods or services, or obtaining loans, for their personal use where they pay consideration equal to that of the general public for the goods, services or loans; nor does it prohibit employees from accepting meals or beverages from suppliers when offered to a large group of people at a professional event or meeting (e.g., training, trade sh",,ok
+C143,V01,gpt-4o-mini,NO,,,ok
+C144,D06,gpt-4o-mini,YES,"However, multiple gifts from the same source totaling more than $300 in value during a single fiscal year cannot be accepted.",,ok
+C145,H03,gpt-4o-mini,YES,"This policy does not prohibit casual entertainment or business entertainment consistent with the College’s usual practices, or gifts which are reasonably viewed under the circumstances in which they are given or received to be of “nominal” value, which would be any gift in kind of less than $50.",,ok
+C146,H10,claude-haiku-4-5,YES,"Acceptance of cash, gift certificates/cards, or other cash equivalents is not permitted.",,ok
+C147,T15,claude-haiku-4-5,YES,"If the University does not pay for the employee’s travel costs, FI0705 does not apply and the employee may retain the honorarium.",,ok
+C148,U09,claude-haiku-4-5,NO,,,ok
+C149,C02,gpt-4o-mini,NO,,,ok
+C150,M08,gpt-4o-mini,PARTIAL,Example: The host of an event pays a set fee of $75 per person for a catered event.,Threshold examples present; explicit “because of official position” clause incomplete.,ok
+C151,D03,gpt-4o-mini,NO,,,ok
+C152,T06,gpt-4o-mini,NO,,,ok
+C153,T12,gpt-4o-mini,YES,"Employees may accept gifts that are available to all state of Tennessee or all University employees, such as discounts.",,ok
+C154,U04,claude-haiku-4-5,NO,,,ok
+C155,M02,gpt-4o-mini,NO,,<$50 acceptance rule not present in retrieved text.,ok
+C156,M04,gpt-4o-mini,NO,,,ok
+C157,V02,gpt-4o-mini,NO,,,ok
+C158,D11,gpt-4o-mini,NO,,,ok
+C159,M01,gpt-4o-mini,PARTIAL,"Exemptions (1) A public employee is not prohibited from accepting a gift worth $50 or more where the gift is related to the public employee's official action or position, without violating M.G.L.",Threshold examples present; explicit “because of official position” clause incomplete.,ok
+C160,T06,claude-haiku-4-5,NO,,,ok
+C161,M13,claude-haiku-4-5,NO,,,ok
+C162,C04,gpt-4o-mini,YES,"Non-cash Gifts from External Parties to Employees University employees are permitted to accept non-cash tangible gifts of a nominal value ($150 or less), for example gift baskets or promotional items, offered by external parties.",,ok
+C163,M13,gpt-4o-mini,NO,,,ok
+C164,P01,gpt-4o-mini,YES,"greater than $100, consistent with IRS policy), they become the property of the University and should be discussed with the head of the department.",,ok
+C165,C02,claude-haiku-4-5,NO,,,ok
+C166,T05,claude-haiku-4-5,NO,,,ok
+C167,V11,gpt-4o-mini,NO,,Personal-use ban present; nominal-advertising exception missing.,ok
+C168,U06,claude-haiku-4-5,YES,"Gifts of tickets to attend entertainment events, sporting events, all-expense-paid trips to vacation resorts, and other similar activities that are received from industry/vendors, potential vendors or others who are or may become interested in a financial transaction with the University serve no legitimate academic or business purpose and are prohibited.",,ok
+C169,C07,gpt-4o-mini,NO,,Could not locate pasteable deciding sentence.,ok
+C170,O03,gpt-4o-mini,N/A,,,ok
+C171,M07,gpt-4o-mini,NO,,,ok
+C172,U03,claude-haiku-4-5,YES,"Tokens of appreciation from industry/vendors: Unsolicited gifts of less than $50 in value, such as small gift baskets at the holidays, that are not given to influence or with an intent to influence official action may be accepted but should be placed in a common area within the department for sharing and not kept for personal use.",,ok
+C173,D02,claude-haiku-4-5,NO,,,ok
+C174,C04,claude-haiku-4-5,YES,"Non-cash Gifts from External Parties to Employees University employees are permitted to accept non-cash tangible gifts of a nominal value ($150 or less), for example gift baskets or promotional items, offered by external parties.",,ok
+C175,H09,claude-haiku-4-5,YES,"This policy does not prohibit casual entertainment or business entertainment consistent with the College’s usual practices, or gifts which are reasonably viewed under the circumstances in which they are given or received to be of “nominal” value, which would be any gift in kind of less than $50.",,ok
+C176,P10,claude-haiku-4-5,YES,"If the value of the gift is undetermined, it should be returned.",,ok
+C177,O03,claude-haiku-4-5,N/A,,,ok
+C178,T09,claude-haiku-4-5,YES,"If the University does not pay for the employee’s travel costs, FI0705 does not apply and the employee may retain the honorarium.",,ok
+C179,D08,gpt-4o-mini,PARTIAL,"As an exception to the limits stated above, university employees are permitted to accept gifts of meals and entertainment offered by external parties under the following circumstances: • They are a normal and customary business practice.",Meals exception present; occasional/non-repetitive qualifier missing (worked example).,ok
+C180,V05,claude-haiku-4-5,YES,"This does not prohibit employees from buying goods or services, or obtaining loans, for their personal use where they pay consideration equal to that of the general public for the goods, services or loans; nor does it prohibit employees from accepting meals or beverages from suppliers when offered to a large group of people at a professional event or meeting (e.g., training, trade sh",,ok
+C181,D14,claude-haiku-4-5,NO,,,ok
+C182,T08,claude-haiku-4-5,NO,,,ok
+C183,C07,claude-haiku-4-5,NO,,Could not locate pasteable deciding sentence.,ok
+C184,D12,gpt-4o-mini,NO,,,ok
+C185,M03,gpt-4o-mini,YES,"Unsolicited perishables such as a fruit basket may be accepted on behalf of a public employee’s agency if shared with all agency employees and/or the public, to the extent possible, thereby making them available for public rather than private use.",,ok
+C186,O05,gpt-4o-mini,N/A,,,ok
+C187,V04,gpt-4o-mini,YES,"This does not prohibit employees from buying goods or services, or obtaining loans, for their personal use where they pay consideration equal to that of the general public for the goods, services or loans; nor does it prohibit employees from accepting meals or beverages from suppliers when offered to a large group of people at a professional event or meeting (e.g., training, trade sh",,ok
+C188,D11,claude-haiku-4-5,NO,,,ok
+C189,P08,claude-haiku-4-5,YES,Gratuities or gifts of money to the employee cannot be accepted at any time and should be returned immediately to the donor.,,ok
+C190,M02,claude-haiku-4-5,NO,,<$50 acceptance rule not present in retrieved text.,ok
+C191,T09,gpt-4o-mini,YES,"If the University does not pay for the employee’s travel costs, FI0705 does not apply and the employee may retain the honorarium.",,ok
+C192,U04,gpt-4o-mini,NO,,,ok
+C193,M06,gpt-4o-mini,NO,,<$50 acceptance rule not present in retrieved text.,ok
+C194,C01,claude-haiku-4-5,NO,,,ok
+C195,U06,gpt-4o-mini,YES,"Gifts of tickets to attend entertainment events, sporting events, all-expense-paid trips to vacation resorts, and other similar activities that are received from industry/vendors, potential vendors or others who are or may become interested in a financial transaction with the University serve no legitimate academic or business purpose and are prohibited.",,ok
+C196,P02,claude-haiku-4-5,YES,"greater than $100, consistent with IRS policy), they become the property of the University and should be discussed with the head of the department.",,ok
+C197,T02,claude-haiku-4-5,NO,,,ok
+C198,C03,claude-haiku-4-5,PARTIAL,valued at $25 or less (pre-tax).,Guidance $25 present; hard >$50 prohibition may be missing.,ok
+C199,D07,claude-haiku-4-5,NO,,Gift-card cash ban not present in retrieved text; only reporting form language.,ok
+C200,P02,gpt-4o-mini,YES,"greater than $100, consistent with IRS policy), they become the property of the University and should be discussed with the head of the department.",,ok
+C201,D07,gpt-4o-mini,NO,,Gift-card cash ban not present in retrieved text; only reporting form language.,ok
+C202,M11,claude-haiku-4-5,YES,"However, a public employee may accept a public employee discount of substantial value if the discount is available to all public employees, to all public employees of a city, town, county, or state, or to a geographically defined class of public employees.",,ok
+C203,V11,claude-haiku-4-5,NO,,Personal-use ban present; nominal-advertising exception missing.,ok
+C204,O05,claude-haiku-4-5,N/A,,,ok
+C205,U03,gpt-4o-mini,YES,"Tokens of appreciation from industry/vendors: Unsolicited gifts of less than $50 in value, such as small gift baskets at the holidays, that are not given to influence or with an intent to influence official action may be accepted but should be placed in a common area within the department for sharing and not kept for personal use.",,ok
+C206,M04,claude-haiku-4-5,NO,,,ok
+C207,P07,gpt-4o-mini,NO,,Division of Human Resources appears only in source line; confer-with-supervisors sentence missing.,ok
+C208,H05,claude-haiku-4-5,YES,"This policy does not prohibit casual entertainment or business entertainment consistent with the College’s usual practices, or gifts which are reasonably viewed under the circumstances in which they are given or received to be of “nominal” value, which would be any gift in kind of less than $50.",,ok

@@ -1,0 +1,124 @@
+
+=== POOLED, retrieved context (4 answer models): n=416, violations=79 ===
+  auditor         acc    recall   95% CI (q-boot)         FPR
+  always-comp   81.0%         0
+  Naive NLI     76.9%     18/79        [13%, 34%]  35/337 10%
+  MSCG          71.9%     26/79        [21%, 45%]  64/337 19%
+  DNA           19.7%     78/79       [96%, 100%]  333/337 99%
+  GPT-5.5       68.0%     49/79        [48%, 77%]  103/337 31%
+  Sonnet 5.5    63.5%     54/79        [56%, 81%]  127/337 38%
+
+=== answer model claude-haiku-4-5: n=104, violations=14 ===
+  auditor         acc    recall   95% CI (q-boot)         FPR
+  always-comp   86.5%         0
+  Naive NLI     81.7%      1/14         [0%, 25%]     6/90 7%
+  MSCG          77.9%      2/14         [0%, 36%]   11/90 12%
+  DNA           13.5%     14/14      [100%, 100%]  90/90 100%
+  GPT-5.5       74.0%      5/14        [10%, 63%]   18/90 20%
+  Sonnet 5.5    71.2%      7/14        [23%, 77%]   23/90 26%
+
+=== answer model gpt-4o-mini: n=104, violations=14 ===
+  auditor         acc    recall   95% CI (q-boot)         FPR
+  always-comp   86.5%         0
+  Naive NLI     79.8%      1/14         [0%, 23%]     8/90 9%
+  MSCG          74.0%      4/14         [7%, 56%]   17/90 19%
+  DNA           13.5%     14/14      [100%, 100%]  90/90 100%
+  GPT-5.5       74.0%      7/14        [22%, 77%]   20/90 22%
+  Sonnet 5.5    62.5%      4/14         [7%, 53%]   29/90 32%
+
+=== answer model Llama-3.2-3B-Instruct: n=104, violations=22 ===
+  auditor         acc    recall   95% CI (q-boot)         FPR
+  always-comp   78.8%         0
+  Naive NLI     76.9%      5/22         [5%, 41%]     7/82 9%
+  MSCG          70.2%      5/22         [6%, 42%]   14/82 17%
+  DNA           20.2%     21/22       [85%, 100%]  82/82 100%
+  GPT-5.5       56.7%     14/22        [42%, 83%]   37/82 45%
+  Sonnet 5.5    55.8%     18/22        [64%, 96%]   42/82 51%
+
+=== answer model gemma-2-2b-it: n=104, violations=29 ===
+  auditor         acc    recall   95% CI (q-boot)         FPR
+  always-comp   72.1%         0
+  Naive NLI     69.2%     11/29        [20%, 56%]   14/75 19%
+  MSCG          65.4%     15/29        [33%, 71%]   22/75 29%
+  DNA           31.7%     29/29      [100%, 100%]   71/75 95%
+  GPT-5.5       67.3%     23/29        [63%, 93%]   28/75 37%
+  Sonnet 5.5    64.4%     25/29        [73%, 97%]   33/75 44%
+
+=== ORIGINAL two models (as in paper): n=208, violations=28 ===
+  auditor         acc    recall   95% CI (q-boot)         FPR
+  always-comp   86.5%         0
+  Naive NLI     80.8%      2/28         [0%, 19%]   14/180 8%
+  MSCG          76.0%      6/28         [5%, 38%]  28/180 16%
+  DNA           13.5%     28/28      [100%, 100%]  180/180 100%
+  GPT-5.5       74.0%     12/28        [23%, 63%]  38/180 21%
+  Sonnet 5.5    66.8%     11/28        [22%, 57%]  52/180 29%
+
+=== EXTENSION two models (independent family stratum): n=208, violations=51 ===
+  auditor         acc    recall   95% CI (q-boot)         FPR
+  always-comp   75.5%         0
+  Naive NLI     73.1%     16/51        [19%, 45%]  21/157 13%
+  MSCG          67.8%     20/51        [26%, 54%]  36/157 23%
+  DNA           26.0%     50/51       [93%, 100%]  153/157 97%
+  GPT-5.5       62.0%     37/51        [56%, 88%]  65/157 41%
+  Sonnet 5.5    60.1%     43/51        [71%, 96%]  75/157 48%
+
+=== Pre-registered primary comparison: recall on the 79 violations (McNemar on violations only) ===
+  GPT-5.5 vs MSCG: GPT-5.5-only detects 29, MSCG-only detects 6, exact p=0.0001
+  Sonnet 5.5 vs MSCG: Sonnet 5.5-only detects 33, MSCG-only detects 5, exact p=0.0000
+  Naive NLI vs MSCG: Naive NLI-only detects 0, MSCG-only detects 8, exact p=0.0078
+
+=== Accuracy, six pairwise comparisons, Holm-corrected (pooled 416) ===
+  Naive NLI  vs MSCG      : Naive NLI-only correct  29, MSCG-only correct   8, p=0.0008, Holm p=0.0038
+  Naive NLI  vs GPT-5.5   : Naive NLI-only correct  88, GPT-5.5-only correct  51, p=0.0021, Holm p=0.0086
+  Naive NLI  vs Sonnet 5.5: Naive NLI-only correct 110, Sonnet 5.5-only correct  54, p=0.0000, Holm p=0.0001
+  MSCG       vs GPT-5.5   : MSCG-only correct  84, GPT-5.5-only correct  68, p=0.2236, Holm p=0.2236
+  MSCG       vs Sonnet 5.5: MSCG-only correct 105, Sonnet 5.5-only correct  70, p=0.0100, Holm p=0.0299
+  GPT-5.5    vs Sonnet 5.5: GPT-5.5-only correct  50, Sonnet 5.5-only correct  31, p=0.0448, Holm p=0.0897
+
+=== Where violations arise: deciding clause in retrieved text x answer-model group ===
+  clause=YES     orig:  2/84 violations
+  clause=YES     ext :  9/84 violations
+  clause=PARTIAL orig:  3/20 violations
+  clause=PARTIAL ext : 10/20 violations
+  clause=NO      orig: 17/84 violations
+  clause=NO      ext : 28/84 violations
+  clause=N/A     orig:  6/20 violations
+  clause=N/A     ext :  4/20 violations
+
+=== Recall by clause presence (pooled) ===
+  clause=YES     violations=11: Naive NLI 3, MSCG 5, DNA 11, GPT-5.5 9, Sonnet 5.5 9
+  clause=PARTIAL violations=13: Naive NLI 1, MSCG 2, DNA 13, GPT-5.5 7, Sonnet 5.5 10
+  clause=NO      violations=45: Naive NLI 10, MSCG 15, DNA 44, GPT-5.5 25, Sonnet 5.5 29
+  clause=N/A     violations=10: Naive NLI 4, MSCG 4, DNA 10, GPT-5.5 8, Sonnet 5.5 6
+
+=== Judge-family check ===
+  GPT-5.5    on claude-haiku-4-5       (other family      ): recall 5/14, FPR 18/90
+  GPT-5.5    on gpt-4o-mini            (same family       ): recall 7/14, FPR 20/90
+  GPT-5.5    on Llama-3.2-3B-Instruct  (independent family): recall 14/22, FPR 37/82
+  GPT-5.5    on gemma-2-2b-it          (independent family): recall 23/29, FPR 28/75
+  Sonnet 5.5 on claude-haiku-4-5       (same family       ): recall 7/14, FPR 23/90
+  Sonnet 5.5 on gpt-4o-mini            (other family      ): recall 4/14, FPR 29/90
+  Sonnet 5.5 on Llama-3.2-3B-Instruct  (independent family): recall 18/22, FPR 42/82
+  Sonnet 5.5 on gemma-2-2b-it          (independent family): recall 25/29, FPR 33/75
+
+=== Oracle policy context (in-scope named-institution questions, all 4 models) ===
+
+=== Oracle context, pooled: n=376, violations=69 ===
+  auditor         acc    recall   95% CI (q-boot)         FPR
+  always-comp   81.6%         0
+  MSCG          73.1%     26/69        [22%, 54%]  58/307 19%
+  GPT-5.5       61.7%     63/69        [81%, 99%]  138/307 45%
+  Sonnet 5.5    57.7%     64/69       [83%, 100%]  154/307 50%
+
+=== Retrieved context, same answers: n=376, violations=69 ===
+  auditor         acc    recall   95% CI (q-boot)         FPR
+  always-comp   81.6%         0
+  MSCG          73.4%     22/69        [19%, 46%]  53/307 17%
+  GPT-5.5       67.6%     41/69        [44%, 76%]  94/307 31%
+  Sonnet 5.5    63.8%     48/69        [56%, 83%]  115/307 37%
+  MSCG oracle vs retrieved on violations: 12 vs 8, p=0.503
+  gpt55 oracle vs MSCG oracle on violations: 38 vs 1, p=1.46e-10
+  sonnet55 oracle vs MSCG oracle on violations: 39 vs 1, p=7.46e-11
+
+=== Judge-judge agreement (pooled, retrieved) ===
+  agreement 80.5%, kappa 0.60

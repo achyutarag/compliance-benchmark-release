@@ -1,0 +1,52 @@
+{
+  "option": "A (pilot-equivalent)",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "normalized": true,
+  "max_words_per_chunk": 80,
+  "overlap": 0,
+  "top_k": 2,
+  "metadata_filter": null,
+  "corpus_sha256": "f057220fccbdd31cf01b580841d8b038c04ac763021201f2a7af064565f196c8",
+  "n_chunks": 324,
+  "chunks_per_doc": {
+    "hartwick_6-42": 4,
+    "upenn_VI-D": 5,
+    "utk_FI0717": 15,
+    "utk_FI0717_guidance": 6,
+    "depaul_gifts_to_employees": 39,
+    "uva_FIN-019": 15,
+    "uthealth_HOOP-226": 30,
+    "ma_930CMR5": 167,
+    "ma_advisory_19-1": 43
+  },
+  "chunk_words": {
+    "min": 5,
+    "median": 68,
+    "max": 233
+  },
+  "embeddings_sha256": "8a34fb11017ecb0064ed55e37271d80fadd083424e4eddde3719ac852efed1e2",
+  "retrieval_policy_main_experiment": {
+    "mode": "institution-aware (experimental control)",
+    "rule": "If the question names an institution, search only that institution's documents; unnamed questions (N01-N05) search the full index.",
+    "top_k": 2,
+    "code": "rag_retrieval.py (Retriever.retrieve)",
+    "rag_system_prompt": "identical to pilot (rag_retrieval.RAG_SYSTEM_PROMPT)",
+    "rag_retrieval_py_sha256": "2bb9e9e6188e10878d0f4a7d033b9019a233421a84f07b945168ba97e5468c1d"
+  },
+  "diagnostic_global_index": {
+    "named_institution_in_top2": "46/94 = 49%",
+    "both_top2_correct_institution": "14%",
+    "wrong_institution_chunks_from_massachusetts": 70,
+    "annotator_clause_coverage>=0.6": {
+      "global": "44%",
+      "institution_filtered": "63%"
+    },
+    "note": "Computed from questions only (no answers or labels) before generation; reported as a separate retrieval finding."
+  },
+  "retrieval_frozen_at": "2026-09-30T11:53:33",
+  "retrieval_frozen_file": {
+    "file": "index/retrieval_frozen.jsonl",
+    "sha256": "6aebcc8bf14b0e273a5da682675759e2958b041f0ff2731ccd5fe37b490970af",
+    "note": "Exact top-2 chunk ids per question, fixed from the first generation run; all answer models reuse them."
+  }
+}

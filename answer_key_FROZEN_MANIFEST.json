@@ -1,0 +1,45 @@
+{
+  "file": "answer_key_FROZEN_2026-09-30.csv",
+  "sha256": "689571cb91e110968b02db51c5223434cbea2719790934c10d7fea928c494420",
+  "frozen": "2026-09-30",
+  "n_questions": 104,
+  "gold_verdict_distribution": {
+    "PERMITTED": 27,
+    "NOT_PERMITTED": 52,
+    "DEPENDS": 4,
+    "PERMITTED_IF": 8,
+    "INFORMATIONAL": 3,
+    "ASK_OR_CAVEAT": 5,
+    "OUT_OF_SCOPE": 5
+  },
+  "inter_annotator_agreement": {
+    "core_excl_N_O": {
+      "n": 94,
+      "raw": 0.894,
+      "cohen_kappa": 0.82
+    },
+    "all": {
+      "n": 104,
+      "raw": 0.904,
+      "cohen_kappa": 0.85
+    }
+  },
+  "resolution": {
+    "A_B_disagreements": 10,
+    "resolved_by_policy_text": 3,
+    "by_label_convention": 4,
+    "relabelled_DEPENDS": 2,
+    "substantive": 1,
+    "post_reconciliation_user_decisions": [
+      "D12",
+      "P07",
+      "T04",
+      "T10",
+      "T14",
+      "V02",
+      "V06"
+    ]
+  },
+  "sources": "POLICY_SOURCES.md (7 primary policies + UT FI0717 Guidance Document + MA Advisory 19-1)",
+  "note": "gold_verdict is the human-reconciled ground truth. The llm_draft_guidance column is an LLM draft kept for reference only."
+}

@@ -1,0 +1,6 @@
+questions: 38 (Counter({'NO': 32, 'PARTIAL': 6}))
+  NEAR_MISS  13 questions | violations 21/52 answers | median rank 4 | median sim gap 0.036
+  MISMATCH   24 questions | violations 21/96 answers | median rank 11 | median sim gap 0.099
+  NOT_FOUND   1 questions | violations  2/4 answers | median rank 9 | median sim gap 0.053
+by institution: Counter({('University o', 'MISMATCH'): 11, ('University o', 'NEAR_MISS'): 8, ('Massachusett', 'MISMATCH'): 7, ('DePaul Unive', 'MISMATCH'): 5, ('DePaul Unive', 'NEAR_MISS'): 3, ('Hartwick Col', 'NEAR_MISS'): 2, ('Massachusett', 'NOT_FOUND'): 1, ('UTHealth Hou', 'MISMATCH'): 1})
+rank distribution: [3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 8, 8, 9, 9, 9, 9, 11, 11, 11, 12, 12, 13, 14, 24, 43, 53, 60, 62, 66, 123]

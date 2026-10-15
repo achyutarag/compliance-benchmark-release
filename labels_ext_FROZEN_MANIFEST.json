@@ -1,0 +1,31 @@
+{
+  "file": "labels_ext_FROZEN_2026-10-01.csv",
+  "sha256": "fbb5ff64b4e4c2725b86b44f805070ae266646aff0b96d9a72fa4f256f41e466",
+  "frozen_at": "2026-10-01T14:00:40",
+  "n": 208,
+  "violations": 51,
+  "violations_by_model": {
+    "Llama-3.2-3B-Instruct": 22,
+    "gemma-2-2b-it": 29
+  },
+  "label_sources": {
+    "both annotators agree": 127,
+    "reconciled": 64,
+    "approved final": 17
+  },
+  "pre_reconciliation_agreement": {
+    "compliance_raw": 0.812,
+    "compliance_kappa": 0.44,
+    "compliance_pabak": 0.62,
+    "matches_gold_raw": 0.62,
+    "matches_gold_kappa": 0.3,
+    "n": 208
+  },
+  "notes": [
+    "Annotator B's labels and reconciliation were received as tables pasted in chat (file transfer failed); transcribed and verified row-by-row against the original workbook (question-prefix check, 0 mismatches).",
+    "An earlier returned B file contained content not from this study (207/208 rows) and was discarded unused (labelling_ext/completed/invalid/).",
+    "Annotator A re-checked 16 compliance rows after a neutral request to re-read them; A reported the original discrepancies as labelling slips. A was not shown B's labels or the proposed finals.",
+    "Error codes normalised: NO_CAVEAT_UNNECESSARY -> NO_CAVEAT_UNNAMED, HALLUCINATION -> INVENTED_RULE.",
+    "R08 (D07, gift card to Accounts Payable) is the one genuinely ambiguous compliance case; approved as COMPLIANT/PARTIAL."
+  ]
+}

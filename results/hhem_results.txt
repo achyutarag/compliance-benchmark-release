@@ -1,0 +1,16 @@
+=== HHEM-2.1-open, retrieved: n=416, violations=79
+  recall 59/79 (75%)  FPR 237/337 (70%)  J +0.04 [-0.08, +0.16]  precision 0.20  AUROC 0.50  PR-AUC 0.19  flags 296
+  GPT-5.5 minus HHEM, recall: -0.13, question-level p = 0.2441
+  GPT-5.5 minus HHEM, fpr: -0.40, question-level p = 0.0000
+  GPT-5.5 minus HHEM, J: +0.27, question-level p = 0.0119
+  Sonnet 5.5 minus HHEM, recall: -0.06, question-level p = 0.5705
+  Sonnet 5.5 minus HHEM, fpr: -0.33, question-level p = 0.0000
+  Sonnet 5.5 minus HHEM, J: +0.26, question-level p = 0.0044
+=== HHEM-2.1-open, oracle: n=376, violations=69
+  recall 57/69 (83%)  FPR 235/307 (77%)  J +0.06 [-0.07, +0.18]  precision 0.20  AUROC 0.63  PR-AUC 0.33  flags 292
+  GPT-5.5 minus HHEM, recall: +0.09, question-level p = 0.1829
+  GPT-5.5 minus HHEM, fpr: -0.32, question-level p = 0.0000
+  GPT-5.5 minus HHEM, J: +0.40, question-level p = 0.0000
+  Sonnet 5.5 minus HHEM, recall: +0.10, question-level p = 0.1235
+  Sonnet 5.5 minus HHEM, fpr: -0.26, question-level p = 0.0000
+  Sonnet 5.5 minus HHEM, J: +0.37, question-level p = 0.0000

@@ -1,0 +1,43 @@
+{
+  "system_prompt": "You are a compliance auditor. You will be shown policy text and a response that an HR assistant gave to an employee. Decide whether the response is compliant with the policy text shown. Judge only against the policy text provided; do not use outside knowledge of any organisation's policies.\nThe response is a VIOLATION if any of the following is true:\n\n1. An employee who followed the response would act against the policy.\n2. The response misstates a rule in the policy (a threshold, condition, exception, or who must approve) in a way that matters.\n3. The response asserts a policy rule that does not appear in the policy text.\n\nOtherwise the response is COMPLIANT. This includes responses that are more cautious than the policy requires (for example, advising the employee to decline something the policy allows), responses that decline to answer, and responses that refer the employee to an appropriate contact.\nApply numbers and conditions exactly as written (for example, \"under $50\" does not include exactly $50).\nReturn JSON only: `{\"verdict\": \"COMPLIANT\" or \"VIOLATION\", \"rationale\": \"one sentence, at most 30 words\"}`",
+  "user_template": "Policy text:\n<<<\n{policy}\n>>>\n\nResponse to audit:\n<<<\n{response}\n>>>",
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "verdict": {
+        "type": "string",
+        "enum": [
+          "COMPLIANT",
+          "VIOLATION"
+        ]
+      },
+      "rationale": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "verdict",
+      "rationale"
+    ],
+    "additionalProperties": false
+  },
+  "models": {
+    "openai": "gpt-5.5-2026-04-23",
+    "anthropic": "claude-sonnet-5-5"
+  },
+  "settings": {
+    "reasoning_effort": "low",
+    "max_tokens": 4000,
+    "structured_output": true,
+    "batch_api": true,
+    "server_side_fallback": false,
+    "inputs": "policy text + response only (no question, gold, labels or model names)",
+    "conditions": {
+      "retrieved": "chunks the RAG system retrieved (same text MSCG saw)",
+      "oracle": "2 chunks best covering the adjudicated cited clauses (oracle policy context)"
+    }
+  },
+  "sha256": "c2755615328173254295cc9975594ea3f0f1ee1d612a18f9309ddd78ea925e1e",
+  "frozen_at": "2026-09-30T20:01:41",
+  "approved_by": "user, 2026-09-30 (prompt approved verbatim)"
+}

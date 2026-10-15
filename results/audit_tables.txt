@@ -1,0 +1,30 @@
+
+=== retrieved: n=416, violations=79
+  MiniCheck                recall 72/79 ( 91%) FPR  90%  J +0.02  AUROC 0.46  flags 374
+  DeBERTa-L contradiction  recall  7/79 (  9%) FPR   3%  J +0.06  AUROC 0.59  flags 18
+  DeBERTa-L not entailed   recall 32/79 ( 41%) FPR  33%  J +0.08  AUROC 0.57  flags 142
+  RoBERTa contradiction    recall 13/79 ( 16%) FPR  21%  J -0.05  AUROC 0.51  flags 85
+  RoBERTa not entailed     recall 68/79 ( 86%) FPR  83%  J +0.03  AUROC 0.49  flags 347
+  MSCG                     recall 26/79 ( 33%) FPR  19%  J +0.14  AUROC 0.55  flags 90
+  DNA                      recall 78/79 ( 99%) FPR  99%  J -0.00  AUROC 0.44  flags 411
+  GPT-5.5                  recall 49/79 ( 62%) FPR  31%  J +0.31  AUROC  --   flags 152
+  Sonnet 5.5               recall 54/79 ( 68%) FPR  38%  J +0.31  AUROC  --   flags 181
+
+=== oracle: n=376, violations=69
+  MiniCheck                recall 64/69 ( 93%) FPR  90%  J +0.03  AUROC 0.61  flags 341
+  DeBERTa-L contradiction  recall  4/69 (  6%) FPR   3%  J +0.03  AUROC 0.62  flags 12
+  DeBERTa-L not entailed   recall 45/69 ( 65%) FPR  46%  J +0.20  AUROC 0.66  flags 185
+  RoBERTa contradiction    recall 24/69 ( 35%) FPR  17%  J +0.18  AUROC 0.63  flags 76
+  RoBERTa not entailed     recall 63/69 ( 91%) FPR  86%  J +0.05  AUROC 0.64  flags 328
+  MSCG                     recall 26/69 ( 38%) FPR  19%  J +0.19  AUROC 0.54  flags 84
+  DNA                      recall 67/69 ( 97%) FPR  99%  J -0.02  AUROC 0.61  flags 371
+  GPT-5.5                  recall 63/69 ( 91%) FPR  45%  J +0.46  AUROC  --   flags 201
+  Sonnet 5.5               recall 64/69 ( 93%) FPR  50%  J +0.43  AUROC  --   flags 218
+
+QUOTING: violations 50/79 = 63%, compliant 231/337 = 69%; Fisher exact p = 0.423
+MiniCheck support: median violating 0.075 vs compliant 0.051; Mann-Whitney two-sided p = 0.230
+
+CLAUSE v2: counts Counter({'YES': 56, 'NO': 32, 'PARTIAL': 6})
+round-1 NO labels: 42; changed in final: 14 | round-1 YES labels: 42; changed in final: 0
+stronger-model violations (in-scope) by clause: Counter({'NO': 16, 'YES': 4, 'PARTIAL': 2})
+small-model violations (in-scope) by clause: Counter({'YES': 21, 'NO': 19, 'PARTIAL': 7})

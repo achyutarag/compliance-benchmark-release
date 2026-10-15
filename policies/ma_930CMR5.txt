@@ -1,0 +1,828 @@
+SOURCE: https://www.sec.state.ma.us/reg_pub/pdf/900/930005.pdf
+RETRIEVED: 2026-09-30T11:08:39
+ARCHIVE: archive/ma_930CMR5_2026-09-30.pdf
+======================================================================
+930 CMR: STATE ETHICS COMMISSION
+930 CMR 5.00: EXEMPTIONS FROM M.G.L. C. 268A AND M.G.L. C. 268B RELATED TO
+GIFTS
+Section
+5.01: Statutory Prohibitions Concerning Gifts to Public Employees
+5.02: No Exemption for Bribery, Corrupt Gifts, or Gifts Given with Fraudulent Intent
+5.03: Statutory Authority to Promulgate Exemptions; Effect of Compliance with Regulation; No
+Inferences to be Drawn as to Conduct Not Specifically Exempted
+5.04: Definitions; Disclosure Procedure
+5.05: Substantial Value; How Determined
+5.06: No Violation and No Exemption Needed: Gifts Unrelated to Official Action, Position, or
+Performance of Duties
+5.07: Gifts Worth Less Than $50 Are Not Prohibited But a Disclosure May be Required
+5.08: Gifts Worth $50 or More and Related to Official Action or Position: Exemptions
+5.09: Gifts from Lobbyists Not Related to Official Action or Position
+5.10: Political Campaign Contributions: Exemption from Disclosure
+5.11: Glossary of Defined Terms Used in Gift Exemption Regulations
+5.12: Alphabetical Index to Exemptions Related to Gifts to Public Employees
+5.01: Statutory Prohibitions Concerning Gifts to Public Employees
+There are six sections of the conflict of interest and financial disclosure laws that relate to
+gifts to public employees. The terms gift, lobbyist, public employee, person, official acts, and
+substantial value are defined in 930 CMR 5.04 and 5.05. There is a glossary of all terms defined
+in 930 CMR 5.12. The six statutory sections that re late to g ifts to public employ ees a re
+summarized below:
+(a) M.G.L. c. 268A, § 2 , which prohibits corrupt gifts, offers, and promises to influence
+official acts, referred to in 930 CMR 5.02 as bribery.
+(b) M.G.L. c. 268A, § 3, which prohibits gifts, offers, and promises of substantial value for
+or because of official acts performed or to be performed.
+(c) M.G .L. c. 268A, § 23(b)( 2)(i), which prohibits public employ ees from soliciting or
+receiving anything of substantial value for or bec ause of the public em ployee's official
+position.
+(d) M.G.L. c. 268A, § 23(b)(3), which prohibits a public employee from knowingly, or with
+reason to know, acti ng in a manne r which w ould cause a re asonable person, ha ving
+knowledge of the re levant c ircumstances, to c onclude tha t a ny pe rson c an im properly
+influence or unduly enjoy the employee's favor in the performance of the employee's official
+duties, or that the employee is likely to act or fail to act as a result of kinship, rank, position
+or undue influence of any party or person.
+(e) M.G.L. c. 268A, § 26, which prohibits any person from, directly or through another,
+with fraudulent intent, violating M.G.L. c. 268A, § 2 3(b)(2); prohibits any person, with
+fraudulent intent, from causing any other person to violate M.G.L. c. 268A, § 23(b)(2); and
+prohibits any person, with fraudulent intent, from of fering or g iving a ny privileg es or
+exemptions of substantial value in violation of M.G.L . c. 268A, § 23( b)(2), if the
+unwarranted privileges or exemptions have a fair market value in the aggregate of more than
+$1,000 in any 12 month period.
+(f) M.G.L. c. 268B, § 6, which prohibits executive or legislative agents from knowingly and
+willfully offering or giving, to certain public employees and their immediate fam ily
+members, any gift of any kind or nature, and also prohibits certain public employees and their
+immediate family members from knowingly and willfully soliciting or accepting from any
+executive or legislative agent any gift of any kind or nature.
+5.02: No Exemption for Bribery, Corrupt Gifts, or Gifts Given with Fraudulent Intent
+The Sta te Et hics Co mmission (C ommission) h as st atutory authority to p romulgate
+exemptions from four of the six statutes listed in 930 CMR 5.01. Specifically, the Commission
+has authority to promulgate exemptions from M.G.L. c. 268A, §§ 3, 23(b)(2), and 23(b)(3), and
+M.G.L. c. 268B, § 6. It does not have authority to promulgate exemptions from M.G.L. c. 268A,
+§§ 2 and 26. Nothing in 930 CMR 5.00 shall be construed as creating any exemption from the
+prohibition against corrupt gifts and bribery set forth in M.G.L. c. 268A, § 2, or the prohibition
+against gifts given or solicited with fraudulent intent set forth in M.G.L. c. 268A, § 26.
+5.03: Statutory Authority to Promulgate Exemptions; Effect of Compliance with Regulation; No
+Inferences to be Drawn as to Conduct Not Specifically Exempted
+M.G.L. c. 268A, §§ 3( f) a nd 23(f) , and M.G.L . c. 268B , §§ 3(a) (2) a nd 6, g ive the
+Commission statutory authority to promulgate exemptions from M.G.L. c. 268A, §§ 3, 23(b)(2),
+and 23(b)(3), and M.G.L. c. 268B, § 6. M.G.L. c. 3, § 43, last paragraph, gives the Commission
+statutory authority to promulgate exemptions from that statute. Pursuant to that authority, the
+Commission is promulgating 930 CMR 5.00 to:
+(a) c larify sit uations in w hich th e sta tutory pr ohibitions concerning g ifts t o p ublic
+employees set forth in M.G.L. c. 268A, §§ 3, 23(b)(2), and 23(b)(3) do not apply; and
+(b) c reate exemptions in cert ain situations in w hich a gift to a public employee would
+otherwise be prohibited by M.G.L. c. 268A, §§ 3, 23(b)(2), 23(b)(3), or M.G.L. c. 268B, § 6,
+or M.G.L. c. 3, § 43, last paragraph, because the Commission has determined that allowing
+acceptance of the gift either serves a legitimate public purpose, or does not present a genuine
+risk of a conflict of interest or the appearance of a conflict of interest, or both.
+(c) A public employee who complies with the exemption requirements of 930 CMR 5.00
+is deemed to be in compliance with those provisions of M.G.L. c. 268A, M.G.L. c. 268B, and
+M.G.L. c. 3 referenced in the relevant section of 930 CMR 5.00.
+(d) The establishment of these e xemptions shall not be the ba sis for any inference that
+conduct not specifically exempted either is, or is not, prohibited by M.G.L . c. 268A,
+M.G.L. c. 268B, and M.G.L. c. 3.
+5.04: Definitions; Disclosure Procedure
+For purposes of the exemptions set forth in 930 CMR 5.00:
+Disclosure is a written statement that sets forth all the relevant facts. Such a disclosure may be
+made on a form prescribed by the Commission or in another writing that discloses the relevant
+facts, unless use of a Commissio n form is ex plicitly require d by 930 CMR 5.00. S uch
+disclosures a re pu blic re cords. I f a disclosure re quired b y 93 0 CM R 5. 00 wi ll c ontain
+information required by law to be kept confidential, the public employee making the disclosure
+must follow the procedure set forth in 930 CMR 3.02: Disclosures Containing Confidential
+Information.
+(a) An appointed employee must make a disclosure to the employee's appointing authority
+before the relevant event occurs. An appointing authority is the individual official, board,
+commission, or other governmental body that has the legal authority to appoint the public
+employee, or, where permitted by 930 CMR 5.00, such authority's designee. A disclosure
+to an appointing authority that is a multi member body shall be made to the chairperson, and
+copied to the members of the body. Such multi member body, by valid vote of such body,
+may choose to delegate to the chairperson or other member of the body the authority to make
+any necessary determination in response to such disclosure on behalf of such body, which
+should then be copied to the members. Judges and judicial branch employees shall make
+disclosures required by 930 CMR 5.00 to the Chief Justice of their respective courts, or to
+his or her designee.
+(b) A sta te or county employee who does not have an appointing authority because that
+employee is elected, or for any other reason, must make a disc losure to the Co mmission,
+except that Members of the General Court may make a disclosure to the Senate or House
+Clerk, as a ppropriate, or to the Commissi on. Such a disclosure must made befor e the
+relevant event occurs unless 930 CMR 5.00 states explicitly that a disclosure may be made
+after an event. A state or county employee who does not have an appointing authority and
+who is traveling or attending an event with staff members pursuant to an exemption created
+by 930 CMR 5.08 may make a single disclosure for all.
+(c) A municipal employee who does not have an appointing authority because that employee
+is elected, or for any other reason, must make a disclosure to the town or city clerk, and an
+elected regional school district employee must make a disclosure to the clerk or secretary of
+such regional school district. Such an employee must make a disclosure before the relevant
+event occurs unless 930 CMR 5.00 states explicitly that a disclosure may be made after an
+event. Such an employee who is traveling or attending an event with staff members pursuant
+to an exemption created by 930 CMR 5.08 may make a single disclosure for all.
+Gift is anything of value that is given without something of equivalent fair market value being
+given in return.
+Lobbyist is a person who meets the definition of an Executive Agent under M.G.L. c. 3, § 39,
+or the definition of a Legislative Agent under M.G.L. c. 3, § 39.
+Official Acts and Official Action are actions taken in one's capacity as a public employee.
+Person is a business, individual, corporation, union, association, firm, partnership, committee,
+class, team, or other or ganization or g roup of pe rsons acting together who share a common
+interest or purpose.
+Public Employee is any state, county, or municipal employee, and any special state, county, or
+municipal employee, as defined in M.G.L. c. 268A, § 1. The term includes full and part time
+public employees. I t applies reg ardless of how the publi c employment began, and inc ludes
+public employees who were appointed or elected to their positions, or hired by a public agency,
+or those who provide services to a public agency pursuant to an express or implied contract. It
+also applies to per sons serving in both compe nsated a nd uncompensa ted positions. The
+definition set forth in 930 CMR 5.04: Public Employee is for purposes of these exemptions
+only, and not for purposes related to M.G.L. c. 268B, § 5.
+5.05: Substantial Value; How Determined
+Substantial value is $50 or more. The value of a gift is its fair market value at the time of the
+gift, cost, or face value, whichever is greater. In determining substantial value, the Commission
+may aggregate all gifts offered or given by a person as defined in 930 CMR 5.04 to a public
+employee within any 365 day period. If a gift is given to multiple recipients, the value to each
+public employee shall be the total value of the gift divided by the number of recipients. To
+determine the value of attendance at an event, the Commission will consider the admission fee,
+or ticket price, or per person cost to the sponsor, or will divide the actual cost of the event by the
+number of attendees. The actual cost of an event includes the per person cost of refreshments,
+entertainment, taxes, service c harges, and tips. The act ual cost of an e vent also includes
+overhead charges for the room and service when these are part of a set fee per person for the
+event, but d oes not include any extra fee or charge paid by the host to rent the event venue.
+Where the Commission has determined the value to a public employee of attendance at an event
+by dividing the actual cost by the number of attendees, the presumption that an attendee received
+a gift with a value that is a proportional share of the actual cost of an event may be rebutted as
+to a par ticular individual by evidence that the cost of the items ordered or consumed by that
+individual and any guests, plus tip, was less than $50.
+Example: The face value of a ticket to a sporting event is $30 but the giver paid $100. The
+value of the ticket is $100, and it is a gift of substantial value.
+Example: The f ace value of a ticket to a conc ert is $40, but due to the sca rcity of such
+tickets, the fair market value is $500 at the time of the gift. The value of the ticket is $500,
+and it is a gift of substantial value. A person who is given the opportunity to purchase, and
+does purchase, the ticket at face value has received a gift of $460, which is of substantial
+value.
+Example: The fair market value of meals and entertainment at a charitable event is $40, but
+the face value or cost of a ticket to the event is $150. The value of the ticket is $150, and it
+is a gift of substantial value.
+Example: The total cost, including tax and tip, for a dinne r for ten people is $750. Ea ch
+public employee attending the dinner is presumed to have received a $75 dinner, which is of
+substantial value. This presumption may be rebutted as to a particular individual by evidence
+that the cost of the items ordered or consumed by that individual and any guests, plus tip, was
+less than $50.
+Example: There is no admission charge to an event but the estimated per person cost of food
+and drink is $90. The presumed value of the admission is $90, and of substantial value. This
+presumption may be rebutted as to a particular individual by evidence that the cost of the
+items ordered or consumed by that individual and any guests, plus tip, was less than $50.
+Example: The host of an event pays a set fee of $75 per person for a catered event. The $75
+per person cost includes all refreshments, taxes, service charges, and the rental of the banquet
+hall. The value of attendance to each attendee is $75, and it is a gift of substantial value.
+Example: A company plans a training event to which public employees will be invited. The
+company pays a fee to rent an auditorium where the training will be held, and separately pays
+for r efreshments to b e se rved d uring the da y. T he va lue of a ttendance to the pu blic
+employees who attend is determined by dividing the cost of the refreshments by the number
+of attendees. The auditorium rental fee is not included.
+5.06: No Violation and No Exemption Needed: Gifts Unrelated to Official Action, Position, or
+Performance of Duties
+Public employees may accept any gift that is entirely unrelated to official action by the public
+employee, an d t o t he p ublic employee's o fficial p osition, an d t o t he p ublic e mployee's
+performance of official duties, from persons other tha n lobbyists, because these gifts are not
+prohibited by M.G.L. c. 268A, §§ 3, 23(b)(2), and 23(b)(3). No disclosure is required at the time
+of acceptance of these gifts, but if a matter involving the giver comes before the public employee
+during the six months following such acceptance, or if such a gift follows any official action by
+the employee involving the giver within six months, the employee must make a written public
+disclosure concerning the gift pursuant to M.G.L. c. 268A, § 23( b)(3), using the procedure
+explained in 930 CMR 5.07(2).
+Example: A public employee may accept any gift from a member of the public employee's
+immediate family, o ther relative, i ntended spouse, o r m ember o f t he p ublic employee's
+household, as long as the g ift is entirely unrela ted to the employ ee's performance or
+nonperformance of official action or duties.
+Example: A public employee may accept any rebate, discount, or promotional item available
+to a group that includes, but is not limited to, public employees, or to a geographically
+defined class that includes the public employee (10% off for Boston residents).
+Example: A public employee may accept any commercially reasonable loan made in the
+ordinary course of business if the lende r has no dire ct interest in the performance of the
+public employee's duties. A lender has a direct interest in the performance of a public
+employee's official duties if the lender is seeking or is likely to seek official action by the
+public employee. A public employee may accept a commercially reasonable loan made in
+the ordinary course of business from a lender who has a direct interest in the performance of
+the public employee's duties if the public employee first makes a disclosure as required by
+M.G.L. c. 268A, § 23(b)(3).
+Example: A public employ ee may accept any reward or prize g iven t o competitors or
+entrants in a random drawing open to the public, or any reward or prize given to all attendees
+at an event (1000 attendee at Topsfield fair gets a car).th
+Example: A public employee may accept gifts, meals, and events given and received for
+reasons entirely unrelated to the recipient's official actions or position, on holidays; occasions
+of religious significance, including bar mitzvahs and confirmations; occasions of personal
+significance, including weddings, engagements, birthdays, the birth or adoption of a child,
+illness, or a relative's illness or death; and occasions of professional significance, including
+hirings and promotions.
+Example: A pu blic e mployee m ay a ccept honoraria (v oluntary, u nsolicited p ayments)
+unrelated to the employee's official action, position, or duties, as long as the speech or service
+for which the honorarium was given was performed on the employee's own time and without
+the use of public resources. Honoraria related to official positions or actions are dealt with
+in 930 CMR 5.08(4)(d).
+Example: A public employee may accept any inheritance unrelated to the employee's official
+position, or to the employee's performance or nonperformance of official actions or duties.
+5.07: Gifts Worth Less Than $50 Are Not Prohibited But a Disclosure May be Required
+A public emp loyee is not prohibited from ac cepting an unsolicited g ift that is not of
+substantial value as defined in 930 CMR 5.05, unless a reasonable person, having knowledge of
+the relevant circumstances, would conclude that the public employee could unduly favor the
+giver or be influenced by the giver when performing official duties. If a gift could create such
+an appearance of a conflict of interest, pursuant to M.G.L. c. 268A, § 23(b)(3), the employee may
+accept the gift only if he or she makes a written public disclosure about the gift prior to taking
+any official action involving the donor . Below are examples of situations where a gift is not
+prohibited because it is not of substantial value, but must be disclosed because it could create an
+appearance of a conflict of interest:
+Example: A building inspector accepts a $40 bottle of wine from a developer whose projects
+he frequently inspects. The inspector must make a disclosure.
+Example: A business association's representatives meet regularly with city councilors to
+discuss association issues. Several weeks after the city council votes in favor of a significant
+association bill, the association sends a concert ticket worth $30 to each to the c ouncilors
+who voted in favor. Each councilor must make a disclosure before any subsequent meeting
+with or action involving the association.
+Example: A public school teacher accepts a $40 gift certificate from the parent of a current
+student. The teacher must make a disclosure.
+Special rules apply to gifts from lobbyists. Public employees who hold certain types of
+positions, as defined in M.G.L. c. 268B, § 1, may not accept any gift at all from a lobbyist,
+even if it is not of substantial value, pursuant to M.G.L. c. 268B, § 6, and M.G.L. c. 3, § 43,
+last paragraph. Gifts from lobbyists prohibited by those statutes may be accepted only in
+accordance with 930 CMR 5.09.
+5.08: Gifts Worth $50 or More and Related to Official Action or Position: Exemptions
+(1) A public employee is not prohibited from accepting a gift worth $50 or more where the gift
+is related to the public employee's official action or position, without violating M.G.L. c. 268A,
+§§ 3, 23(b)(2), and 23(b)(3), if the gift falls within one of these exemptions, and if the public
+employee complies with all requirements imposed by the exemption. Nothing in 930 CMR 5.08
+authorizes a public employ ee to a ccept any g ift by a lo bbyist that is prohibited by
+M.G.L. c. 268B, § 6, or M.G.L. c. 3, § 43, last paragraph. Gifts from lobbyists prohibited by
+those statutes may be accepted only in accordance with 930 CMR 5.09.
+(2) Travel Expenses. 930 CMR 5.08(2) relates to payment of travel and related expenses for
+a public employee where the purpose of the travel is to e ngage in a n activity that serves a
+legitimate public purpose. Payment of such expenses by one's employing agency is not a
+prohibited gift and does not require an exemption. Nothing in 930 CMR 5.08 authorizes a public
+employee to a ccept any g ift by a lobby ist that is prohibited by M.G.L . c. 268B , § 6, or
+M.G.L. c. 3, § 43, last par agraph. G ifts from lobby ists prohibited by those statutes may be
+accepted only in accordance with 930 CMR 5.09.
+(a) Definitions. For purposes of 930 CMR 5.00:
+1. Travel Expenses. Travel expenses are necessary and reasonable expenses incurred
+by a public employee in order to engage in an activity that serves a legitimate public
+purpose, including air, train, bus, and ta xi fare, rental car hire, the c ost of meals and
+lodging, and expenses related to attendance at an event including costs of registration,
+admission, tickets, food, refreshments, instruction, materials, and entertainment.
+2. L egitimate Public Purpose. A n activity has a "legitimate public purpose" if it i s
+intended to promote the interests of the Commonwealth, a county, or a municipality.
+Examples of activities with legitimate public purposes include, but are not limited to, the
+following:
+Example: Activities that promote tourism, economic development, charitable, public
+health, environmental, or educational goals;
+Example: Attendance at training and educational events and conferences designed
+to improve the efficiencies and effectiveness of public services, or to enhance the
+knowledge and skills of public employees relative to their official duties;
+Example: B usiness t ravel ne cessary to m ake inf ormed p urchasing d ecisions,
+selections, and inspections;
+Example: A class field trip that will enable students in a government class to observe
+proposed legislation being debated, or that will enable students in a Spanish class to
+hear the language spoken by native speakers;
+Example: Any purpose defined by an agency's enabling legislation;
+Example: An y purpose d efined as a l egitimate p ublic p urpose b y t he a gency's
+governing bod y or , a bsent a g overning bo dy, c hief e xecutive of ficer, tha t is in
+furtherance of the agency's mission.
+(b) F amily Me mbers. 9 30 CMR 5 .08(2) does n ot a uthorize a cceptance by a pu blic
+employee of reimbursement, waiver, or payment of travel expenses for a family member or
+friend a ccompanying the public employ ee. Others may acc ompany a public employ ee
+accepting reimbursement, waiver, or payment of travel expenses only at their own expense,
+and may share the public employee's accommodations if that does not increase the expense,
+or if they pay any additional cost.
+(c) Travel Expenses Paid by Domestic Public Agency. A public employee is not prohibited
+from accepting reimbursement, waiver, or payment of travel expenses of substantial value,
+provided by any domestic public agency at the federal, state, county, municipal level, for any
+purpose in furtherance of the employing public agency's mission, and in accordance with the
+procedures of the employing agency. No disclosure is required. This exemption does not
+apply to p ayment o f t ravel e xpenses b y fo reign g overnmental e ntities, a nd fe derally
+recognized tribes which is permitted, subject to compliance with 930 CMR 5.08(2)(d).
+Example: A District Attorney sends employees to a training conference concerning
+sexual offenses against children. The District Attorney's sex offense unit typically works
+with an employee of the state Department of Children and Families (DCF) when it
+prosecutes such cases. The DCF employee may accept payment of her travel expenses
+by the District Attorney so that she may attend the conference. No disclosure is required.
+Example: A law enforcement officer travels out of state to bring a fugitive back to the
+Commonwealth. The officer's travel expenses may be paid by a prosecutor's office. No
+disclosure is required.
+(d) Travel Expenses Paid by Non-public or Foreign Entity or Federally Recognized Tribe.
+A public employee is not prohibited from accepting reimbursement, waiver, or payment of
+travel expenses of substantial value, provided by a non-public or foreign entity or federally
+recognized tr ibe, i f a prior w ritten d etermination is ma de a s se t f orth i n 9 30 CMR
+5.08(2)(d)1. or 2. that such acceptance will serve a legitimate public purpose, and that such
+public purpose outweighs any special non-work related benefit to the employee, or to the
+person providing the reimbursement, waiver, or payment. Payment of travel expenses by
+domestic public agencies is permitted pursuant to 930 CMR 5.08(2)(c).
+1. Non-e lected Public Employees. A non-elected public employee is not prohibited
+from accepting reimbursement, waiver, or pay ment of tra vel expenses of substantial
+value, provided by any person other than a public agency or a lobbyist, if the public
+employee makes a prior written disclosure to the employee's appointing authority, and
+the appointing authority, or designee, determines in writing and prior to the date of any
+travel or attendance both that acceptance of such reimbursement, waiver, or payment of
+expenses will serve a legitimate public purpose, and that such public purpose outweighs
+any specia l non-work r elated be nefit to the employ ee or the p erson providing the
+reimbursement, waiver, or payment. Such a disclosure must be made on a f orm
+prescribed by the Commission and as provided by 930 CMR 5.07(2).
+2. Electe d Public Employ ees. An elected public employee is not prohibited fr om
+accepting reimbursement, waiver, or payment of travel expenses of substantial value,
+provided by any person other than a public agency or a lobbyist, if the elected public
+employee determines in writing prior to any travel or attendance both that acceptance of
+such reimbursement, waiver, or payment will serve a legitimate public purpose, and that
+such public purpose outweighs any special non-work related benefit to the employee or
+to the person providing the reimbursement, waiver, or payment. Such a disclosure must
+be made on a form prescribed by the Commission and as provided by 930 CMR 5.07(2).
+3. I f the value of trave l expenses acc epted by a public employ ee exceeds what wa s
+previously disclosed by $50 or more, the public employee shall submit a reconciliation
+statement within two wee ks after the travel is completed, in the same manner as the
+original disclosure was made, on a form prescribed by the Commission.
+4. I n addition to the disclosure re quired a t the time of acceptance of any such
+reimbursement, waiver, or pay ment, if a pa rticular matter involving the g iver comes
+before the public e mployee dur ing the six months follo wing such ac ceptance, the
+employee must make a written public disclosure pursuant to M.G.L. c. 268A, § 23(b)(3).
+(e) In-state Travel for Educational Purposes. Except where the giver is a lobbyist, a public
+employee is not prohibited from accepting reimbursement, waiver, or payment of expenses
+of substantial value related to the public employee's attendance or participation, including
+as a panelist or speaker, at in-state educational programs involving professional or other
+continuing education, including in-state educational, training and planning sessions required
+by state or f ederal law, whe n the public employ ee has a good faith belief that his or her
+attendance will serve a legitimate public purpose, as defined in 930 CMR 5.08(2)(a)2., which
+outweighs any special non-work related benefit to the employee, or to the person providing
+the reimbursement, waiver, or payment. Educational events involving out-of-state travel are
+addressed in 930 CMR 5.08(2 )(c) and (d) . No disclosure is re quired, e xcept that if a
+particular matter involving the giver either has come before the public employee in the six
+months prior to such acceptance, or comes before the public employee during the six months
+following such acceptance, the employee must make a written public disclosure pursuant to
+M.G.L. c. 268A, § 23(b)(3).
+Example: Police, fire, and public works employees who would be first responders to
+emergency incidents involving natural gas may attend in-state training sessions sponsored
+by the natural gas companies, and may accept payment of travel expenses and hospitality
+of substantial value. The public employees are only required to make a disclosure if a
+matter involving the sponsoring utility has come before them in the six months prior to
+the training, or comes before them in the six months following the training.
+(3) Incidental Hospitality That Serves a Public Purpose. Elected public employees, and their
+staff members, are not prohibited from accepting payment or waiver of expenses of substantial
+value (including cost of admission, refreshments, and transportation within the Commonwealth)
+related to attendance by the elected public employee or staff member at weekday informational
+programs during regular daytime business hours at which incidental hospitality is provided, as
+set forth in 930 CMR 5.08(3)(a). Elected and non-elected public employees are not prohibited
+from accepting payment or waiver of such expenses related to attendance at events at which their
+attendance serves a legitimate public purpose, as set forth in 930 CMR 5.08(3)(b). 930 CMR
+5.08(3) does not authorize acceptance of gifts from lobbyists, which are treated separately below
+in 930 CMR 5.09, and it also does not eliminate any requirement imposed by M.G.L. c. 3. A
+disclosure is r equired in the c ircumstances se t f orth i n 9 30 CMR 5 .08(3)(b). No thing in
+930 CMR 5.08 authorizes a public employee to accept any gift by a lobbyist that is prohibited
+by M.G.L. c. 268B, § 6, or M.G.L. c. 3, § 43, last paragraph. Gifts from lobbyists prohibited by
+those statutes may be accepted only in accordance with 930 CMR 5.09.
+(a) Elected Public Employees and Their Staff: No Disclosure Required for Attendance at
+Weekday Informational Programs at Which Incidental Hospitality is Provided. An elected
+public employee, a nd the staff of an e lected public employ ee, a re not prohibited f rom
+accepting payment or waiver of expenses of substantial value (including cost of admission,
+refreshments, a nd tr ansportation w ithin t he Com monwealth) r elated to a ttendance a t a
+weekday group program during regular daytime business hours, the primary purpose of
+which is to give the elected public employee or staff member information concerning current
+issues in the Commonwealth, and at which any related hospitality provided is incidental to
+the primary informational purpose, comparable to the examples below. No disclosure is
+required.
+Example: A State Representative attends monthly Chamber of Commerce breakfast
+meetings in his district so as to keep informed about issues of interest to business owners
+in his district. Attending the meetings has substantial value because a number of small
+meetings sponsored by the same entity are aggregated. The Representative may accept
+the cost of refreshments at the breakfasts, and no disclosure is required.
+Example: A legislative aide to a State Senator regularly attends State House programs
+sponsored by a variety of different groups, including constituents, business associations,
+and no nprofit or ganizations. So me or a ll o f t hese g roups m ay have a n in terest i n
+legislation before the Senate. Pastries, sandwiches, drinks, and other refreshments are
+provided. The value may or may not be substantial. The aide attends these programs in
+order to be informed about the views of various entities on matters that may come before
+her Senator. The aide may accept the cost of refreshments at the State House programs,
+and no disclosure is required.
+Example: Member s of a leg islative cauc us are offe red bus tra nsportation to a
+manufacturing site, lunch, and a tour of the site. The purpose of the tour is to inform the
+members of the circumstances of a Commonwealth industry. The transportation, lunch
+and tour a re of substantial val ue. The membe rs may acc ept the costs of the
+transportation, lunch and tour, and no disclosure is required.
+Example of What is Not Permissible: An individual legislator is invited to lunch by a
+partner at a law firm who is not a personal friend of the legislator. The cost of the lunch
+exceeds $50. The two spend the majority of the time discussing pending legislation in
+which clients of the lawyer have an interest. Th is example does not fall within this
+exemption because it is a lunch, not a group informational program. The legislator may
+attend the lunch but must pay for his own lunch.
+(b) Non-elected and Elected Public Employees: Disclosure Required for Attendance at
+Events Where A ttendance Serves a Legitimate Public Purpose. Non- elected and e lected
+public employees are not prohibited from ac cepting payment or wa iver of e xpenses of
+substantial value (including cost of admission, refreshments, and transportation within the
+Commonwealth) related to attendance at an event to which the public employee has been
+invited, if there is a written determination that attendance at such event serves a legitimate
+public purpose as defined in 930 CMR 5.08(2)(a)2., and that such public purpose outweighs
+any special non-work-related benefit to the employee, or to the person providing the payment
+or waiver of expenses. The determination of legitimate public purpose must be made on a
+form prescribed by the Commission, and filed as set forth in 930 CMR 5.04. An appointed
+employee must obtain such a determination from his or her appointing authority prior to
+attendance at any such event. Elected public employees, and public employees without an
+appointing authority, may make suc h a dete rmination for themselve s, and for their staff
+members, prior to the event or within ten business days after the event.
+Example: A le gislator is i nvited to a ttend a fu ndraiser d inner f or a c haritable
+organization. She is not asked to make the $250 contribution that would otherwise be
+required for attendance at the dinner. The legislator is not certain until the day of the
+event whether her other c ommitments will permit her to attend, but she doe s in fact
+attend the dinner. Several days after the dinner, the legislator fills out the disclosure form
+required by 930 CMR 5.08(3)(b), in which she makes the de termination that her
+attendance at the event will increase public awareness of the cause assisted by the charity,
+and that this will serve a legitimate public purpose. The legislator may accept the waiver
+of the attendance fee.
+Example: A city councilor directs his aide to attend a basketball game to which the
+councilor has been invited, and for which an admission fee of $75 is being charged to
+raise money for a local Boys & Girls Club. The fee is waived for the councilor and/or
+his aide. The councilor makes a written determination in advance of the event that the
+aide's attendance at the event will increase the visibility of charitable activities promoted
+by the Boys & Girls Club, and that this will serve a legitimate public purpose. The aide
+may attend the event, and may accept waiver of the admission fee.
+(4) Legitimate Speaking Engagements. A public employee who is invited to participate in a
+legitimate speaking engagement, as defined in 930 CMR 5.08(4)(a), in whole or in part because
+of his official position or actions, is not prohibited from accepting reimbursement, waiver, or
+payment of reasonable travel expenses for the public employee and any staff necessary to carry
+out the speaking engagement. The travel expenses may cover only the day or days on which the
+public employee is actually speaking and the days on which the public employee must travel to
+the conference and return to the Commonwealth. A public employee who speaks only on the
+first day of a week-long conference can accept travel expenses in connection with the other days
+only subject to compliance with 930 CMR 5 .08(2). Nothing in 930 CMR 5.08 authorizes a
+public employee to accept any gift by a lobbyist that is prohibited by M.G.L. c. 268B, § 6, or
+M.G.L. c. 3, § 43, last par agraph. G ifts from lobbyists prohibited by those statutes may be
+accepted only in accordance with 930 CMR 5.09.
+(a) A legitimate speaking engagement means giving a speech or serving on a panel where
+the speech or panel:
+1. is formally scheduled on the agenda of a meeting, conference, or event;
+2. i s scheduled i n ad vance o f t he s peaker's o r p anelist's ar rival at t he m eeting,
+conference, or event;
+3. is before an organization that would normally have speakers or panelists address its
+members at such meeting, conference, or event; and
+4. signific antly contributes to the mee ting, conference, or event, taking into account
+such factors as the length of the speech or presentation, the expected size of the audience,
+and the extent to which the speaker is providing substantive information or commentary.
+(b) T ravel e xpenses in clude the e xpenses se t f orth i n 9 30 CMR 5 .08(2)(a)1. and, in
+addition, the provision of ref reshments, food, a nd drink at the leg itimate speaking
+engagement.
+(c) Honoraria. A public employee who is invited to participate in a legitimate speaking
+engagement in whole or in part because of his official position or actions, is not prohibited
+from accepting an honorarium, (that is, a voluntary, unsolicited payment) customary to the
+practice of the entity awarding the honorarium only if:
+1. delivering the speech is not part of the public employee's official duties;
+2. public resources are not used in the preparation of the speech;
+3. public time is not taken for the preparation or delivery of the speech; and
+4. neither the sponsor of the address nor the source of the honorarium is a person or
+entity with whom the public employee has had or reasonably expects to have dealings in
+his or her official duties; and
+5. the public employee makes a prior written disclosure concerning the honorarium.
+A public employ ee who may not accept an honorarium may request that the donor
+instead give it to charity, but may not identify any particular charity. If the public employee
+makes such a request, this exemption does not eliminate any possible tax consequences.
+(5) Honorary Degrees. A public employee is not prohibited from accepting an honorary degree
+from a p ublic or private educational institution given in whole or in part for the employee's
+official actions or position, provid ed that the deg ree does not include a monetary award of
+substantial value. The public employee who is receiving the degree may also accept payment or
+reimbursement of re asonable travel expenses related to any conferral ceremony given to the
+employee and guests accompanying the employee in accordance with the criteria and policies of
+the educational institution. If a particular matter involving the giver came before the public
+employee during the six months prior to such acceptance, or comes before the public employee
+during the six mo nths following such acceptance, the employee must make a written public
+disclosure pursuant to M.G.L. c. 268A, § 23(b)(3).
+(6) Awards for Meritorious Public Service or Lifetime Achievement. A public employee may
+accept an award for meritorious public service or lifetime achievement based in whole or in part
+on work done as a public employee, provided that the award is part of a program that makes such
+awards on a regular basis pursuant to established standards developed by the awarding entity.
+The public employee who is receiving the award may also accept payment or reimbursement
+of reasonable travel expenses as defined in 930 CMR 5.08(2)(a)1. in connection with his or her
+attendance, and the attendance of his or her guests, at any award ceremony, and may accept any
+display item related to the degree or award (such as a trophy, plaque, bowl, desk ornament, or
+certificate) in accordance with the criteria and policies of the degree or award program. A public
+employee receiving an award pursuant to this exemption may accept a monetary award or stipend
+only if the public employee has not had, and does not reasonably expect to have, official dealings
+as a public employee with either the awarding entity or any sponsors of the award. If a particular
+matter i nvolving the a warding e ntity, or a sp onsor o f t he a ward, c omes b efore the pu blic
+employee during the six months following such acceptance, the employee must make a written
+public disclosure pursuant to M.G.L. c. 268A, § 23(b)(3). 930 CMR 5.08(6) does not authorize
+acceptance of testimonial dinners that would be prohibited by M.G.L. c. 268, § 9A. Nothing in
+930 CMR 5.08 authorizes a public employee to accept any gift by a lobbyist that is prohibited
+by M.G.L. c. 268B, § 6, or M.G.L. c. 3, § 43, last paragraph. Gifts from lobbyists prohibited by
+those statutes may be accepted only in accordance with 930 CMR 5.09.
+(7) Public Employee Discounts and Waived Membership Fees. A public employee may accept
+a public employee discount of substantial value, if the discount is available to a class consisting
+of all public employees, or to a class c onsisting of all public employees from a city or town,
+county, or state, or to a geographically defined class of public employees. A public employee
+may accept a r educed or wai ved membership fee offered by a prof essional organization, of
+substantial value, if the reduced or waived fee is available to a class of similarly situated public
+employees o f t hat pr ofession. A pu blic sc hool t eacher m ay a ccept a dis count a vailable to
+teachers for purchase of items to be used for educational purposes.
+(8) Gifts Among Public Employees.
+(a) Public employees are not prohibited from giving to other public employees who are not
+their official superiors, and public employees are not prohibited from accepting from other
+public employees who are not their subordinates, gifts of substantial value, in recognition
+of holidays; occasions of religious significance; occasions of personal significance including
+weddings, engagements, birthdays, the birth or adoption of a child, illness, a relative's illness
+or dea th; occasions of pr ofessional sig nificance including hiring s, promotions, and
+noteworthy accomplishments or achievements; and occasions that terminate a professional
+working relationship, such as retirement, transfer, or resignation.
+(b) On a n occasional basis, the following individual gifts to an of ficial superior are not
+prohibited:
+1. gifts other than cash or gift certificates that are valued at no more than $10;
+2. food and refreshments shared in the office;
+3. pe rsonal hospitality in t he employee's home that is the same as that customarily
+provided to personal friends;
+4. gifts given in connection with the receipt of personal hospitality that are customary
+to the occasion, such as a bottle of wine to the host of a dinner party; and
+5. transferred leave, provided that it is done in a way that prevents donors from targeting
+identified recipients, and recipients from learning the identity of donors.
+(c) On special infrequent occasions a gift appropriate to that occasion to an official superior
+is not prohibited. These occasions include events of personal significance, such as marriage,
+illness, or t he birth or adoption of a child, or occ asions that terminate the subordinate-
+superior relationship, such as retirement, resignation, or transfer. Employees may solicit or
+contribute, on a strictly voluntary basis, nominal amounts of $10 or less for a group gift to
+an official superior on a special infrequent occasion, and occasionally for items such as food
+and refreshments to be shared among employees at the office.
+(d) Notwithstanding 930 CMR 5.08(8)(b) and (c), 930 CMR 5.08(8) does not authorize
+knowing acceptance of a ny gift made a s a re sult of coercion or dure ss, which is never
+permissible.
+(9) Cer emonial Gifts and Privileg es. A public e mployee is not prohibited fr om accepting
+admission of substantial value to a public event from the sponsor or organizer of the event, where
+the public employee is expected to perform a ceremonial function. For purposes of 930 CMR
+5.08(9), a ceremonial function means that the public employee will perform some action beyond
+simple attendance or speech that is integral to the event, and that is dif ferent from what is
+expected of othe r attendees. Ex amples of c eremonial functions include: providing opening
+remarks to welcome attendees at an event; making scheduled introductions of other persons that
+are part of the program, throwing the fir st pitch at a ba seball game, cutting a r ibbon at the
+opening of a bridge, turning over the first shovelful of dirt at a public construction project,
+bestowing wreaths on the wi nners of the Boston Ma rathon, a nd sim ilar act ions. A pu blic
+employee may accept unsolicited g ifts customary to the occa sion (such as a baseball when
+throwing the first pitch, or an engraved shovel when breaking ground for a public project) after
+performing such a ceremonial function. Simply saying a few words or introducing oneself is not
+a ceremonial function for purposes of 930 CMR 5.08(9). Nothing in 930 CMR 5.08 authorizes
+a public employee to accept any gift by a lobbyist that is prohibited by M.G.L. c. 268B, § 6, or
+M.G.L. c. 3, § 43, last paragraph. G ifts from lobby ists prohibited by those statutes may be
+accepted only in accordance with 930 CMR 5.09.
+Example: The Governor is invited to attend an evening event for a non-profit corporation.
+The event will honor the retiring director of the non-profit corporation. The event is open
+to the public and tickets cost $100, but the sponsoring non-profit has offered to waive the
+cost of admission for the Governor. When the invitation is extended, the Governor is asked
+if he is willing to welcome the attendees and introduce the retiring director at the beginning
+of the event. The Governor has been asked to perform a ceremonial function, and may accept
+free admission to the event.
+Example: A biotech firm has a luxury box at Fenway Park. The firm is hosting employees
+of a foreign firm with which it hopes to start a new venture. The biotech firm invites several
+officials from the town where it hopes to build the new venture to attend a game at Fenway
+with the foreign firm's employees. Comparable tickets to the game would otherwise cost
+$200. The local officials are not asked to do anything other than be present and chat with the
+other attendees. The officials have not been asked to perform a ceremonial function, and
+should pay the cost of their tickets if they choose to attend.
+(10) Retirement Gifts. A public employee is not prohibited from accepting gifts of substantial
+value appropriate to the occasion from members of the public with whom the public employee
+has worked in recognition of the public employee’s impending retirement, provided that the giver
+is not a lobbyist, and that such g ifts reflect general goodwill toward the re tiring employee or
+recognize the employee's service generally, and are not intended as a reward for any specific past
+official action. 930 CMR 5.08(10) does not authorize acceptance of testimonial dinners that
+would be prohibited by M.G.L. c. 268, § 9A. No exemption is needed for retirement gifts given
+after a public employee has retired. Nothing in 930 CMR 5.08 authorizes a public employee to
+accept any gift by a lobbyist that is prohibited by M.G.L. c. 268B, § 6, or M.G.L. c. 3, § 43, last
+paragraph. Gifts from lobbyists prohibited by those statutes may be accepted only in accordance
+with 930 CMR 5.09. No exemption is needed for retirement gifts given after a public employee
+has retired.
+(11) Unsolicited Per ishable I tems. A public employ ee is not prohibited fr om acc epting
+unsolicited gifts of items that are perishable or otherwise impractical to return (such as flowers,
+plants, floral arrangements, and fruit baskets, or boxes of candy) if such item is made generally
+accessible to other p ersons in the employee's agency and to the g eneral public to the extent
+possible, or given to charity.
+(12) Admission to Political Campaign Events for Elected Officials and their Staff Members.
+A campaign is not prohibited from giving, and an elected public employee and his or her staff
+are not prohibited from accepting, admission to an event paid for with campaign funds, when the
+event is paid for in accordance with M.G.L. c. 55 and no public resources are used.
+(13) Gifts Received and Held Temporarily as Part of Charitable Activities. A public employee
+participating as such in a public agency's charitable activities is not prohibited from receiving
+from a giver other than a lobbyist, and temporarily holding, items being collected as part of such
+effort, provided that the items are turned over to their ultimate recipients within a reasonable
+time, and that the ultimate recipient is informed of the source of the donation. Nothing in
+930 CMR 5.08 authorizes a public employee to accept any gift by a lobbyist that is prohibited
+by M.G.L. c. 268B, § 6, or M.G.L. c. 3, § 43, last paragraph. Gifts from lobbyists prohibited by
+those statutes may be accepted only in accordance with 930 CMR 5.09. No exemption is needed
+for retirement gifts given after a public employee has retired.
+Example: An office supply company wishes to donate backpacks of school supplies to needy
+children, a nd enlists the help of ce rtain legi slators in distributi ng the bac kpacks. The
+legislators may hold the backpacks temporarily while waiting to t urn them over to their
+ultimate recipients, and must inform the ultimate recipients of the identity of the donor.
+(14) Class Gifts to Teachers. A public school depar tment employee is not prohibited fr om
+accepting a gift, or several gifts during the school year, from public school students and/or their
+parents and guardians, with an aggregated value of up to $150, if the gift is identified only as
+being from the c lass, and the identity of g ivers and a mounts given a re not identi fied to the
+recipient. Parents may also give gifts to the classroom or the school in accordance with the rules
+of the school district. Gifts received pursuant to this exemption are not required to be disclosed
+because the givers are not identified to the teacher. Public school department employees must
+disclose gifts received from individual students, parents, and guardians that are not class gifts
+as explained in 930 CMR 5.07.
+Example: A teacher has a class with 23 students. Parents of 20 of the students collect money
+and give the teacher a $150 gift certificate to a book store, indicating that it is a class gift.
+One of the parents who did not contribute to the class gift gives the teacher a $25 certificate
+to a spa. The teacher may accept the $150 class gift certificate and no disclosure is required.
+The teacher may not accept any other gift from the parents who contributed to the class gift.
+The te acher m ay a ccept t he $2 5 s pa c ertificate, b ut m ust f ile a dis closure pu rsuant to
+M.G.L. c. 268A, § 23(b)(3).
+Example: A tea cher has a c lass with 23 students. Parents of 13 of the students collect
+money and give the teacher a $130 gift certificate to a book store, indicating that it is a class
+gift. Parents of the oth er ten students collect money and g ive the tea cher a $100 g ift
+certificate to an office supply store, indicating that the gift is a gift to the classroom and that
+the teacher should use it to buy necessary classroom supplies. The teacher can accept the
+first gift on his own behalf and the second on behalf of the classroom. He must spend the
+$100 of fice su pply g ift c ertificate on c lassroom su pplies a nd sh ould k eep r eceipts
+documenting those purchases. Items purchased with money that is a gift to the classroom is
+the property of the school district. The teacher may not knowingly accept any additional gift
+from parents who participated in the class gift.
+(15) Passes to School Events. An employee of a public school department, a regional school
+district, an e ducational collaborative, or a school c ommittee member is not prohibited from
+accepting a pass of substa ntial value g iven by the district to public school sports and
+entertainment events of the school district where the employee is employed.
+(16) Drawings. A public employee is not prohibited from accepting any reward or prize given
+to competitors or entrants in a random drawing in which the other competitors or entrants are
+public employees, including a drawing at an event where the public employee's agency paid for
+the employee to attend the event.
+5.09: Gifts from Lobbyists Not Related to Official Action or Position
+(1) Applicability. Lobbyists are prohibited by M.G.L. c. 268B, § 6 from giving gifts to any
+public official or public employee as those terms are defined in M. G.L. c. 268B, § 1, and to
+members of their immediate family. The definition of a public official and a public employee
+under M.G.L. c. 268B, § 1 a re different from, and narrower than, the definition of a public
+employee as used elsewhere in 930 CMR 5.00. Under that narrower definition, the prohibition
+against lobbyists' gifts set forth in M.G.L. c. 268B, § 6 applies only to statewide elected officials,
+and persons required to file Statements of Financial Interest pursuant to M.G.L. c. 268B, § 5.
+Lobbyists are also subject to M.G.L. c. 3, § 43, last paragraph, which prohibits them from giving
+public officials and public employees gifts, meals, beverages, or other items to be consumed.
+(2) Exemption. Lobbyists, as defined in 930 CMR 5.04, are not prohibited from giving, and
+Public officials and public employees, as defined in M.G.L. c. 268B, § 1, are not prohibited from
+accepting, the following from a lobbyist or the lobbyist's spouse, if the gift is purchased with the
+giver's personal funds and not with funds belonging to the giver's employer, client, or institution,
+the public employee reasonably believes that only the giver’s personal funds were used, and the
+gift is given and received solely because of family or established personal friendship:
+(a) meals in the donor's home; and
+(b) gifts on occasions of religious significance including, for example, confirmations and
+bar mitzvahs; and occasions of personal significance including weddings, engagements, the
+birth or adoption of a child, and the illness or de ath of a relative. A birthday is not an
+"occasion of personal significance" for purposes of this exemption.
+Example: A childhood friend of a State Representative is a lobbyist. Over the years, the
+two have exchanged gifts on the occasion of significant life events such as weddings and
+the births of their children. The lobbyist uses her personal funds to purchase two place
+settings, worth $300, as a wedding present for the Representative's daughter. The gift is
+not prohibited.
+(c) A public employee may accept any gift or inheritance from a lobbyist who is a member
+of the public employee's immediate family, other relative, intended spouse, or member of the
+public employee's household, if the gift is purchased with the giver's personal funds and not
+with funds belonging to the giver's employer, client, or institution, and is given and received
+solely because of the family or comparable relationship.
+(d) 930 CMR 5.09 is an exemption from the prohibition against gifts by lobbyists contained
+in M.G.L. c. 3, § 43, last par agraph, as well as from M.G.L. c. 268A, §§ 3 a nd 23, and
+c. 268B, § 6.
+5.10: Political Campaign Contributions: Exemption from Disclosure
+A contribution made and reported in accordance with M.G.L. c. 55 is not required to be the
+subject of a separate, additional disclosure pursuant to M.G.L. c. 268A, § 23(b)(3). A person
+acting within this exemption remain s subject to the other prohibitions of M.G.L . c. 268A,
+including, but not limited to, §§ 3 and 23(b)(2).
+Example: A lawyer contributes to the campaign of a candidate for State Auditor, and the
+contribution is reported pursuant to M.G.L. c. 55. Later, the lawyer has a matter before the
+Auditor's office . The Audi tor is not required to make an a dditional disclosure of the
+contribution pursuant to M.G.L. c. 268A, § 23(b)(3), because it has already been disclosed
+in compliance with the c ampaign finance law, but r emains subject to the pr ohibition of
+M.G.L. c. 268A, § 23( b)(2) against using the A uditor's position t o give the lawy er any
+unwarranted privilege of substantial value.
+Example of What is Not Permitted: A candidate for Select Board asks the Town Manager
+to contribute to her reelection campaign. Th is is a solicitation of a contribution from a
+subordinate and is prohibited by M.G.L. c. 268A, § 23(b)(2).
+5.11: Glossary of Defined Terms Used in Gift Exemption Regulations
+Ceremonial Function, defined in 930 CMR 5.08(9), means that the public employee will perform
+some action beyond simple attendance that is different from what is expected of other attendees,
+such as throwing the first pitch at a baseball game, cutting a ribbon at the opening of a bridge,
+turning over the first shovelful of dirt at a public construction project, bestowing wreaths on the
+winners of the Boston Marathon, and similar actions.
+Commission, defined in 930 CMR 5.02, means the State Ethics Commission.
+Direct Interest in the Performance of a Public Employee's Official Duties, defined in 930 CMR
+5.06, means that a person is seeking or is likely to seek official action by the public employee.
+Disclosure, defined in 930 CMR 5.07(2), means a written statement that sets forth all the relevant
+facts. Such a disclosure may be made on a form prescribed by the Commission or in another
+writing that discloses the relevant facts. Such disclosures are public records.
+(a) A non-elected public employee must make a disclosure to the employee's appointing
+authority. An appointing authority is the individual official, board, commission, or other
+governmental body that has the legal authority to appoint, hire, or contract for the services
+of the public employee, or, where permitted by 930 CMR 5.00, such authority's designee.
+A disclosure to an appointing authority that is a multi-member body shall be made to the
+chairperson or designee and copied to the members of the body. Such multi-member body
+may, by valid vote of such body , choose to de legate to the chairperson or desig nee the
+authority to make any necessary determination in response to such disclosure on behalf of
+such body , which should then be c opied to the member s. J udges and judici al bra nch
+employees m ake d isclosures r equired b y 9 30 C MR 5 .00 t o t he C hief Ju stice o f t heir
+respective courts, or to his or her designee.
+(b) An e lected state or c ounty employee must make a disclosure to the Commi ssion.
+Members of the General Court may make a disclosure to the Senate or House Clerk or to the
+Commission. An elected state or county employee who is attending an event with members
+of his or her staff may make a single disclosure for himself or herself and the staff members.
+(c) An elected municipal employee must make a disclosure to the town or city clerk, and
+an elected regional school committee employ ee must make a d isclosure to the c lerk or
+secretary of such committee. An elected municipal or regional school employee who is
+attending an event with members of his or her staff may make a single disclosure for himself
+or herself and the staff members.
+Gift, defined in 930 CMR 5.04, mea ns anything of value that is g iven without something of
+equivalent fair market value being given in return.
+Legitimate Public Purpose, defined in 930 CMR 5.08(2)(a)2., means that the activity is intended
+to promote the interests of the Commonwealth, a county, or a municipality; examples are given
+in the defining regulation.
+Legitimate Speaking Engagement, defined in 930 CMR 5.08(4)(a), means giving a speech or
+serving on a panel where the speech or panel is formally scheduled on the agenda of a meeting,
+conference, or event; is scheduled in advance of the speaker's or panelist's arrival at the meeting,
+conference, or event; is before an organization that would normally have outside speakers or
+panelists address its members at such meeting, conference, or event; and significantly contributes
+to the meeting, conference, or event, taking into account such factors as the length of the speech
+or pr esentation, the e xpected s ize of the a udience, a nd the e xtent to wh ich th e sp eaker i s
+providing substantive information or viewpoints.
+Lobbyist, defined in 930 CMR 5.04, means a person who meets the definition of an executive
+agent under M.G.L. c. 3, § 39, or the definition of a legislative agent under M.G.L. c. 3, § 39.
+Official Action, defined in 930 CMR 5.04, means action taken in one's capacity as a public
+employee.
+Person, defined in 930 CMR 5.04, means a business, individual, corporation, union, association,
+firm, partnership, committee, or other organization or group of persons acting together who share
+a common interest or purpose.
+Public Employee, defined in 930 CMR 5.04, means any state, county, or municipal employee,
+and any special state, county, or municipal employee, as defined in M.G.L. c. 268A, § 1. The
+term includes full and part ti me public employees. I t applies regardless of how the public
+employment began, and includes public employees who were appointed or elected to t heir
+positions, or hired by a public agency, or those who provide services to a public agency pursuant
+to an express or implied contract. It also applies to persons serving in both compensated and
+uncompensated positions. 930 CMR 5.04: Public Employee is for purposes of these exemptions
+only, and not for purposes of M.G.L. c. 268B, § 5.
+Substantial Value, defined in 930 CMR 5.05, is $50 or more. 930 CMR 5.05 explains in detail
+how the Commission calculates substantial value.
+Travel Expenses, defined in 930 CMR 5.08(2)(a )1., are necessary and re asonable exp enses
+incurred by a public employee in order to engage in an activity that serves a legitimate public
+purpose, including air, train, bus, and taxi fare, rental car hire, the cost of meals and lodging, and
+expenses related to attendance at an event including costs of registration, admission, tickets,
+food, refreshments, instruction, materials, and entertainment.
+5.12 Alphabetical Index to Exemptions Related to Gifts to Public Employees
+Topic Regulatory Section
+Admission to Event 930 CMR 5.08(3)
+Attendance at Event 930 CMR 5.08(3)
+Award 930 CMR 5.08(6)
+Birth or Adoption of Child 930 CMR 5.06, 5.08(8), 5.09
+Birthday 930 CMR 5.06, 5.08(8), 5.09(2)(b)
+Campaign Contributions 930 CMR 5.10
+Ceremonial Function 930 CMR 5.08(9)
+Ceremonial Gifts and Privileges 930 CMR 5.08(9)
+Charitable Activities 930 CMR 5.08(13)
+Class Gift to Teacher 930 CMR 5.08(14)
+Commission 930 CMR 5.02
+Conference 930 CMR 5.08(2), (3), (4)
+Direct Interest in Performance of Duties 930 CMR 5.06
+Disclosure, Definition 930 CMR 5.07(2)
+Discount 930 CMR 5.06, 5.08(7)
+Display Items 930 CMR 5.08(6)
+Drawings 930 CMR 5.06, 5.08(16)
+Educational Events 930 CMR 5.08(2), (3)
+Engagement 930 CMR 5.06, 5.08(8), 5.09(2)(b)
+Executive Agents 930 CMR 5.04, 5.09
+Family 930 CMR 5.06, 5.08(2)( b), 5.08(6),
+5.08(8), 5.09
+Flowers and Plants 930 CMR 5.08(11)
+Food 930 C MR 5.08(2), (3), ( 4), (5) , (6),
+(8), (11), 5.09
+Friendship 930 CMR 5.06, 5.08(8), 5.09
+Gift, Definition 930 CMR 5.04
+Glossary of Defined Terms 930 CMR 5.11
+Holiday 930 CMR 5.06, 5.08(8)
+Honorarium 930 CMR 5.08(4)(d)
+Honorary Degree 930 CMR 5.08(5)
+Household, Member of 930 CMR 5.06, 5.09(2)(c)
+Illness or Death of Relative 930 CMR 5.06, 5.08(8), 5.09
+Incidental Hospitality 930 CMR 5.08(3)
+Inheritance 930 CMR 5.06, 5.09(2)(c)
+Intended Spouse 930 CMR 5.06, 5.09(2)(c)
+Legitimate Public Purpose, Definition 930 CMR 5.08(2)(a)2.
+Legitimate Speaking Engagement 930 CMR 5.08(4)(a)
+Topic Regulatory Section (continued)
+Legislative Agents 930 CMR 5.04, 5.09
+Lifetime Achievement 930 CMR 5.08(6)
+Loan 930 CMR 5.06
+Lobbyist, Definition 930 CMR 5.04
+Lodging 930 CMR 5.08(2), (4), (5), (6)
+Meals 930 CMR 5.08(2) through (6), (8), 5.09
+Meritorious Public Service 930 CMR 5.08(6)
+Not Related to Official Action or Position 930 CMR 5.06
+Official Action, Definition 930 CMR 5.04
+Passes to School Events 930 CMR 5.08(15)
+Perishable Items 930 CMR 5.08(11)
+Person, Definition 930 CMR 5.04
+Personal Significance, Occasion of 930 CMR 5.06, 5.08(8), 5.09
+Political Campaign Events 930 CMR 5.08(12)
+Prize 930 CMR 5.06, 5.08(6), 5.08(16)
+Professional Organization Fee 930 CMR 5.08(7)
+Promotional Item 930 CMR 5.06
+Public Employee, Definition 930 CMR 5.04
+Public Employees, Gifts Among 930 CMR 5.08(8)
+Rebate 930 CMR 5.06
+Relative 930 CMR 5.06, 5.08(8), 5.09
+Religious Significance, Occasion of 930 CMR 5.06, 5.08(8), 5.09
+Retirement 930 CMR 5.08(8), (10)
+School Passes 930 CMR 5.08(15)
+Substantial Value 930 CMR 5.05
+Teachers 930 CMR 5.08(14)
+Travel Expenses 930 CMR 5.08(2), (3), (4), (5), (6)
+Value of Less than $50 930 CMR 5.07
+Value $50 or Greater 930 CMR 5.06, 5.08
+Wedding 930 CMR 5.06, 5.08(8), 5.09
+REGULATORY AUTHORITY
+930 CMR 6.00: M.G.L. c. 268A, §§ 3(f), 23(f); c. 268B, §§ 3(a)(2) and (6) and c. 3, § 43, last
+paragraph.

@@ -1,0 +1,22 @@
+
+retrieved: n=416 violations=79
+  recall CI (question bootstrap) minicheck: 72/79 [84%, 97%]
+  recall CI (question bootstrap) deberta_L_notent: 32/79 [28%, 55%]
+  recall CI (question bootstrap) deberta_L_contra: 7/79 [3%, 17%]
+  gpt vs deberta_L_notent: violations caught only-by-gpt 26, only-by-deberta_L_notent 9, p=0.006 | compliant flagged only-by-gpt 53, only-by-deberta_L_notent 60, p=0.57
+  gpt vs minicheck: violations caught only-by-gpt 3, only-by-minicheck 26, p=1.5e-05 | compliant flagged only-by-gpt 7, only-by-minicheck 206, p=5.6e-52
+  gpt vs mscg: violations caught only-by-gpt 29, only-by-mscg 6, p=0.00012 | compliant flagged only-by-gpt 78, only-by-mscg 39, p=0.0004
+  sonnet vs deberta_L_notent: violations caught only-by-sonnet 29, only-by-deberta_L_notent 7, p=0.00031 | compliant flagged only-by-sonnet 72, only-by-deberta_L_notent 55, p=0.16
+  sonnet vs minicheck: violations caught only-by-sonnet 2, only-by-minicheck 20, p=0.00012 | compliant flagged only-by-sonnet 13, only-by-minicheck 188, p=6.3e-41
+  sonnet vs mscg: violations caught only-by-sonnet 33, only-by-mscg 5, p=4.3e-06 | compliant flagged only-by-sonnet 100, only-by-mscg 37, p=7e-08
+
+oracle: n=376 violations=69
+  recall CI (question bootstrap) minicheck: 64/69 [86%, 98%]
+  recall CI (question bootstrap) deberta_L_notent: 45/69 [51%, 78%]
+  recall CI (question bootstrap) deberta_L_contra: 4/69 [1%, 12%]
+  gpt vs deberta_L_notent: violations caught only-by-gpt 18, only-by-deberta_L_notent 0, p=7.6e-06 | compliant flagged only-by-gpt 56, only-by-deberta_L_notent 58, p=0.93
+  gpt vs minicheck: violations caught only-by-gpt 4, only-by-minicheck 5, p=1 | compliant flagged only-by-gpt 5, only-by-minicheck 144, p=1.7e-36
+  gpt vs mscg: violations caught only-by-gpt 38, only-by-mscg 1, p=1.5e-10 | compliant flagged only-by-gpt 109, only-by-mscg 29, p=4.2e-12
+  sonnet vs deberta_L_notent: violations caught only-by-sonnet 19, only-by-deberta_L_notent 0, p=3.8e-06 | compliant flagged only-by-sonnet 69, only-by-deberta_L_notent 55, p=0.24
+  sonnet vs minicheck: violations caught only-by-sonnet 4, only-by-minicheck 4, p=1 | compliant flagged only-by-sonnet 10, only-by-minicheck 133, p=1.4e-28
+  sonnet vs mscg: violations caught only-by-sonnet 39, only-by-mscg 1, p=7.5e-11 | compliant flagged only-by-sonnet 120, only-by-mscg 24, p=1.5e-16

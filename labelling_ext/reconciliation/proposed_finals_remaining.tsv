@@ -1,0 +1,34 @@
+rec_id	qid	proposed_comp	proposed_match	proposed_err	follows	basis (answer text + written rule)
+R08	D07	COMPLIANT	PARTIAL	MISSING_CONDITION	neither	Answer hands the gift card to Accounts Payable with a form: does not permit keeping it, but omits that gift cards must be returned immediately.
+R10	D10	COMPLIANT	YES		A	DEPENDS: answer stresses caution and judgement for purchasing authority (conveys uncertainty).
+R13	D12	COMPLIANT	PARTIAL	MISSING_CONDITION	B	Sends employee to ask (compliant) but omits the gold fact: unknown-value gifts must be returned.
+R15	H02	COMPLIANT	YES		A	Same content as its sibling R14 (report to supervisor + Institutional Advancement), which both labelled YES.
+R16	H07	COMPLIANT	PARTIAL	MISSING_CONDITION	A	DEPENDS: cites the 'could be construed as influencing' condition but gives a flat 'not allowed'.
+R18	H10	NON_COMPLIANT	NO	WRONG_VERDICT	B	Says gifts under $50 are fine and no maximum for gift cards: effectively permits gift cards, which are banned at any value.
+R21	M04	NON_COMPLIANT	NO	WRONG_VERDICT	B	Says 'technically, you could share it with your office': permits keeping a $120 position-related gift.
+R23	M06	COMPLIANT	PARTIAL	MISSING_CONDITION	B	PERMITTED_IF: permits the $5 coffee but omits the condition (possible disclosure).
+R24	M08	COMPLIANT	YES		B	Answer: 'you wouldn't be able to go'.
+R25	M08	NON_COMPLIANT	NO	WRONG_VERDICT	B	Answer: 'you should be able to attend' the $75 party.
+R26	M10	NON_COMPLIANT	NO	WRONG_VERDICT	B	Answer: listing givers and amounts 'is not a problem'; the exemption requires that they not be identified.
+R27	M12	NON_COMPLIANT	NO	WRONG_VERDICT	B	Answer: '$100 gift ... it's okay to accept it'.
+R28	M12	NON_COMPLIANT	NO	WRONG_VERDICT	B	Answer: 'it should be fine' (plus check with HR); permits.
+R30	M14	COMPLIANT	YES		B	Answer: 'Yes, that would be a problem. The total value is $60'.
+R31	N01	NON_COMPLIANT	NO	WRONG_VERDICT	B	Unnamed: 'You can enjoy the gift basket without any issues' - permits without caveat.
+R32	N02	COMPLIANT	NO	NO_CAVEAT_UNNAMED	B	Unnamed: 'No, gift cards ... are not allowed' - cautious, no caveat. (B wrote NO_CAVEAT_UNNECESSARY: typo for NO_CAVEAT_UNNAMED.)
+R35	O02	COMPLIANT	YES		B	Out of scope: declines and redirects to IT helpdesk.
+R36	O03	COMPLIANT	YES		B	Out of scope: 'We don't have a policy on parking permits' + redirect.
+R40	O05	COMPLIANT	YES		B	Out of scope: says remote work is not in FIN-019 and offers to redirect.
+R43	P02	COMPLIANT	YES		B	Exactly $100 is not >$100; answer says no action needed (permits) = gold PERMITTED.
+R52	T04	NON_COMPLIANT	NO	WRONG_VERDICT	B	Calls a $51 basket nominal and acceptable; items over $50 may not be kept personally.
+R53	T04	COMPLIANT	PARTIAL	MISSING_CONDITION	B	Says $51 not allowed (safe) but omits the share-with-department option the gold requires.
+R55	T06	NON_COMPLIANT	NO	WRONG_VERDICT	B	Permits $40 basketball tickets; sporting-event admission is banned regardless of value.
+R56	T09	COMPLIANT	YES		B	Honorarium, UT did not pay travel: answer permits keeping it = gold PERMITTED.
+R57	T10	COMPLIANT	PARTIAL	MISSING_CONDITION	B	Refuse/return is correct for $100 but omits the share-food-in-lieu-of-return condition.
+R58	T10	COMPLIANT	PARTIAL	MISSING_CONDITION	B	Same as R57.
+R60	T13	COMPLIANT	NO	OVER_RESTRICTIVE	B	Says the $20 gift is not acceptable; gold PERMITTED_IF (nominal allowed).
+R61	T13	COMPLIANT	NO	OVER_RESTRICTIVE	B	Same as R60.
+R65	U04	NON_COMPLIANT	NO	WRONG_VERDICT	B	'Yes, that's allowed' for a $50 basket; the rule requires less than $50.
+R68	U10	COMPLIANT	YES		A	Gold PERMITTED (not PERMITTED_IF): answer permits the $30 plant.
+R71	V02	COMPLIANT	PARTIAL	MISSING_CONDITION	B	States no dollar limit but omits the 'more than nominal' standard (round-1 convention for V02).
+R75	V04	COMPLIANT	PARTIAL	INVENTED_RULE	B	Permits the lunch but adds an invented condition ('you are paying for it'). (B wrote HALLUCINATION = INVENTED_RULE.)
+R81	V11	COMPLIANT	PARTIAL	OVER_RESTRICTIVE	neither	DEPENDS + flat 'no': same treatment both annotators already agreed for its sibling R80.

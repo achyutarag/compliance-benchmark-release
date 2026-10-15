@@ -1,0 +1,23 @@
+Sensitivity analysis (2026-10-11, post hoc): round-2 labels (Llama, Gemma; 208 answers) taken from Annotator A alone,
+instead of the final A+B reconciled labels. Round-1 labels unchanged. Retrieved context, all 416 answers.
+
+FINAL labels (A+B reconciled): violations 79/416 (round-2 models: 51/208)
+  MSCG             recall 26/79 (33%)  FPR 19%
+  GPT-5.5          recall 49/79 (62%)  FPR 31%
+  Sonnet 5.5       recall 54/79 (68%)  FPR 38%
+  MiniCheck        recall 72/79 (91%)  FPR 90%
+  DeBERTa not-ent  recall 32/79 (41%)  FPR 33%
+  RoBERTa not-ent  recall 68/79 (86%)  FPR 83%
+  AUROC (retrieved): MiniCheck 0.46, DeBERTa 0.57, RoBERTa 0.49
+
+Round 2 = Annotator A alone: violations 69/416 (round-2 models: 41/208)
+  MSCG             recall 27/69 (39%)  FPR 18%
+  GPT-5.5          recall 39/69 (57%)  FPR 33%
+  Sonnet 5.5       recall 41/69 (59%)  FPR 40%
+  MiniCheck        recall 65/69 (94%)  FPR 89%
+  DeBERTa not-ent  recall 32/69 (46%)  FPR 32%
+  RoBERTa not-ent  recall 59/69 (86%)  FPR 83%
+  AUROC (retrieved): MiniCheck 0.50, DeBERTa 0.62, RoBERTa 0.50
+
+Conclusion: grounding checks remain near chance (AUROC 0.50-0.62) and judges still detect more violations than MSCG (57-59% vs 39%)
+when B's round-2 labels are not used. Oracle-context rows not recomputed here.

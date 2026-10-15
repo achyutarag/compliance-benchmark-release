@@ -1,0 +1,82 @@
+{
+  "file": "labels_FROZEN_2026-09-30.csv",
+  "sha256": "3714b303e1eee38028822ceddd41bfaec09f9147a1b45d3a492b05d567078996",
+  "frozen_at": "2026-09-30T16:16:14",
+  "n_answers": 208,
+  "answer_models": {
+    "claude-haiku-4-5": 104,
+    "gpt-4o-mini": 104
+  },
+  "compliance": {
+    "COMPLIANT": 180,
+    "NON_COMPLIANT": 28
+  },
+  "matches_gold": {
+    "YES": 135,
+    "NO": 49,
+    "PARTIAL": 24
+  },
+  "error_type": {
+    "(none)": 135,
+    "WRONG_VERDICT": 28,
+    "OVER_RESTRICTIVE": 18,
+    "MISSING_CONDITION": 20,
+    "INVENTED_RULE": 2,
+    "NO_CAVEAT_UNNAMED": 3,
+    "FAILED_REFUSAL": 1,
+    "OTHER": 1
+  },
+  "clause_in_retrieved": {
+    "NO": 84,
+    "PARTIAL": 20,
+    "YES": 84,
+    "N/A": 20
+  },
+  "label_source": {
+    "single annotator A": 79,
+    "single annotator B": 79,
+    "shared: A and B agreed": 39,
+    "shared: reconciled": 11
+  },
+  "inter_annotator_agreement_shared_rows_n50": {
+    "compliance": {
+      "raw": 0.9,
+      "kappa": 0.56,
+      "PABAK": 0.8,
+      "positive_agreement": 0.62
+    },
+    "matches_gold": {
+      "raw": 0.8,
+      "kappa": 0.59
+    },
+    "clause_original_labels": {
+      "raw": 0.68,
+      "kappa": 0.46
+    },
+    "error_type": {
+      "raw": 0.7,
+      "kappa": 0.44
+    }
+  },
+  "reconciliation": {
+    "shared_disagreements_resolved": 11,
+    "consistency_flag_corrections": 3,
+    "error_type_resolutions_by_definition": 5,
+    "error_type_mappings": {
+      "FABRICATED_RULE": "INVENTED_RULE",
+      "WRONG_CLAUSE": "OTHER"
+    }
+  },
+  "clause_recheck": {
+    "annotator": "single",
+    "quotes_verified_verbatim": "102/102",
+    "agreed_examples_reproduced": "15/16",
+    "documented_corrections": [
+      "D10 x2: NO -> YES (deciding sentence verbatim in retrieved chunk 2)"
+    ]
+  },
+  "depends_on": {
+    "answer_key_sha256": "689571cb91e110968b02db51c5223434cbea2719790934c10d7fea928c494420",
+    "corpus_sha256": "f057220fccbdd31cf01b580841d8b038c04ac763021201f2a7af064565f196c8"
+  }
+}

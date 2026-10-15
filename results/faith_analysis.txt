@@ -1,0 +1,19 @@
+Informedness J = recall - FPR (question-bootstrap 95% CI)
+
+retrieved (n=416, violations=79)
+  GPT-5.5    faithfulness prompt: recall 60/79 (76%)  FPR 47%  J +0.29 [+0.16, +0.43]  flags 217/416
+  GPT-5.5    compliance prompt  : recall 49/79 (62%)  FPR 31%  J +0.31 [+0.16, +0.47]  flags 152/416
+      McNemar faith vs compliance: violations 12 vs 1 (p=0.0034) | compliant flagged 62 vs 8 (p=1.8e-11)
+  Sonnet 5.5 faithfulness prompt: recall 63/79 (80%)  FPR 63%  J +0.17 [+0.05, +0.29]  flags 275/416
+  Sonnet 5.5 compliance prompt  : recall 54/79 (68%)  FPR 38%  J +0.31 [+0.17, +0.44]  flags 181/416
+      McNemar faith vs compliance: violations 9 vs 0 (p=0.0039) | compliant flagged 88 vs 3 (p=1e-22)
+
+oracle (n=376, violations=69)
+  GPT-5.5    faithfulness prompt: recall 61/69 (88%)  FPR 59%  J +0.29 [+0.16, +0.41]  flags 242/376
+  GPT-5.5    compliance prompt  : recall 63/69 (91%)  FPR 45%  J +0.46 [+0.33, +0.58]  flags 201/376
+      McNemar faith vs compliance: violations 0 vs 2 (p=0.5) | compliant flagged 48 vs 5 (p=7.1e-10)
+  Sonnet 5.5 faithfulness prompt: recall 65/69 (94%)  FPR 70%  J +0.24 [+0.15, +0.33]  flags 280/376
+  Sonnet 5.5 compliance prompt  : recall 64/69 (93%)  FPR 50%  J +0.43 [+0.31, +0.53]  flags 218/376
+      McNemar faith vs compliance: violations 1 vs 0 (p=1) | compliant flagged 64 vs 3 (p=6.8e-16)
+
+Reference J: MiniCheck 0.01/oracle ~0.03; DeBERTa-L not-entailed 0.08/0.19; RoBERTa not-ent 0.03/0.05; MSCG 0.14/0.19

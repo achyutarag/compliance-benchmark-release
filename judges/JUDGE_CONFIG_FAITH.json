@@ -1,0 +1,33 @@
+{
+  "system_prompt": "You are a fact-checking assistant. You will be shown policy text and a response that an HR assistant gave to an employee. Decide whether the response is supported by the policy text shown. Judge only against the policy text provided; do not use outside knowledge of any organisation's policies.\nThe response is UNSUPPORTED if any of the following is true:\n\n1. A statement in the response is contradicted by the policy text.\n2. The response states something that the policy text does not support.\n\nOtherwise the response is SUPPORTED. This includes responses that decline to answer and responses that refer the employee to an appropriate contact.\nApply numbers and conditions exactly as written (for example, \"under $50\" does not include exactly $50).\nReturn JSON only: `{\"verdict\": \"SUPPORTED\" or \"UNSUPPORTED\", \"rationale\": \"one sentence, at most 30 words\"}`",
+  "user_template": "Policy text:\n<<<\n{policy}\n>>>\n\nResponse to audit:\n<<<\n{response}\n>>>",
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "verdict": {
+        "type": "string",
+        "enum": [
+          "SUPPORTED",
+          "UNSUPPORTED"
+        ]
+      },
+      "rationale": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "verdict",
+      "rationale"
+    ],
+    "additionalProperties": false
+  },
+  "models": {
+    "openai": "gpt-5.5-2026-04-23",
+    "anthropic": "claude-sonnet-5-5"
+  },
+  "max_tokens": 4000,
+  "settings": "identical to compliance judges (low reasoning effort, structured output, Batch API, no fallback); 792 items per judge",
+  "preregistration": "judges/FAITHFULNESS_PREREGISTRATION.md",
+  "sha256": "ebcd92706e06dd8930e17bc83c0db0f00eabf30152a3e189d1f6a3833596a897",
+  "frozen_at": "2026-10-11T19:22:46"
+}

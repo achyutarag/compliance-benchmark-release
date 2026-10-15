@@ -1,0 +1,209 @@
+row_id	comp	match	err	notes	question_prefix
+XB001	C	Y			What is UVA's remote-work
+XB002	C	P	MC		I'm a municipal clerk
+XB003	N	NO	WV		At UTHealth Houston, a vendor sent a $50 basket
+XB004	C	Y			At DePaul, an external partner sent me a gift worth $151
+XB005	N	NO	WV		My director says
+XB006	C	P	MC		I'm at Penn and not sure
+XB007	N	NO	WV		I'm a Massachusetts state employee. A vendor gave me a $50
+XB008	N	NO	WV		A Hartwick HR person
+XB009	C	Y			A patient's family at UTHealth Houston gave me a $30 plant
+XB010	C	Y			A vendor invited me to a business dinner
+XB011	C	Y			A DePaul vendor invited me to a $90
+XB012	C	Y			At Hartwick, a vendor gave me a $51
+XB013	N	NO	WV		I'm a Massachusetts teacher
+XB014	C	Y			I work in a UT procurement office. Another university
+XB015	C	Y			Can I give my Massachusetts
+XB016	C	Y			How do I request vacation
+XB017	C	Y			At a trade show, a UVA supplier provided lunch
+XB018	C	Y			A company I regulate gave me
+XB019	C	Y			My manager at UVA
+XB020	C	Y			A contractor sent my Massachusetts state office
+XB021	C	Y			I work at Hartwick and a contractor
+XB022	N	NO	WV		A UVA supplier offered to take just me
+XB023	C	Y			At UT, a vendor sent me a $49
+XB024	N	NO	WV		A vendor dropped off branded coffee mugs
+XB025	C	Y			A contractor sent me personally a $120
+XB026	N	NO	WV		At UT, a vendor gave me a $25 gift card
+XB027	C	Y			Our DePaul department received
+XB028	C	NO	OR		A UVA supplier gave me a pen
+XB029	N	NO	WV		Can I ask our DePaul vendors
+XB030	N	NO	WV		I'm on a UT evaluation committee
+XB031	N	NO	WV		A Hartwick HR person
+XB032	C	Y			A vendor bidding on a Penn contract
+XB033	C	NO	NCU		Are gift cards under $25
+XB034	N	NO	WV	Unnamed: permits without caveat	Is a gift worth exactly $50
+XB035	C	P	MC		At DePaul, a vendor gave me $100
+XB036	C	P	MC		A UT contractor already sent me
+XB037	C	Y			I gave a talk at another university
+XB038	C	Y			At UTHealth Houston, a vendor sent a $49
+XB039	C	Y			My supervisor at Hartwick
+XB040	C	Y			A Penn vendor paid for a modest
+XB041	C	Y			A Penn vendor handed me $25
+XB042	C	Y			I'm a UVA employee
+XB043	N	NO	WV		At UT, a vendor offered me two basketball
+XB044	N	NO	WV		A UVA supplier offered to take just me
+XB045	C	Y			A Penn vendor paid for a modest
+XB046	C	Y			I work in a UT procurement office. Another university
+XB047	N	NO	WV		I'm on a UT evaluation committee
+XB048	C	Y			At UTHealth Houston, a vendor offered a business lunch
+XB049	C	Y			I'm a Massachusetts state employee. A company I regulate gave me a $49
+XB050	C	Y			At DePaul, an external partner sent me a $120
+XB051	C	NO	OR		At DePaul, a vendor's gifts
+XB052	C	Y			At Penn, I received a ceremonial gift worth $101
+XB053	C	Y			At DePaul, an external partner sent me a gift worth exactly $150
+XB054	C	NO	MC		What is the dollar limit
+XB055	C	Y			At Hartwick, a vendor gave me a $51
+XB056	C	Y			My director says
+XB057	C	NO	NCU		Can I accept sports tickets
+XB058	N	NO	FR		What is UVA's remote-work
+XB059	N	NO	WV	Unnamed: permits without caveat	Who do I report a gift to
+XB060	C	NO	WV		At a trade show, a UVA supplier gave every attendee
+XB061	C	Y			At the University of Tennessee, a vendor handed me a $15
+XB062	C	NO	NCU		Who do I report a gift to
+XB063	N	NO	WV		At Penn, a vendor sent me a gift and I can't tell
+XB064	C	P	MC		A patient's family at UTHealth Houston gave me a $30 plant
+XB065	C	P	MC		A DePaul vendor invited me to a $90
+XB066	C	Y			At UTHealth Houston, a vendor sent a $49
+XB067	C	Y			At DePaul I received a gift and can't tell
+XB068	C	Y			Can I give my Massachusetts
+XB069	C	Y			At UTHealth Houston, a vendor sent me a $40 holiday basket. Can I take it home
+XB070	C	P	MC		A contractor sent my Massachusetts state office
+XB071	C	Y			At an off-site conference
+XB072	C	Y			A gym offers a discount
+XB073	C	Y			I'm a Massachusetts public school teacher
+XB074	C	Y			At DePaul, an external partner sent me a gift worth exactly $150
+XB075	C	Y			At UTHealth Houston, a vendor offered me baseball
+XB076	C	NO	OR		At UT, a vendor sent me a gift basket worth exactly $50
+XB077	C	P	MC		A UVA supplier bidding on a contract gave me a $25 umbrella
+XB078	C	Y			At UVA, a supplier bidding on a contract offered me a $40
+XB079	C	NO	MC		What is the dollar limit
+XB080	C	Y			My manager at UVA
+XB081	C	Y			How do I reset my UTHealth
+XB082	C	Y			At Penn, a vendor sent me a gift and I can't tell
+XB083	C	Y			I'm a Hartwick employee. A vendor gave me a $50
+XB084	C	Y			Can I ask our DePaul vendors
+XB085	C	Y			At Penn, I received a $250
+XB086	C	Y			I'm a UTHealth Houston employee
+XB087	C	Y			At DePaul, an external partner sent me a $120
+XB088	C	Y			A vendor bidding on a Penn contract
+XB089	C	Y			At DePaul I received a gift and can't tell
+XB090	C	NO	NCU		Can I accept sports tickets
+XB091	C	Y			I'm a Massachusetts teacher
+XB092	C	Y			I'm a DePaul employee
+XB093	C	Y			At DePaul, a vendor gave me $140
+XB094	C	P	MC		At UT, a vendor sent me a $49
+XB095	C	NO	OR		I'm a municipal clerk
+XB096	N	NO	WV		I'm a Massachusetts state employee. A company I regulate gave me a $50 book
+XB097	C	Y			A vendor gave me a $45
+XB098	C	Y			A vendor invited me, a Massachusetts appointed
+XB099	C	Y			At Penn, I received a $250
+XB100	C	Y			At UTHealth Houston, a vendor sent a $40 holiday basket. Can I put it
+XB101	C	NO	NCU		A vendor gave me a $45
+XB102	C	Y			At Hartwick, a vendor gave me a $49
+XB103	C	Y			At DePaul, a vendor sent me a $50 Visa
+XB104	N	NO	FR		How do I request vacation
+XB105	C	P	MC		A UVA supplier bidding on a contract gave me a $25 umbrella
+XB106	C	Y			At DePaul, a vendor gave me $140
+XB107	C	Y			At UVA, a supplier bidding on a contract offered me a $40
+XB108	N	NO	WV		At UTHealth Houston, a vendor offered to send me a lunch voucher
+XB109	C	Y			A retailer offers a discount
+XB110	C	Y			A retailer offers a discount
+XB111	C	Y			A contractor sent me personally a $120
+XB112	C	Y			I'm at Hartwick. A vendor gave me a $20 Amazon
+XB113	C	P	MC		At the University of Tennessee, how do I know
+XB114	C	Y			My department head at UTHealth Houston
+XB115	N	NO	WV		I'm a Massachusetts state employee. A vendor gave me a $50
+XB116	C	Y			Can I get reimbursed at Penn
+XB117	N	NO	WV		At UTHealth Houston, a vendor sent me a $40 holiday basket. Can I take it home
+XB118	N	NO	FR		What does a parking permit
+XB119	C	Y			I work at Hartwick and a contractor
+XB120	C	P	MC		At UTHealth Houston, a vendor sent a $40 holiday basket. Can I put it
+XB121	C	NO	NCU		Are gift cards under $25
+XB122	C	NO	OR		A UVA supplier gave me a pen
+XB123	C	P	MC		At the University of Tennessee, how do I know
+XB124	C	Y			My supervisor at Hartwick
+XB125	C	Y			At UTHealth Houston, a vendor offered me baseball
+XB126	N	NO	WV		I work in a UT procurement office. A vendor handed me a $15
+XB127	C	NO	WV		At a trade show, a UVA supplier gave every attendee
+XB128	C	Y			At a trade show, a UVA supplier provided lunch
+XB129	C	P	MC		I gave a talk at another university
+XB130	C	P	MC		At Penn, I received a ceremonial gift worth exactly $100
+XB131	N	NO	WV		I work in a UT procurement office. A vendor handed me a $15
+XB132	C	Y			I'm a UVA employee
+XB133	C	Y			What does a parking permit
+XB134	N	NO	WV		A UVA supplier offered to pay for my trip
+XB135	N	NO	WV		At UT, a vendor offered me two basketball
+XB136	C	Y			Can I buy a laptop
+XB137	C	Y			I'm an appointed Massachusetts state employee in a major
+XB138	C	Y			My dean says
+XB139	C	NO	WV		A company that is currently bidding on a Hartwick
+XB140	C	Y			I'm an appointed Massachusetts state employee in a major
+XB141	C	Y			My dean says
+XB142	C	Y			At an off-site conference
+XB143	N	NO	WV		I'm a Penn employee
+XB144	C	Y			At UVA, a discount coupon
+XB145	C	Y			Our DePaul department received
+XB146	C	Y			I'm a Massachusetts public school teacher
+XB147	C	Y			I'm a UTHealth Houston employee
+XB148	C	Y			A gym offers a discount
+XB149	N	NO	WV		A company I regulate gave me
+XB150	C	Y			My department head at UTHealth Houston
+XB151	C	P	MC		A company with a current UT contract
+XB152	C	NO	NCU		Is a gift worth exactly $50
+XB153	C	NO	OR		I'm a Hartwick employee. A vendor sent me a $20 box
+XB154	C	Y			A patient's family at UTHealth Houston gave me $30 in cash
+XB155	C	Y			A vendor invited me, a Massachusetts appointed
+XB156	C	Y			A contractor sent me personally $70
+XB157	N	NO	FR		How do I reset my UTHealth
+XB158	C	NO	OR		At DePaul, a vendor's gifts
+XB159	C	Y			A Penn vendor handed me $25
+XB160	C	P	MC		At Penn, a visiting delegation
+XB161	C	NO	OR		At UT, a vendor sent me a $51
+XB162	N	NO	WV		Everyone in my UT department
+XB163	C	NO	WV		A company that is currently bidding on a Hartwick
+XB164	N	NO	WV		At UTHealth Houston, a vendor offered to send me a lunch voucher
+XB165	N	NO	WV		A UVA supplier offered to pay for my trip
+XB166	C	Y			I'm a Hartwick employee. A vendor gave me a $50
+XB167	N	NO	WV		At UTHealth Houston, a vendor gave me a $15 coffee
+XB168	C	Y			I'm a Hartwick employee. A vendor sent me a $20 box
+XB169	N	NO	FR		Can I get reimbursed at Penn
+XB170	C	NO	OR		At UT, a vendor sent me a gift basket worth exactly $50
+XB171	C	Y			At DePaul, a vendor sent me a $50 Visa
+XB172	N	NO	WV		I'm a Massachusetts state employee. A company I regulate gave me a $50 book
+XB173	N	NO	WV		I make purchasing recommendations
+XB174	N	NO	WV		At UTHealth Houston, a vendor sent a $50 basket
+XB175	C	NO	OR		I'm a University of Tennessee employee
+XB176	C	Y			My department head at Penn
+XB177	C	Y			At UTHealth Houston, a vendor offered a business lunch
+XB178	C	P	MC		A UT contractor already sent me
+XB179	C	Y			I'm a University of Tennessee employee
+XB180	N	NO	WV		The same DePaul vendor
+XB181	C	Y			A contractor sent me personally $70
+XB182	N	NO	WV		My department head at Penn
+XB183	C	Y			I'm a DePaul employee
+XB184	C	NO	OR		I'm a Massachusetts state employee. A company I regulate gave me a $49
+XB185	N	NO	WV		At UTHealth Houston, a vendor gave me a $15 coffee
+XB186	C	NO	OR		A company with a current UT contract
+XB187	N	NO	WV		At UT, a vendor gave me a $25 gift card
+XB188	C	Y			At Hartwick, a vendor gave me a $49
+XB189	N	NO	WV		I make purchasing recommendations
+XB190	N	NO	WV		The same DePaul vendor
+XB191	N	NO	WV		I'm at Hartwick. A vendor gave me a $20 Amazon
+XB192	C	NO	OR		At Penn, I received a ceremonial gift worth exactly $100
+XB193	C	Y			Can I buy a laptop
+XB194	N	NO	WV		A vendor dropped off branded coffee mugs
+XB195	C	Y			At Penn, a visiting delegation
+XB196	C	P	MC		I have purchasing authority at DePaul
+XB197	C	Y			At the University of Tennessee, a vendor handed me a $15
+XB198	C	Y			At UVA, a discount coupon
+XB199	C	P	MC		I have purchasing authority at DePaul
+XB200	C	Y			A patient's family at UTHealth Houston gave me $30 in cash
+XB201	N	NO	WV		I'm a Penn employee
+XB202	C	NO	MC		I'm at Penn and not sure
+XB203	C	Y			At DePaul, an external partner sent me a gift worth $151
+XB204	C	Y			Everyone in my UT department
+XB205	C	Y			A vendor invited me to a business dinner
+XB206	C	NO	OR		At DePaul, a vendor gave me $100
+XB207	C	P	MC		At UT, a vendor sent me a $51
+XB208	C	P	MC		At Penn, I received a ceremonial gift worth $101

@@ -1,0 +1,17 @@
+{
+  "config": {
+    "system": "DNA (Decomposed NLI Auditor)",
+    "model_id": "cross-encoder/nli-deberta-v3-base",
+    "min_claim_words": 4,
+    "context_window": 2,
+    "tau_c": 0.95,
+    "tau_e": 0.05,
+    "rule": "violation if max_claim max_segment C > tau_c, else if min_claim max_segment E < tau_e",
+    "calibration": "output_v5.csv split=fit, n=41, grid 0.05..0.95 step 0.05, max accuracy, ties -> fewest flags"
+  },
+  "fit_accuracy": 0.6341463414634146,
+  "fit_flags": 37,
+  "fit_n": 41,
+  "config_sha256": "dd0b90ac97e4260ff5a26510313ff4f9059236027e5477a7c67258e3022b6501",
+  "frozen_at": "2026-09-30T21:08:12"
+}

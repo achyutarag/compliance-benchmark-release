@@ -1,0 +1,30 @@
+
+retrieved (n=416, violations=79)
+  GPT-5.5    with question   : recall 55/79 (70%) FPR 24% J +0.45 [+0.32, +0.58] flags 137
+  GPT-5.5    without question: recall 49/79 (62%) FPR 31% J +0.31 [+0.16, +0.47] flags 152
+      McNemar with-vs-without question: violations caught only with 10 / only without 4 (p=0.18) | compliant flagged only with 11 / only without 32 (p=0.0019)
+  Sonnet 5.5 with question   : recall 62/79 (78%) FPR 30% J +0.49 [+0.36, +0.61] flags 162
+  Sonnet 5.5 without question: recall 54/79 (68%) FPR 38% J +0.31 [+0.17, +0.44] flags 181
+      McNemar with-vs-without question: violations caught only with 10 / only without 2 (p=0.039) | compliant flagged only with 14 / only without 41 (p=0.00036)
+
+oracle (n=376, violations=69)
+  GPT-5.5    with question   : recall 68/69 (99%) FPR 45% J +0.54 [+0.44, +0.62] flags 206
+  GPT-5.5    without question: recall 63/69 (91%) FPR 45% J +0.46 [+0.33, +0.58] flags 201
+      McNemar with-vs-without question: violations caught only with 5 / only without 0 (p=0.062) | compliant flagged only with 16 / only without 16 (p=1)
+  Sonnet 5.5 with question   : recall 68/69 (99%) FPR 46% J +0.53 [+0.44, +0.61] flags 209
+  Sonnet 5.5 without question: recall 64/69 (93%) FPR 50% J +0.43 [+0.31, +0.53] flags 218
+      McNemar with-vs-without question: violations caught only with 4 / only without 0 (p=0.12) | compliant flagged only with 15 / only without 28 (p=0.066)
+
+ROLE-CONDITIONED violations (structure S6), retrieved context:
+  GPT-5.5: n=14; without question 2, with question 7
+  Sonnet 5.5: n=14; without question 4, with question 8
+BY STRUCTURE (violations, retrieved): structure n | GPT without->with | Sonnet without->with
+  S2   15 | GPT 10->12 | Sonnet 9->12
+  S3   13 | GPT 9->10 | Sonnet 8->10
+  S5   16 | GPT 14->12 | Sonnet 15->16
+  S6   14 | GPT 2->7 | Sonnet 4->8
+  S7    4 | GPT 4->4 | Sonnet 4->4
+  S8   10 | GPT 4->5 | Sonnet 6->8
+  S10   8 | GPT 4->5 | Sonnet 6->6
+  S12   8 | GPT 7->8 | Sonnet 8->8
+  S13   7 | GPT 5->5 | Sonnet 4->5

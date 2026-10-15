@@ -1,0 +1,31 @@
+LOO real RAG 416: full 71.9%
+   -prec: 71.9% (=)
+   -sim: 74.3% (p=0.031)
+   NLI only: 74.3% (p=0.031)
+ISO contradiction: recall 21/79 (27%), FPR 13%
+ISO similarity: recall 7/79 (9%), FPR 6%
+ISO precedent: recall 0/79 (0%), FPR 0%
+precedent score range: 0.434 0.493
+MSCG gate on missed violations: Counter({'safe_high_neutral': 45, 'gate5_margin': 8}) of 79
+DNA 416: acc 19.7%; -GateA acc 25.0%; GateA alone recall 66/79 (84%) FPR 85%; GateB alone recall 64/79 (81%) FPR 88%; answers with >=1 unsupported claim 361/416; flags 411/416
+AUROC (retrieved 416 | oracle 376):
+   DNA max contra     0.38 [0.32, 0.45] | 0.37 [0.31, 0.43]
+   DNA 1-min support  0.44 [0.37, 0.51] | 0.61 [0.53, 0.69]
+   whole-pair C       0.55 [0.48, 0.63] | 0.54 [0.46, 0.62]
+   whole-pair 1-E     0.55 [0.48, 0.62] | 0.64 [0.56, 0.72]
+precision naive: 18/53
+precision mscg: 26/90
+precision gpt55_retrieved: 49/152
+precision sonnet55_retrieved: 54/181
+  gpt55_retrieved      clause=YES: acc 79.2% (n=168), FPR 33/157 = 21%
+  gpt55_retrieved      clause=NO: acc 57.7% (n=168), FPR 51/123 = 41%
+  sonnet55_retrieved   clause=YES: acc 70.8% (n=168), FPR 47/157 = 30%
+  sonnet55_retrieved   clause=NO: acc 57.7% (n=168), FPR 55/123 = 45%
+  mscg                 clause=YES: acc 76.2% (n=168), FPR 34/157 = 22%
+  mscg                 clause=NO: acc 72.6% (n=168), FPR 16/123 = 13%
+  naive                clause=YES: acc 84.5% (n=168), FPR 18/157 = 11%
+  naive                clause=NO: acc 73.2% (n=168), FPR 10/123 = 8%
+matches gold claude-haiku-4-5: YES 66%, violations 14
+matches gold gpt-4o-mini: YES 63%, violations 14
+matches gold Llama-3.2-3B-Instruct: YES 62%, violations 22
+matches gold gemma-2-2b-it: YES 53%, violations 29

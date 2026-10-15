@@ -1,0 +1,39 @@
+row_id,qid,answer_model,llm_code,annotatorA_code_blind,annotatorA_note
+F01,M12,gemma-2-2b-it,MISAPPLIED_CONDITION,OVERRIDDEN_PROHIBITION,Applies friendship/unrelated exception to override the $50+ because-of-position ban
+F02,M01,Llama-3.2-3B-Instruct,MISAPPLIED_CONDITION,MISAPPLIED_CONDITION,Treats relatedness as triggering an automatic exemption rather than the general prohibition with limited exemptions
+F03,D11,Llama-3.2-3B-Instruct,OVERRIDDEN_PROHIBITION,OVERRIDDEN_PROHIBITION,Solicitation is banned under any circumstances; answer applies acceptance value limits instead
+F04,M13,claude-haiku-4-5,MISAPPLIED_CONDITION,OVERRIDDEN_PROHIBITION,Overrides the general $50+ because-of-position ban by focusing only on lobbyist-specific rules
+F05,U14,Llama-3.2-3B-Instruct,MISAPPLIED_CONDITION,MISAPPLIED_CONDITION,Applies the off-site meeting/conference condition to an unsolicited office drop-off
+F06,D09,Llama-3.2-3B-Instruct,MISAPPLIED_CONDITION,MISAPPLIED_CONDITION,Meals exception requires occasional and non-repetitive; monthly fails that condition
+F07,M07,claude-haiku-4-5,ROLE_SPECIFIC,ROLE_SPECIFIC,Applies general employee gift rules instead of the tighter supervisor limit (no more than $10)
+F08,U04,gemma-2-2b-it,EXACT_BOUNDARY,EXACT_BOUNDARY,Policy requires less than $50; answer allows the exact $50 basket
+F09,T06,Llama-3.2-3B-Instruct,OVERRIDDEN_PROHIBITION,OVERRIDDEN_PROHIBITION,Sporting event admissions banned regardless of value; answer applies a $50 value threshold from elsewhere
+F10,P02,gpt-4o-mini,EXACT_BOUNDARY,EXACT_BOUNDARY,Policy triggers only for greater than $100; answer treats exactly $100 as significant/University property
+F11,D11,gpt-4o-mini,OVERRIDDEN_PROHIBITION,OVERRIDDEN_PROHIBITION,Solicitation banned under any circumstances; answer applies nominal value limits
+F12,D11,claude-haiku-4-5,OVERRIDDEN_PROHIBITION,OVERRIDDEN_PROHIBITION,Solicitation banned under any circumstances; answer applies aggregate value limits
+F13,M01,gpt-4o-mini,MISAPPLIED_CONDITION,MISAPPLIED_CONDITION,Treats relatedness as triggering exemption; general rule is prohibition for $50+ because of position
+F14,T05,gemma-2-2b-it,OVERRIDDEN_PROHIBITION,OVERRIDDEN_PROHIBITION,Gift cards banned regardless of value; answer applies a $25 nominal threshold
+F15,U05,Llama-3.2-3B-Instruct,OVERRIDDEN_PROHIBITION,OVERRIDDEN_PROHIBITION,Cash/cash equivalents (gift cards) banned regardless of amount; answer applies <$50 unsolicited gift rule
+F16,P02,claude-haiku-4-5,EXACT_BOUNDARY,EXACT_BOUNDARY,Policy triggers only for greater than $100; answer treats exactly $100 as requiring discussion/University property
+F17,U05,gemma-2-2b-it,OVERRIDDEN_PROHIBITION,OVERRIDDEN_PROHIBITION,Gift cards banned regardless of amount; answer applies <$50 rule
+F18,U14,gemma-2-2b-it,MISAPPLIED_CONDITION,MISAPPLIED_CONDITION,Applies off-site meeting condition to unsolicited office drop-off of promotional items
+F19,H06,gemma-2-2b-it,OVERRIDDEN_PROHIBITION,OVERRIDDEN_PROHIBITION,Cash/gift cards not permitted at any value; answer ignores the ban and treats as unmentioned/nominal
+F20,D11,gemma-2-2b-it,OVERRIDDEN_PROHIBITION,OVERRIDDEN_PROHIBITION,Solicitation banned under any circumstances; answer allows under business-practice exception meant for acceptance
+F21,M12,Llama-3.2-3B-Instruct,MISAPPLIED_CONDITION,OVERRIDDEN_PROHIBITION,Friendship does not override $50+ because-of-position ban
+F22,T04,Llama-3.2-3B-Instruct,EXACT_BOUNDARY,OVERRIDDEN_PROHIBITION,Items more than $50 banned (unless honorarium); answer treats $51 as nominal/acceptable
+F23,M07,gpt-4o-mini,ROLE_SPECIFIC,ROLE_SPECIFIC,Applies general <$50 rule instead of tighter supervisor gift limit (no more than $10)
+F24,U08,gemma-2-2b-it,MISAPPLIED_CONDITION,MISAPPLIED_CONDITION,Business meal requires vendor present; voucher is also cash equivalent which is banned
+F25,T05,claude-haiku-4-5,OVERRIDDEN_PROHIBITION,OVERRIDDEN_PROHIBITION,Gift cards banned regardless of value; answer applies $25 threshold
+F26,V06,gemma-2-2b-it,MISAPPLIED_CONDITION,MISAPPLIED_CONDITION,Ignores required prior written dean/VP approval at least one month in advance
+F27,M04,Llama-3.2-3B-Instruct,MISAPPLIED_CONDITION,MISAPPLIED_CONDITION,Sharing does not cure $50+ prohibition; answer invents hospitality/sharing justification
+F28,D09,gemma-2-2b-it,MISAPPLIED_CONDITION,MISAPPLIED_CONDITION,Ignores occasional and non-repetitive requirement for meals exception
+F29,D07,claude-haiku-4-5,OVERRIDDEN_PROHIBITION,OVERRIDDEN_PROHIBITION,Cash/gift cards must be immediately returned; answer treats as reportable (implying keepable)
+F30,C02,Llama-3.2-3B-Instruct,OVERRIDDEN_PROHIBITION,OVERRIDDEN_PROHIBITION,No personal gifts from vendors at any time; answer applies ordinary business courtesy / <$100
+F31,D12,gpt-4o-mini,MISAPPLIED_CONDITION,MISAPPLIED_CONDITION,Unknown value that cannot be determined to fall within parameters must be returned; answer only suggests consult
+F32,H10,Llama-3.2-3B-Instruct,OVERRIDDEN_PROHIBITION,OVERRIDDEN_PROHIBITION,Gift cards not permitted at any value; answer implies they may fall under nominal in-kind
+F33,C07,Llama-3.2-3B-Instruct,MISAPPLIED_CONDITION,MISAPPLIED_CONDITION,Relatedness does not create an automatic exemption; $50+ because of position is prohibited
+F34,C02,claude-haiku-4-5,OVERRIDDEN_PROHIBITION,OVERRIDDEN_PROHIBITION,No personal gifts from vendors; answer allows under $100 / business courtesy
+F35,V06,Llama-3.2-3B-Instruct,MISAPPLIED_CONDITION,MISAPPLIED_CONDITION,Ignores the required written pre-approval by dean/VP at least one month in advance (though notes Uni reimbursement)
+F36,C02,gemma-2-2b-it,OVERRIDDEN_PROHIBITION,OVERRIDDEN_PROHIBITION,No personal gifts from vendors at any time; answer treats as business courtesy under $100
+F37,C01,gpt-4o-mini,EXACT_BOUNDARY,EXACT_BOUNDARY,Nominal is less than $50; answer treats exactly $50 as reportable (like >$50) rather than not nominal
+F38,T05,Llama-3.2-3B-Instruct,OVERRIDDEN_PROHIBITION,OVERRIDDEN_PROHIBITION,Gift cards banned regardless of value; answer applies $25 threshold

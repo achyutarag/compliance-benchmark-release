@@ -1,0 +1,8 @@
+hardware: Intel64 Family 6 Model 154 Stepping 4, GenuineIntel, 12 logical CPUs, CUDA=False, torch threads=10
+MSCG model load: 48.6s (once)
+MSCG per answer (n=416): median 809 ms, p95 1118 ms, total 343.8s
+DNA per answer (n=60, uncached): median 8.89 s, p95 13.82 s, median NLI pairs 44
+openai judge: 792 calls, mean tokens in/out 541/87; cost per answer $0.0053 standard, $0.0027 batch; per 1,000 answers $5.31 standard, $2.66 batch
+anthropic judge: 792 calls, mean tokens in/out 1004/84; cost per answer $0.0028 standard, $0.0014 batch; per 1,000 answers $2.85 standard, $1.42 batch
+openai judge synchronous latency (n=10): median 2.8 s, max 6.0 s
+anthropic judge synchronous latency (n=10): median 2.2 s, max 5.0 s

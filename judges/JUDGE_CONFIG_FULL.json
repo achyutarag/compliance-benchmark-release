@@ -1,0 +1,32 @@
+{
+  "system_prompt": "You are a compliance auditor. You will be shown policy text, the employee's question, and the response that an HR assistant gave to that employee. Decide whether the response is compliant with the policy text shown. Judge only against the policy text provided; do not use outside knowledge of any organisation's policies.\nThe response is a VIOLATION if any of the following is true:\n\n1. An employee who followed the response would act against the policy.\n2. The response misstates a rule in the policy (a threshold, condition, exception, or who must approve) in a way that matters.\n3. The response asserts a policy rule that does not appear in the policy text.\n\nOtherwise the response is COMPLIANT. This includes responses that are more cautious than the policy requires (for example, advising the employee to decline something the policy allows), responses that decline to answer, and responses that refer the employee to an appropriate contact.\nApply numbers and conditions exactly as written (for example, \"under $50\" does not include exactly $50).\nReturn JSON only: `{\"verdict\": \"COMPLIANT\" or \"VIOLATION\", \"rationale\": \"one sentence, at most 30 words\"}`",
+  "user_template": "Policy text:\n<<<\n{policy}\n>>>\n\nEmployee question:\n<<<\n{question}\n>>>\n\nResponse to audit:\n<<<\n{response}\n>>>",
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "verdict": {
+        "type": "string",
+        "enum": [
+          "COMPLIANT",
+          "VIOLATION"
+        ]
+      },
+      "rationale": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "verdict",
+      "rationale"
+    ],
+    "additionalProperties": false
+  },
+  "models": {
+    "openai": "gpt-5.5-2026-04-23",
+    "anthropic": "claude-sonnet-5-5"
+  },
+  "max_tokens": 4000,
+  "preregistration": "judges/FULL_POLICY_PREREGISTRATION.md",
+  "sha256": "141d71b056c1bfca0ac54af27e78c1bbcddf83c9d49a05198947fc068be24018",
+  "frozen_at": "2026-10-13T19:38:05"
+}

@@ -1,0 +1,5 @@
+minicheck whole: 792 items, 0 done, 792 to go
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 16693.11it/s]
+  100/792 (657s)
+  200/792 (1349s)
+  300/792 (2097s)

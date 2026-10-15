@@ -1,0 +1,12 @@
+
+retrieved (n=416, violations=79)
+  RoBERTa-L MNLI contradiction: recall 13/79 (16%) FPR 21% AUROC 0.51 [0.43, 0.60]
+  RoBERTa-L MNLI not entailed : recall 68/79 (86%) FPR 83% AUROC 0.49 [0.42, 0.56]
+    gpt vs RoBERTa not-ent: violations 6 vs 25 p=0.00088 | compliant flagged 8 vs 184 p=1.3e-44
+    sonnet vs RoBERTa not-ent: violations 5 vs 19 p=0.0066 | compliant flagged 16 vs 168 p=3.8e-33
+
+oracle (n=376, violations=69)
+  RoBERTa-L MNLI contradiction: recall 24/69 (35%) FPR 17% AUROC 0.63 [0.51, 0.73]
+  RoBERTa-L MNLI not entailed : recall 63/69 (91%) FPR 86% AUROC 0.64 [0.54, 0.73]
+    gpt vs RoBERTa not-ent: violations 3 vs 3 p=1 | compliant flagged 6 vs 133 p=2.7e-32
+    sonnet vs RoBERTa not-ent: violations 3 vs 2 p=1 | compliant flagged 10 vs 121 p=2.3e-25

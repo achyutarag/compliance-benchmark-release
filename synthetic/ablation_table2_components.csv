@@ -1,0 +1,8 @@
+Set,Contradiction gates: recall on Direct Failure,Similarity gate: recall on Topic Drift,Precedent clf: recall on Precedent Framing,Contradiction FPR,Similarity FPR,Precedent clf FPR
+Dev (gpt-4o-mini),16/16 (100%),15/16 (94%),11/16 (69%),0/29 (0%),0/29 (0%),0/29 (0%)
+Fresh (gpt-4o-mini),17/20 (85%),20/20 (100%),2/12 (17%),0/68 (0%),2/68 (3%),7/68 (10%)
+Claude generator,18/19 (95%),20/21 (95%),1/40 (2%),1/39 (3%),2/39 (5%),0/39 (0%)
+Zero-shot: data_retention,19/21 (90%),20/20 (100%),1/18 (6%),0/40 (0%),0/40 (0%),0/40 (0%)
+Zero-shot: coi_disclosure,20/20 (100%),20/20 (100%),0/16 (0%),3/43 (7%),0/43 (0%),0/43 (0%)
+Zero-shot: ai_data_use,20/21 (95%),20/20 (100%),3/13 (23%),0/40 (0%),0/40 (0%),0/40 (0%)
+Real RAG (gpt-4o-mini),0/2 (0%),--,--,1/13 (8%),1/13 (8%),0/13 (0%)
