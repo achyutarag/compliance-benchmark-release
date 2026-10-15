@@ -10,6 +10,9 @@ Benchmark, labels, model outputs and analysis code for the paper (anonymized). A
 - `synthetic/`: the synthetic benchmark data and frozen-guard notebook used for Section 6.
 
 ## Quick check (no API keys, no GPU)
+    python analysis/reproduce_paper_numbers.py
+Regenerates 38 counts and statistics behind the text (clause table, reasoning structures, judge family, error types, agreement statistics) and compares each with the value written in the paper; it exits non-zero on any difference. With the paper's `.tex` path as an argument it also checks every cell of the main results table.
+
     python analysis/audit_tables.py
 Recomputes the main detection table (recall, false-positive rate, informedness, AUROC; retrieved and oracle context) and the
 quoting / MiniCheck-support statistics from the raw per-item files. Its output should match `results/audit_tables.txt` exactly
@@ -31,6 +34,7 @@ quoting / MiniCheck-support statistics from the raw per-item files. Its output s
 | Failure analysis (38 failures, LLM + blind human codes) | `analysis/oracle_failures_coded.csv`, `analysis/failure_codes_llm_vs_human.csv`, `analysis/failure_code_agreement.py` |
 | Section 6 synthetic table (naive NLI vs MSCG; gate recalls) | `synthetic/` (labelled synthetic sets, frozen-guard notebook, ablation tables), `python analysis/synthetic_audit.py` -> `results/synthetic_audit.txt` (needs the NLI/embedding models; no API) |
 | Question-level (cluster) tests, precision / PR-AUC, error-type breakdown, per-answer-model recall, quoting-rate CI | `analysis/revision_analyses.py` -> `results/revision_analyses.txt`; controls: `analysis/controls_cluster_tests.py` -> `results/controls_cluster_tests.txt` |
+| Label audit: the 17 author-approved items and sensitivity of the results to alternative labels | `analysis/label_audit.py` -> `results/label_audit.txt` |
 | Cost / latency | `efficiency.py`, `results/efficiency.txt` |
 
 ## Things to know

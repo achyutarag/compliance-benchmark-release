@@ -1,0 +1,40 @@
+ok   answers                                                                        computed 416                      paper 416
+ok   violations                                                                     computed 79                       paper 79
+ok   violations, claude-haiku-4-5                                                   computed 14                       paper 14
+ok   violations, gpt-4o-mini                                                        computed 14                       paper 14
+ok   violations, Llama-3.2-3B-Instruct                                              computed 22                       paper 22
+ok   violations, gemma-2-2b-it                                                      computed 29                       paper 29
+ok   violations from the two small models                                           computed 51                       paper 51
+ok   oracle subset answers / violations                                             computed (376, 69)                paper (376, 69)
+ok   full-policy subset answers / violations                                        computed (396, 72)                paper (396, 72)
+ok   clause table YES: answers, strong viol, small viol                             computed [224, 4, 21]             paper [224, 4, 21]
+ok   clause table PARTIAL: answers, strong viol, small viol                         computed [24, 2, 7]               paper [24, 2, 7]
+ok   clause table NO: answers, strong viol, small viol                              computed [128, 16, 19]            paper [128, 16, 19]
+ok   clause table N/A: answers, strong viol, small viol                             computed [40, 6, 4]               paper [40, 6, 4]
+ok   in-scope questions YES / PARTIAL / NO                                          computed (56, 6, 32)              paper (56, 6, 32)
+ok   stronger models in-scope violations (total, clause absent)                     computed (22, 16)                 paper (22, 16)
+ok   small models in-scope violations (total, clause fully present)                 computed (47, 21)                 paper (47, 21)
+ok   retrieval-miss summary mentions median rank 11                                 computed True                     paper True
+ok   GPT-5.5 flags on compliant answers, clause YES / NO                            computed ((43, 199), (48, 93))    paper ((43, 199), (48, 93))
+ok   Sonnet 5.5 flags on compliant answers, clause YES / NO                         computed ((60, 199), (50, 93))    paper ((60, 199), (50, 93))
+ok   S7/S8/S10 (multi-condition, procedural, conditional) violations                computed 20                       paper 20
+ok     naive / MSCG / GPT-5.5 / Sonnet detections                                   computed (0, 2, 11, 15)           paper (0, 2, 11, 15)
+ok   S5 (category ban) violations                                                   computed 16                       paper 16
+ok     MSCG detections; judges (GPT, Sonnet)                                        computed (7, 14, 15)              paper (7, 14, 15)
+ok   S6 (role-conditioned) violations                                               computed 14                       paper 14
+ok     GPT-5.5 / Sonnet 5.5 / MSCG detections                                       computed (2, 4, 6)                paper (2, 4, 6)
+ok     with the question: GPT-5.5 / Sonnet 5.5                                      computed (7, 8)                   paper (7, 8)
+ok   GPT-5.5 recall on Haiku / gpt-4o-mini answers                                  computed ((5, 14), (7, 14))       paper ((5, 14), (7, 14))
+ok   Sonnet 5.5 recall on Haiku / gpt-4o-mini answers                               computed ((7, 14), (4, 14))       paper ((7, 14), (4, 14))
+ok   open-weight recall, GPT-5.5 / Sonnet 5.5                                       computed ((37, 51), (43, 51))     paper ((37, 51), (43, 51))
+ok   judge agreement (raw %, kappa), retrieved context                              computed (80.5, 0.6)              paper (80.5, 0.6)
+ok   quoting rate, violating vs compliant (%)                                       computed (63, 69)                 paper (63, 69)
+ok   MiniCheck median support, violating vs compliant                               computed (0.075, 0.051)           paper (0.075, 0.051)
+ok   38 failures by LLM code (prohibition, condition, boundary, role)               computed (16, 15, 5, 2)           paper (16, 15, 5, 2)
+ok   human agreement on the 38 (exact, merged prohibition+condition)                computed (34, 37)                 paper (34, 37)
+ok   error types of the 79 violations (wrong verdict, failed refusal, invented rule) computed (74, 3, 2)               paper (74, 3, 2)
+ok   answer key kappa (94 in-scope)                                                 computed 0.82                     paper 0.82
+ok   round 2 compliance raw / kappa / PABAK                                         computed (0.812, 0.44, 0.62)      paper (0.812, 0.44, 0.62)
+ok   clause labels kappa three-way / yes-vs-not                                     computed (0.57, 0.69)             paper (0.57, 0.69)
+
+38/38 numbers reproduce

@@ -1,0 +1,51 @@
+=== The author-decided labels (round 2, 'approved final'): 17
+rec  qid  answer_model              A              B              final
+R08  D07  gemma-2-2b-it            NON_COMPLIANT  COMPLIANT      COMPLIANT
+R10  D10  Llama-3.2-3B-Instruct    COMPLIANT      COMPLIANT      COMPLIANT
+R13  D12  gemma-2-2b-it            COMPLIANT      COMPLIANT      COMPLIANT
+R15  H02  gemma-2-2b-it            NON_COMPLIANT  COMPLIANT      COMPLIANT
+R16  H07  gemma-2-2b-it            COMPLIANT      COMPLIANT      COMPLIANT
+R23  M06  Llama-3.2-3B-Instruct    COMPLIANT      COMPLIANT      COMPLIANT
+R43  P02  gemma-2-2b-it            COMPLIANT      COMPLIANT      COMPLIANT
+R53  T04  gemma-2-2b-it            COMPLIANT      COMPLIANT      COMPLIANT
+R56  T09  Llama-3.2-3B-Instruct    COMPLIANT      COMPLIANT      COMPLIANT
+R57  T10  Llama-3.2-3B-Instruct    COMPLIANT      COMPLIANT      COMPLIANT
+R58  T10  gemma-2-2b-it            COMPLIANT      COMPLIANT      COMPLIANT
+R60  T13  Llama-3.2-3B-Instruct    COMPLIANT      COMPLIANT      COMPLIANT
+R61  T13  gemma-2-2b-it            COMPLIANT      COMPLIANT      COMPLIANT
+R68  U10  Llama-3.2-3B-Instruct    COMPLIANT      COMPLIANT      COMPLIANT
+R71  V02  Llama-3.2-3B-Instruct    COMPLIANT      COMPLIANT      COMPLIANT
+R75  V04  gemma-2-2b-it            COMPLIANT      COMPLIANT      COMPLIANT
+R81  V11  gemma-2-2b-it            COMPLIANT      COMPLIANT      COMPLIANT
+final compliance labels of the 17: {'COMPLIANT': 17}
+compliance disagreement between A and B on the 17: 2 (the rest disagree only on match/error type)
+in the 79 violations: 0; in the 38 coded failures: 0
+answer models: {'gemma-2-2b-it': 10, 'Llama-3.2-3B-Instruct': 7}; questions: 15
+
+=== Round-2 A/B compliance disagreements: 39; how the final label relates: {'final = B': 22, 'final = A': 17}
+    of which final = violation: 24
+=== Round 1: label sources of the 28 violations: {'single annotator B': 16, 'shared: reconciled': 3, 'single annotator A': 5, 'shared: A and B agreed': 4}
+
+=== Sensitivity of the headline results, retrieved context: informedness J (AUROC for scored auditors)
+scenario                                                                                n viol     MiniCheck   DeBERTa-L n          MSCG           DNA       GPT-5.5    Sonnet 5.5
+base (final labels)                                                                   416   79   +0.02 (0.46)   +0.08 (0.57)   +0.14 (0.55)   -0.00 (0.44)   +0.31          +0.31       
+drop the 17                                                                           399   79   +0.01 (0.46)   +0.09 (0.57)   +0.14 (0.55)   -0.00 (0.44)   +0.33          +0.32       
+17 -> violation if either annotator said so                                           416   81   +0.02 (0.46)   +0.10 (0.58)   +0.13 (0.55)   -0.02 (0.44)   +0.31          +0.30       
+17 all -> violation (extreme)                                                         416   96   +0.01 (0.48)   +0.10 (0.57)   +0.10 (0.54)   -0.01 (0.45)   +0.32          +0.30       
+round 2 = annotator A's labels alone                                                  416   69   +0.05 (0.50)   +0.15 (0.62)   +0.21 (0.59)   -0.00 (0.47)   +0.24          +0.19       
+round 2 = annotator B's labels alone                                                  416   76   -0.02 (0.43)   +0.02 (0.53)   +0.11 (0.56)   -0.00 (0.43)   +0.21          +0.19       
+round 2: only items A and B agreed on from the start                                  335   53   +0.02 (0.45)   +0.11 (0.59)   +0.21 (0.60)   +0.01 (0.43)   +0.26          +0.19       
+round 1: drop the 21 single-annotator violations                                      395   58   +0.02 (0.44)   +0.10 (0.58)   +0.17 (0.59)   -0.01 (0.42)   +0.38          +0.42       
+drop all uncertain: 17 + reconciled round 2 + single-annotator round-1 violations     314   32   +0.03 (0.43)   +0.18 (0.63)   +0.31 (0.69)   +0.01 (0.39)   +0.32          +0.30       
+
+=== Sensitivity of the headline results, oracle context: informedness J (AUROC for scored auditors)
+scenario                                                                                n viol     MiniCheck   DeBERTa-L n          MSCG           DNA       GPT-5.5    Sonnet 5.5
+base (final labels)                                                                   376   69   +0.03 (0.61)   +0.20 (0.66)   +0.19 (0.54)   -0.02 (0.61)   +0.46          +0.43       
+drop the 17                                                                           359   69   +0.02 (0.61)   +0.21 (0.67)   +0.19 (0.55)   -0.02 (0.61)   +0.47          +0.44       
+17 -> violation if either annotator said so                                           376   71   +0.03 (0.62)   +0.21 (0.67)   +0.18 (0.54)   -0.02 (0.61)   +0.45          +0.41       
+17 all -> violation (extreme)                                                         376   86   +0.02 (0.60)   +0.21 (0.66)   +0.15 (0.57)   -0.01 (0.58)   +0.41          +0.39       
+round 2 = annotator A's labels alone                                                  376   60   +0.05 (0.67)   +0.25 (0.69)   +0.25 (0.56)   -0.00 (0.65)   +0.41          +0.38       
+round 2 = annotator B's labels alone                                                  376   63   -0.00 (0.57)   +0.17 (0.64)   +0.17 (0.54)   -0.02 (0.57)   +0.43          +0.37       
+round 2: only items A and B agreed on from the start                                  305   46   +0.03 (0.63)   +0.24 (0.69)   +0.26 (0.56)   -0.01 (0.63)   +0.49          +0.44       
+round 1: drop the 21 single-annotator violations                                      356   49   +0.04 (0.61)   +0.22 (0.68)   +0.24 (0.59)   -0.03 (0.58)   +0.47          +0.44       
+drop all uncertain: 17 + reconciled round 2 + single-annotator round-1 violations     285   26   +0.05 (0.65)   +0.31 (0.75)   +0.42 (0.65)   -0.03 (0.60)   +0.50          +0.45       
