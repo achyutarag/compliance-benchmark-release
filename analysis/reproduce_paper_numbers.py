@@ -88,6 +88,21 @@ check("coded failures scored supported by MiniCheck, HHEM and DeBERTa-large toge
 d09 = (MC[("D09", "gemma-2-2b-it", "oracle")], HHs[("D09", "gemma-2-2b-it", "oracle")], NLs[("D09", "gemma-2-2b-it", "oracle")]["E"], NLs[("D09", "gemma-2-2b-it", "oracle")]["C"])
 check("Figure 1 item D09/gemma: MiniCheck, HHEM, DeBERTa entailment, contradiction", tuple(round(x, 2) for x in d09), (0.69, 0.87, 0.82, 0.0))
 check("Figure 1 item D09/gemma: MSCG, naive NLI, GPT-5.5, Sonnet 5.5 (oracle)", (int(A[("D09", "gemma-2-2b-it")]["mscg_oracle"]), int(A[("D09", "gemma-2-2b-it")]["naive"]), int(A[("D09", "gemma-2-2b-it")]["gpt55_oracle"]), int(A[("D09", "gemma-2-2b-it")]["sonnet55_oracle"])), (0, 0, 1, 1))
+# --- grounding-check AUROC restricted to the stronger answer models (Haiku, gpt-4o-mini)
+from sklearn.metrics import roc_auc_score as _auc
+_sc = [(nm, sn) for nm, pn, sn in g["NAMES"] if sn]
+def _au(cond, ms, nm, sn):
+    ks = [k for k in (sorted(Y) if cond == "retrieved" else oracle_keys) if k[1] in ms]
+    s_ = [1 - HHs[(k[0], k[1], cond)] if nm == "HHEM" else g["score"](sn, cond, k) for k in ks]; return _auc([Y[k] for k in ks], s_)
+for cond, exp in (("retrieved", (0.42, 0.61)), ("oracle", (0.43, 0.66))):
+    v = [_au(cond, STRONG, nm, sn) for nm, sn in _sc] + [_au(cond, STRONG, "HHEM", None)]
+    check(f"AUROC range of the eight scored checkers, stronger models only, {cond}", (round(min(v), 2), round(max(v), 2)), exp)
+for nm in ("GPT-5.5", "Sonnet 5.5"):
+    pn = {a: b for a, b, c in g["NAMES"]}[nm]
+    def _j(cond, ms):
+        ks = [k for k in (sorted(Y) if cond == "retrieved" else oracle_keys) if k[1] in ms]; y = np.array([Y[k] for k in ks]); p = np.array([pred(pn, cond, k) for k in ks])
+        return round((p & y).sum() / y.sum() - (p & (1 - y)).sum() / (1 - y).sum(), 2)
+    check(f"{nm} informedness, stronger / small models, retrieved", (_j("retrieved", STRONG), _j("retrieved", SMALL)), {"GPT-5.5": (0.22, 0.31), "Sonnet 5.5": (0.10, 0.37)}[nm])
 et = Counter(L[k]["error_type"] for k in viol)
 check("error types of the 79 violations (wrong verdict, failed refusal, invented rule)", (et["WRONG_VERDICT"], et["FAILED_REFUSAL"], et["INVENTED_RULE"]), (74, 3, 2))
 # --- agreement statistics recorded in the manifests

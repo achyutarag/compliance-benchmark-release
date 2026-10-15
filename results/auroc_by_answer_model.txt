@@ -1,0 +1,42 @@
+=== retrieved context: AUROC [95% question-bootstrap CI] by answer-model group
+auditor                             stronger models (Haiku, gpt-4o-mini)                   small models (Llama, gemma)                                 all (Table 1)
+MiniCheck                             0.46 [0.34, 0.58] (28 viol, n=208)            0.45 [0.37, 0.55] (51 viol, n=208)            0.46 [0.38, 0.53] (79 viol, n=416)
+DeBERTa-L contradiction               0.59 [0.45, 0.73] (28 viol, n=208)            0.56 [0.46, 0.65] (51 viol, n=208)            0.59 [0.50, 0.67] (79 viol, n=416)
+DeBERTa-L not entailed                0.61 [0.47, 0.74] (28 viol, n=208)            0.53 [0.43, 0.64] (51 viol, n=208)            0.57 [0.48, 0.65] (79 viol, n=416)
+RoBERTa contradiction                 0.42 [0.30, 0.54] (28 viol, n=208)            0.55 [0.46, 0.64] (51 viol, n=208)            0.51 [0.43, 0.60] (79 viol, n=416)
+RoBERTa not entailed                  0.53 [0.43, 0.64] (28 viol, n=208)            0.48 [0.39, 0.59] (51 viol, n=208)            0.49 [0.42, 0.56] (79 viol, n=416)
+MSCG                                  0.53 [0.39, 0.66] (28 viol, n=208)            0.55 [0.43, 0.66] (51 viol, n=208)            0.55 [0.46, 0.65] (79 viol, n=416)
+DNA                                   0.49 [0.38, 0.58] (28 viol, n=208)            0.46 [0.37, 0.55] (51 viol, n=208)            0.44 [0.36, 0.52] (79 viol, n=416)
+HHEM                                  0.44 [0.32, 0.56] (28 viol, n=208)            0.53 [0.44, 0.63] (51 viol, n=208)            0.50 [0.42, 0.58] (79 viol, n=416)
+  informedness J (recall - FPR) of the decision rules:
+    MiniCheck                                                        +0.00                                         +0.04                                         +0.02
+    DeBERTa-L contradiction                                          +0.06                                         +0.04                                         +0.06
+    DeBERTa-L not entailed                                           +0.15                                         +0.02                                         +0.08
+    RoBERTa contradiction                                            -0.09                                         -0.04                                         -0.05
+    RoBERTa not entailed                                             +0.04                                         +0.07                                         +0.03
+    MSCG                                                             +0.06                                         +0.16                                         +0.14
+    DNA                                                              +0.00                                         +0.01                                         -0.00
+    GPT-5.5                                                          +0.22                                         +0.31                                         +0.31
+    Sonnet 5.5                                                       +0.10                                         +0.37                                         +0.31
+
+=== oracle context: AUROC [95% question-bootstrap CI] by answer-model group
+auditor                             stronger models (Haiku, gpt-4o-mini)                   small models (Llama, gemma)                                 all (Table 1)
+MiniCheck                             0.58 [0.42, 0.71] (22 viol, n=188)            0.61 [0.51, 0.71] (47 viol, n=188)            0.61 [0.52, 0.70] (69 viol, n=376)
+DeBERTa-L contradiction               0.64 [0.49, 0.77] (22 viol, n=188)            0.59 [0.49, 0.70] (47 viol, n=188)            0.62 [0.51, 0.72] (69 viol, n=376)
+DeBERTa-L not entailed                0.64 [0.50, 0.76] (22 viol, n=188)            0.68 [0.55, 0.80] (47 viol, n=188)            0.66 [0.56, 0.76] (69 viol, n=376)
+RoBERTa contradiction                 0.48 [0.31, 0.64] (22 viol, n=188)            0.68 [0.56, 0.78] (47 viol, n=188)            0.63 [0.52, 0.73] (69 viol, n=376)
+RoBERTa not entailed                  0.66 [0.52, 0.78] (22 viol, n=188)            0.66 [0.56, 0.77] (47 viol, n=188)            0.64 [0.55, 0.73] (69 viol, n=376)
+MSCG                                  0.43 [0.29, 0.59] (22 viol, n=188)            0.56 [0.46, 0.66] (47 viol, n=188)            0.54 [0.45, 0.64] (69 viol, n=376)
+DNA                                   0.65 [0.49, 0.80] (22 viol, n=188)            0.64 [0.52, 0.74] (47 viol, n=188)            0.61 [0.50, 0.71] (69 viol, n=376)
+HHEM                                  0.60 [0.41, 0.76] (22 viol, n=188)            0.64 [0.52, 0.76] (47 viol, n=188)            0.63 [0.50, 0.73] (69 viol, n=376)
+  informedness J (recall - FPR) of the decision rules:
+    MiniCheck                                                        -0.02                                         +0.07                                         +0.03
+    DeBERTa-L contradiction                                          -0.01                                         +0.04                                         +0.03
+    DeBERTa-L not entailed                                           +0.20                                         +0.18                                         +0.20
+    RoBERTa contradiction                                            +0.09                                         +0.19                                         +0.18
+    RoBERTa not entailed                                             -0.01                                         +0.11                                         +0.05
+    MSCG                                                             +0.17                                         +0.16                                         +0.19
+    DNA                                                              +0.00                                         -0.02                                         -0.02
+    GPT-5.5                                                          +0.45                                         +0.48                                         +0.46
+    Sonnet 5.5                                                       +0.45                                         +0.38                                         +0.43
+
