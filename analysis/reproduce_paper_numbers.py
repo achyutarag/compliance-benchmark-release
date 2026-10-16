@@ -123,6 +123,14 @@ check("question+answer AUROC, retrieved: MiniCheck, HHEM, DeBERTa contradiction,
 check("question+answer AUROC, oracle: MiniCheck, HHEM, DeBERTa contradiction, DeBERTa not entailed", (_qa("MiniCheck", "oracle", 0), _qa("HHEM", "oracle", 0), _qa("DeBERTa", "oracle", "C"), _qa("DeBERTa", "oracle", "E")), (0.52, 0.63, 0.55, 0.64))
 _fpr = lambda nm, cond: round(100 * np.mean([int(QA[nm][(k[0], k[1], cond)]["support"] < 0.5) for k in (sorted(Y) if cond == "retrieved" else oracle_keys) if not Y[k]]))
 check("question+answer FPR %, MiniCheck retrieved / oracle; HHEM retrieved / oracle", (_fpr("MiniCheck", "retrieved"), _fpr("MiniCheck", "oracle"), _fpr("HHEM", "retrieved"), _fpr("HHEM", "oracle")), (98, 99, 47, 60))
+# --- "two mechanisms" paragraph: strict support-based checkers flag 70-99% of compliant answers, AUROC 0.44-0.50 (retrieved context)
+_ks = sorted(Y); _y = np.array([Y[k] for k in _ks]); _fp = {}; _au_ = {}
+for _nm, _pn, _sn in g["NAMES"]:
+    if _nm in ("MiniCheck", "DNA", "RoBERTa not entailed"):
+        _p = np.array([pred(_pn, "retrieved", k) for k in _ks]); _fp[_nm] = round(100 * (_p & (1 - _y)).sum() / (1 - _y).sum()); _au_[_nm] = round(_auc(_y, [g["score"](_sn, "retrieved", k) for k in _ks]), 2)
+_hp = np.array([int(HHs[(k[0], k[1], "retrieved")] < 0.5) for k in _ks]); _fp["HHEM"] = round(100 * (_hp & (1 - _y)).sum() / (1 - _y).sum()); _au_["HHEM"] = round(_auc(_y, [1 - HHs[(k[0], k[1], "retrieved")] for k in _ks]), 2)
+check("support-based checkers' flag rate on compliant answers, retrieved: min-max %", (min(_fp.values()), max(_fp.values())), (70, 99))
+check("support-based checkers' AUROC, retrieved: min-max", (min(_au_.values()), max(_au_.values())), (0.44, 0.50))
 et = Counter(L[k]["error_type"] for k in viol)
 check("error types of the 79 violations (wrong verdict, failed refusal, invented rule)", (et["WRONG_VERDICT"], et["FAILED_REFUSAL"], et["INVENTED_RULE"]), (74, 3, 2))
 # --- agreement statistics recorded in the manifests

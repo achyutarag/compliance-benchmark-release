@@ -48,9 +48,11 @@ ok   two-judge vote count AUROC, oracle                                         
 ok   question+answer AUROC, retrieved: MiniCheck, HHEM, DeBERTa contradiction, DeBERTa not entailed computed (0.48, 0.46, 0.55, 0.52) paper (0.48, 0.46, 0.55, 0.52)
 ok   question+answer AUROC, oracle: MiniCheck, HHEM, DeBERTa contradiction, DeBERTa not entailed computed (0.52, 0.63, 0.55, 0.64) paper (0.52, 0.63, 0.55, 0.64)
 ok   question+answer FPR %, MiniCheck retrieved / oracle; HHEM retrieved / oracle   computed (98, 99, 47, 60)         paper (98, 99, 47, 60)
+ok   support-based checkers' flag rate on compliant answers, retrieved: min-max %   computed (70, 99)                 paper (70, 99)
+ok   support-based checkers' AUROC, retrieved: min-max                              computed (0.44, 0.5)              paper (0.44, 0.5)
 ok   error types of the 79 violations (wrong verdict, failed refusal, invented rule) computed (74, 3, 2)               paper (74, 3, 2)
 ok   answer key kappa (94 in-scope)                                                 computed 0.82                     paper 0.82
 ok   round 2 compliance raw / kappa / PABAK                                         computed (0.812, 0.44, 0.62)      paper (0.812, 0.44, 0.62)
 ok   clause labels kappa three-way / yes-vs-not                                     computed (0.57, 0.69)             paper (0.57, 0.69)
 
-54/54 numbers reproduce
+56/56 numbers reproduce
