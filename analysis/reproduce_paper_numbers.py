@@ -131,6 +131,17 @@ for _nm, _pn, _sn in g["NAMES"]:
 _hp = np.array([int(HHs[(k[0], k[1], "retrieved")] < 0.5) for k in _ks]); _fp["HHEM"] = round(100 * (_hp & (1 - _y)).sum() / (1 - _y).sum()); _au_["HHEM"] = round(_auc(_y, [1 - HHs[(k[0], k[1], "retrieved")] for k in _ks]), 2)
 check("support-based checkers' flag rate on compliant answers, retrieved: min-max %", (min(_fp.values()), max(_fp.values())), (70, 99))
 check("support-based checkers' AUROC, retrieved: min-max", (min(_au_.values()), max(_au_.values())), (0.44, 0.50))
+# --- oracle swap test: judge flag rate on compliant answers, by overlap of retrieved and oracle chunks
+_orc = {r["qid"]: set(r["oracle_chunks"].split("|")) for r in rd("results/mscg_oracle_context_diagnostic.csv")}
+_ret = {}
+for _m in STRONG + SMALL:
+    for _r in map(json.loads, open(os.path.join(H, "answers", f"answers_{_m}.jsonl"), encoding="utf-8")): _ret[(_r["qid"], _m)] = {c["chunk_id"] for c in _r["retrieved"]}
+_kc = [k for k in sorted(Y) if k[0] in _orc and not Y[k]]
+_same = [k for k in _kc if _ret[k] == _orc[k[0]]]; _none = [k for k in _kc if not (_ret[k] & _orc[k[0]])]
+check("oracle swap test: compliant answers with retrieved = oracle chunks / sharing no chunk", (len(_same), len(_none)), (39, 93))
+_rate = lambda grp, col: round(100 * np.mean([int(A[k][col]) for k in grp]))
+for _j, _e in (("gpt55", ((21, 13), (49, 86))), ("sonnet55", ((23, 23), (54, 83)))):
+    check(f"oracle swap test, {_j}: flag % retrieved->oracle, equal chunks / no shared chunk", ((_rate(_same, f"{_j}_retrieved"), _rate(_same, f"{_j}_oracle")), (_rate(_none, f"{_j}_retrieved"), _rate(_none, f"{_j}_oracle"))), _e)
 et = Counter(L[k]["error_type"] for k in viol)
 check("error types of the 79 violations (wrong verdict, failed refusal, invented rule)", (et["WRONG_VERDICT"], et["FAILED_REFUSAL"], et["INVENTED_RULE"]), (74, 3, 2))
 # --- agreement statistics recorded in the manifests

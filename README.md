@@ -11,7 +11,7 @@ Benchmark, labels, model outputs and analysis code for the paper (anonymized). A
 
 ## Quick check (no API keys, no GPU)
     python analysis/reproduce_paper_numbers.py
-Regenerates 56 counts and statistics behind the text (clause table, reasoning structures, judge family, error types, agreement statistics) and compares each with the value written in the paper; it exits non-zero on any difference. With the paper's `.tex` path as an argument it also checks every cell of the main results table.
+Regenerates 59 counts and statistics behind the text (clause table, reasoning structures, judge family, error types, agreement statistics) and compares each with the value written in the paper; it exits non-zero on any difference. With the paper's `.tex` path as an argument it also checks every cell of the main results table.
 
     python analysis/audit_tables.py
 Recomputes the main detection table (recall, false-positive rate, informedness, AUROC; retrieved and oracle context) and the
@@ -37,6 +37,7 @@ quoting / MiniCheck-support statistics from the raw per-item files. Its output s
 | Question-level (cluster) tests, precision / PR-AUC, error-type breakdown, per-answer-model recall, quoting-rate CI | `analysis/revision_analyses.py` -> `results/revision_analyses.txt`; controls: `analysis/controls_cluster_tests.py` -> `results/controls_cluster_tests.txt` |
 | Label audit: the 17 author-approved items and sensitivity of the results to alternative labels | `analysis/label_audit.py` -> `results/label_audit.txt` |
 | AUROC and informedness by answer-model group (stronger vs small models) | `analysis/auroc_by_answer_model.py` -> `results/auroc_by_answer_model.txt` |
+| Oracle-swap test (judge false positives by overlap of retrieved and oracle chunks) | `analysis/oracle_swap_test.py` -> `results/oracle_swap_test.txt` |
 | Cost / latency | `efficiency.py`, `results/efficiency.txt` |
 
 ## Things to know

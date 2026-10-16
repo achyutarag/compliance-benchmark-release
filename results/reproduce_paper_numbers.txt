@@ -50,9 +50,12 @@ ok   question+answer AUROC, oracle: MiniCheck, HHEM, DeBERTa contradiction, DeBE
 ok   question+answer FPR %, MiniCheck retrieved / oracle; HHEM retrieved / oracle   computed (98, 99, 47, 60)         paper (98, 99, 47, 60)
 ok   support-based checkers' flag rate on compliant answers, retrieved: min-max %   computed (70, 99)                 paper (70, 99)
 ok   support-based checkers' AUROC, retrieved: min-max                              computed (0.44, 0.5)              paper (0.44, 0.5)
+ok   oracle swap test: compliant answers with retrieved = oracle chunks / sharing no chunk computed (39, 93)                 paper (39, 93)
+ok   oracle swap test, gpt55: flag % retrieved->oracle, equal chunks / no shared chunk computed ((21, 13), (49, 86))     paper ((21, 13), (49, 86))
+ok   oracle swap test, sonnet55: flag % retrieved->oracle, equal chunks / no shared chunk computed ((23, 23), (54, 83))     paper ((23, 23), (54, 83))
 ok   error types of the 79 violations (wrong verdict, failed refusal, invented rule) computed (74, 3, 2)               paper (74, 3, 2)
 ok   answer key kappa (94 in-scope)                                                 computed 0.82                     paper 0.82
 ok   round 2 compliance raw / kappa / PABAK                                         computed (0.812, 0.44, 0.62)      paper (0.812, 0.44, 0.62)
 ok   clause labels kappa three-way / yes-vs-not                                     computed (0.57, 0.69)             paper (0.57, 0.69)
 
-56/56 numbers reproduce
+59/59 numbers reproduce

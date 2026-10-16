@@ -1,0 +1,6 @@
+compliant answers in the oracle subset: 307; retrieved chunks equal to the oracle chunks: 39; overlap in one chunk: 175; no overlap: 93
+group                                 n                  GPT-5.5               Sonnet 5.5
+retrieved = oracle chunks            39   retrieved  21% -> oracle  13%   retrieved  23% -> oracle  23%
+one chunk shared                    175   retrieved  23% -> oracle  30%   retrieved  32% -> oracle  39%
+no chunk shared                      93   retrieved  49% -> oracle  86%   retrieved  54% -> oracle  83%
+all compliant                       307   retrieved  31% -> oracle  45%   retrieved  37% -> oracle  50%
