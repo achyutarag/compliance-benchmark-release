@@ -142,6 +142,10 @@ check("oracle swap test: compliant answers with retrieved = oracle chunks / shar
 _rate = lambda grp, col: round(100 * np.mean([int(A[k][col]) for k in grp]))
 for _j, _e in (("gpt55", ((21, 13), (49, 86))), ("sonnet55", ((23, 23), (54, 83)))):
     check(f"oracle swap test, {_j}: flag % retrieved->oracle, equal chunks / no shared chunk", ((_rate(_same, f"{_j}_retrieved"), _rate(_same, f"{_j}_oracle")), (_rate(_none, f"{_j}_retrieved"), _rate(_none, f"{_j}_oracle"))), _e)
+# --- Section 6: naive NLI vs MSCG on real answers (recall %, FPR %, informedness)
+for _nm, _e in (("naive", (23, 10, 0.12)), ("mscg", (33, 19, 0.14))):
+    _tp = sum(int(A[k][_nm]) for k in Y if Y[k]); _fpp = sum(int(A[k][_nm]) for k in Y if not Y[k]); _nvv = sum(Y.values()); _ncc = len(Y) - _nvv
+    check(f"real answers, {_nm}: recall %, FPR %, informedness", (round(100 * _tp / _nvv), round(100 * _fpp / _ncc), round(_tp / _nvv - _fpp / _ncc, 2)), _e)
 et = Counter(L[k]["error_type"] for k in viol)
 check("error types of the 79 violations (wrong verdict, failed refusal, invented rule)", (et["WRONG_VERDICT"], et["FAILED_REFUSAL"], et["INVENTED_RULE"]), (74, 3, 2))
 # --- agreement statistics recorded in the manifests

@@ -11,7 +11,7 @@ Benchmark, labels, model outputs and analysis code for the paper (anonymized). A
 
 ## Quick check (no API keys, no GPU)
     python analysis/reproduce_paper_numbers.py
-Regenerates 59 counts and statistics behind the text (clause table, reasoning structures, judge family, error types, agreement statistics) and compares each with the value written in the paper; it exits non-zero on any difference. With the paper's `.tex` path as an argument it also checks every cell of the main results table.
+Regenerates 61 counts and statistics behind the text (clause table, reasoning structures, judge family, error types, agreement statistics) and compares each with the value written in the paper; it exits non-zero on any difference. With the paper's `.tex` path as an argument it also checks every cell of the main results table.
 
     python analysis/audit_tables.py
 Recomputes the main detection table (recall, false-positive rate, informedness, AUROC; retrieved and oracle context) and the
