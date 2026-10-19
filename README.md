@@ -1,4 +1,4 @@
-# Release: do grounding checks detect policy violations in RAG answers?
+# Release: Grounding Is Not Compliance (benchmark, labels, model outputs and analysis code)
 
 Benchmark, labels, model outputs and analysis code for the paper (anonymized). Annotators appear only as A, B and 3.
 
@@ -8,6 +8,14 @@ Benchmark, labels, model outputs and analysis code for the paper (anonymized). A
 - `provenance/`: scripts that built the annotation workbooks, reconciled and froze labels, and cleaned the policy texts (run from the repo root as `python provenance/<script>.py`); they document the process and are not needed to reproduce the results.
 - `docs/`: annotator instructions for the answer key and the policy source list. Annotator instructions for later rounds are in `labelling*/`.
 - `synthetic/`: the synthetic benchmark data and frozen-guard notebook used for Section 6.
+
+## Environment
+Tested with Python 3.12 on Windows: numpy 1.26, scipy 1.11, scikit-learn 1.9, pandas 2.1, torch 2.13, transformers 5.13, sentence-transformers 5.6, huggingface_hub 1.22. `openpyxl` is needed only by the scripts that build or read the annotation workbooks (`provenance/`, `labelling/build_*.py`, `analysis/build_failure_code_sheet.py`, `analysis/clause_v2_freeze.py`, `analysis/failure_code_agreement.py`); the `openai` and `anthropic` SDKs are needed only to re-run the LLM judges.
+
+What needs what:
+- No downloads, no keys: `analysis/reproduce_paper_numbers.py`, `analysis/audit_tables.py` and the other scripts in `analysis/` that read stored outputs.
+- Model downloads (Hugging Face), no API keys: `analysis/synthetic_audit.py` and the MSCG/DNA scripts (MiniLM and DeBERTa-base), and the checker scripts in `grounding/` (revisions are pinned in `grounding/CHECKER_REVISIONS.json`; HHEM additionally needs a local copy of its model repo, see below).
+- API keys and cost: the `judges*.py` scripts and `generate_answers.py`.
 
 ## Quick check (no API keys, no GPU)
     python analysis/reproduce_paper_numbers.py
@@ -43,15 +51,14 @@ quoting / MiniCheck-support statistics from the raw per-item files. Its output s
 ## Things to know
 - **Blinding and key files.** Files named `*_KEY_do_not_share.csv` mapped answers to models/annotators and were withheld from
   annotators during labelling. The names are kept as in the working directory so the scripts still run; the annotation rounds
-  they belong to are finished, so they are released. One further round (an independent validation sample) is not part of this release.
+  they belong to are finished, so they are released.
 - **Pre-specification.** Protocol files named `*PREREGISTRATION*` were written to disk before the runs they describe and carry
   file hashes / timestamps. They were **not** entered in an external registry; the paper calls them pre-specified.
 - **Annotator B's round-2 labels** come from a table pasted back by B after a first returned file proved not to be our data
   (see `excluded/EXCLUDED_NOTE.md`; the file itself is withheld). The transcription is `labelling_ext/completed/annotator_B_labels_from_chat_paste.tsv`.
-- **AI use.** An LLM assistant drafted the questions and initial key, wrote the code, drafted proposals for 17 disputed labels and
-  coded the 38 failures (annotator A re-coded them blind; see paper). Annotators worked without AI assistants.
+- **AI use.** An LLM assistant drafted the questions and initial key, wrote the code, drafted proposals for the 17 second-round reconciliation items that the authors approved (none of them a violation) and coded the 38 failures (annotator A re-coded them blind; see paper). Annotators worked without AI assistants.
 - **Included raw outputs:** `judges/*batch_input/output*.jsonl` are the raw OpenAI/Anthropic Batch API inputs and outputs behind the judge predictions.
 - **Policy texts:** `policies/` holds the cleaned text used for retrieval (+ `CLEANING_LOG.md`); `docs/POLICY_SOURCES.md` gives each official URL and access date. Archived PDF/HTML copies are not redistributed; fetch them from the sources.
-- **Not included:** API keys and the files of the independent validation sample.
+- **Not included:** API keys.
 - Re-running the generation, judge or checker scripts needs API keys / model downloads (OpenAI, Anthropic, Hugging Face) and costs money;
   stored outputs are provided so the analysis does not need them.
